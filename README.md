@@ -1,133 +1,74 @@
-# Build a Modern Portfolio Website with React & TailwindCSS
+# Hi there 👋, I'm Jithendra Kantharaju  
 
-<div align="center">
-  <br />
-  <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">
-    <img src="./banner.png" alt="Portfolio Website Banner">
-  </a>
-  <br />
-  <div>
-    <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-    <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-    <img src="https://img.shields.io/badge/-Lucide Icons-FD4D4D?style=for-the-badge&logo=lucide" alt="Lucide Icons" />
-    <img src="https://img.shields.io/badge/-Radix UI-9D4EDD?style=for-the-badge&logo=data:image/svg+xml;base64..." alt="Radix UI" />
-  </div>
-  <h3 align="center">Create a Stunning Developer Portfolio with Animations, Dark Mode, and Projects Showcase</h3>
-  <div align="center">
-    Follow the full video tutorial on 
-    <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank"><b>YouTube</b></a>
-  </div>
-  <br />
-</div>
-
-## 📋 Table of Contents
-
-1. [Introduction](#-introduction)
-2. [Tech Stack](#-tech-stack)
-3. [Features](#-features)
-4. [Quick Start](#-quick-start)
-5. [Screenshots](#-screenshots)
-6. [Deployment](#-deployment)
+🎓 Graduate Student @ **University of South Florida (MS in Computer Engineering)**  
+💻 **DevOps & Cloud Engineer** | Jenkins • Kubernetes • Terraform • GitOps | Scalable CI/CD Solutions  
+📍 Based in Tampa, Florida, USA  
 
 ---
 
-## 🚀 Introduction
-
-In this tutorial, you'll learn how to build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and **Lucide Icons**. From dark mode support to responsive animations and deployable project showcases, this video walks you through every step—perfect for developers looking to level up their frontend skills or apply for jobs.
-
-🎥 Watch the full tutorial: [YouTube](https://youtu.be/YOUR_VIDEO_ID)
-
----
-
-## ⚙️ Tech Stack
-
-* **React** – Component-based UI development
-* **Vite** – Lightning-fast build tool
-* **TailwindCSS** – Utility-first CSS for styling
-* **Lucide Icons** – Clean and beautiful icon pack
-* **Radix UI** – Accessible component primitives
-* **TypeScript (optional)** – Type safety and tooling
-* **GitHub & Vercel** – Deployment
+## 🚀 About Me
+I’m passionate about **bridging the gap between development and operations**.  
+I thrive on building **scalable, automated, and cloud-native solutions** that simplify complex problems.  
+My focus is on **CI/CD, Infrastructure as Code (IaC), and Cloud Platforms**—turning manual bottlenecks into seamless pipelines.
 
 ---
 
-## ⚡️ Features
-
-* 🌑 **Light/Dark Mode Toggle**
-  Save theme preference in local storage with beautiful transitions
-
-* 💫 **Animated Backgrounds**
-  Stars, meteors, scroll effects, and glowing UI elements
-
-* 📱 **Responsive Navigation**
-  Desktop and mobile menus with glassmorphism
-
-* 👨‍💻 **Hero & About Sections**
-  Showcase who you are with smooth intro animations and buttons
-
-* 📊 **Skills Grid**
-  Filterable progress bars and categories with animated width
-
-* 🖼️ **Projects Showcase**
-  Display screenshots, tech stacks, and GitHub/demo links
-
-* 📩 **Contact Section**
-  Social icons + responsive contact form with toast notifications
-
-* 🚀 **One-Click Deployment**
-  Easily host your site with Vercel and GitHub
+## 🛠️ Technical Skills
+- **Programming:** C, C++, Python, Embedded C, Bash, MySQL  
+- **DevOps Tools:** GitHub, GitHub Actions, Maven, Jenkins, Nexus, SonarQube  
+- **Containerization & Orchestration:** Docker, Kubernetes (EKS), Docker Compose  
+- **Cloud Platforms:** AWS (EC2, S3, RDS, IAM, ELB, Auto Scaling, CloudWatch)  
+- **IaC & Automation:** Terraform, Ansible, YAML, HCL  
+- **Other Tools:** Linux/CLI, Vagrant  
 
 ---
 
-## 👌 Quick Start
+## 💼 Experience
+**Trainee Software Engineer — Corezeal Technologies** *(Aug 2023 – Dec 2024)*  
+- Built & deployed **highly available AWS infrastructure** (EC2, S3, RDS, IAM, ELB, CloudWatch).  
+- Implemented **CI/CD pipelines** with Jenkins, Maven, Nexus, SonarQube (cut deployment times by 50%).  
+- Automated infrastructure with **Terraform & Ansible** for consistency and reliability.  
+- Containerized & orchestrated apps using **Docker & Kubernetes (EKS)**.  
+- Adopted **GitOps practices** with GitHub Actions & AWS CodePipeline.  
 
-### Prerequisites
-
-* [Node.js](https://nodejs.org/)
-* [Git](https://git-scm.com/)
-
-### Clone and Run
-
-```bash
-git clone https://github.com/yourusername/react-tailwind-portfolio.git
-cd react-tailwind-portfolio
-npm install
-npm run dev
-```
-
-Your app will be available at: [http://localhost:5173](http://localhost:5173)
+**Intern — Agimus Technologies Pvt Ltd** *(Sep 2021 – Oct 2021)*  
+- Built an **ESP32-based IoT device** for contactless COVID-19 patient monitoring.  
+- Integrated **Google Sheets + Twilio SMS alerts** for real-time doctor notifications.  
+- Contributed to **hardware + firmware development** and cloud integration.  
 
 ---
 
-## 🖼️ Screenshots
+## 📂 Projects
+- **🎬 Movie Streaming Application**  
+  Containerized microservices platform on AWS EKS with Jenkins CI/CD, S3 media storage, and scalable backend.  
 
-> 📸 Add screenshots of your Hero section, Projects grid, and Contact form here to show off your site.
+- **🗣️ Detecting Voice Clones in Voice Assistants**  
+  ML pipeline (Scikit-learn, Librosa) achieving **96% accuracy** in detecting synthetic voices, enhancing voice security.  
 
----
-
-## ☁️ Deployment
-
-### Deploy on Vercel
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Click **Deploy**
-
-Your live website will be hosted on a custom subdomain (e.g. `https://your-name.vercel.app`)
+- **⚡ CI/CD Pipeline for React App on AWS**  
+  Automated build & deployment pipeline using AWS CodePipeline, CodeBuild, and S3 static hosting.  
 
 ---
 
-## 🔗 Useful Links
-
-* [React Documentation](https://reactjs.org/)
-* [Tailwind CSS Docs](https://tailwindcss.com/)
-* [Lucide Icons](https://lucide.dev/)
-* [Radix UI](https://www.radix-ui.com/)
-* [Vite](https://vitejs.dev/)
-* [Vercel](https://vercel.com/)
+## 🎓 Education
+- **MS in Computer Engineering** – University of South Florida *(2025 – 2026)*  
+- **BE in Electronics & Communication** – Siddaganga Institute of Technology *(2020 – 2023)*  
+- **Diploma in Electrical & Electronics Engineering** – Siddaganga Polytechnic *(2017 – 2020)*  
 
 ---
 
-Let me know if you'd like me to generate a version with your actual GitHub repo, YouTube URL, or a banner image suggestion!
+## 🌐 Connect with Me
+- 📧 Email: [jithendrak@usf.edu](mailto:jithendrak@usf.edu)  
+- 💼 LinkedIn: [linkedin.com/in/jithendra-kantharaju](https://www.linkedin.com/in/jithendra-kantharaju/)  
+- 🌍 Portfolio: [jithendra-kantharaju.github.io/Portfolio_JK](https://jithendra-kantharaju.github.io/Portfolio_JK/)  
+
+---
+
+## 📊 GitHub Stats
+![Jithendra's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical)
+
+---
+
+✨ *Always exploring ways to build resilient DevOps pipelines with a developer’s empathy and an operator’s precision.*
