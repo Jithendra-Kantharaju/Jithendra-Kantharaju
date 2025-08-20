@@ -38,7 +38,7 @@ My focus is on **CI/CD, Infrastructure as Code (IaC), and Cloud Platforms**—tu
 ---
 
 ## 📊 GitHub Stats
-![Jithendra's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&include_all_commits=true)
+![Jithendra's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical)
 
