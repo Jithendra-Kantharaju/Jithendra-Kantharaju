@@ -1,13 +1,13 @@
 # Hi there 👋, I'm Jithendra Kantharaju  
 
 🎓 Graduate Student @ **University of South Florida (MS in Computer Engineering)**  
-💻 **Cloud Platform Engineer | DevSecOps & MLOps Specialist** | Kubernetes • Terraform • Argo CD • Prometheus  
+💻 **DevOps Engineer | Cloud Engineer | DevSecOps & MLOps Specialist** | Kubernetes • Terraform • Argo CD • Prometheus  
 📍 Based in Tampa, Florida, USA  
 
 ---
 
 ## 🚀 About Me
-I’m a highly validated **Cloud Platform Engineer**, specializing in building and maintaining resilient, **multi-cloud platforms** (AWS, Azure, OCI).
+I’m a highly validated **DevOps Engineer and Cloud Engineer**, specializing in building and maintaining resilient, **multi-cloud platforms** (AWS, Azure, OCI).
 
 My focus is on **DevSecOps, GitOps, and Observability**, transforming complex manual processes into seamless, high-velocity pipelines. Key achievements include:
 *   Engineering **Kubernetes (EKS)** deployments that enabled **10+ seamless, zero-downtime releases per day**.[1]
