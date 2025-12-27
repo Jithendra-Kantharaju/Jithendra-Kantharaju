@@ -3,7 +3,6 @@
 🎓 Graduate Student – **MS in Computer Engineering @ University of South Florida**  
 💻 **DevOps & Cloud Engineer** | AWS • Azure • OCI • Kubernetes (EKS) • Terraform • GitOps • CI/CD Automation  
 📍 Tampa, Florida, USA  
-🌐 **Portfolio:** [jithendra-kantharaju.site](https://jithendra-kantharaju.site)
 
 ---
 
@@ -50,15 +49,25 @@ I work across AWS, Azure, and Oracle Cloud Infrastructure, with a strong focus o
 ## 🌐 Connect with Me
 
 - 📧 Email: [jithendrak@usf.edu](mailto:jithendrak@usf.edu)  
-- 💼 LinkedIn: [linkedin.com/in/jithendra-kantharaju](https://www.linkedin.com/in/jithendra-kantharaju/)    
+- 💼 LinkedIn: [linkedin.com/in/jithendra-kantharaju](https://www.linkedin.com/in/jithendra-kantharaju/)  
+- 🧑‍💻 GitHub: [github.com/Jithendra-Kantharaju](https://github.com/Jithendra-Kantharaju)  
 
 ---
 
 ## 📊 GitHub Stats
 
-![Jithendra's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&count_private=true&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical&hide_border=true)
+<p align="left">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&count_private=true&hide_border=true"
+    alt="Jithendra's GitHub stats card"
+    height="165"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical&hide_border=true"
+    alt="Top languages card"
+    height="165"
+  />
+</p>
 
 ---
 
