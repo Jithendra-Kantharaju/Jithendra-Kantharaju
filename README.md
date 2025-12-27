@@ -3,6 +3,7 @@
 🎓 Graduate Student – **MS in Computer Engineering @ University of South Florida**  
 💻 **DevOps & Cloud Engineer** | AWS • Azure • OCI • Kubernetes (EKS) • Terraform • GitOps • CI/CD Automation  
 📍 Tampa, Florida, USA  
+🌐 **Portfolio:** [jithendra-kantharaju.site](https://jithendra-kantharaju.site)
 
 ---
 
@@ -10,9 +11,9 @@
 
 I’m a DevOps & Cloud Engineer focused on building **scalable, automated, and cloud‑native platforms** that streamline software delivery and improve operational efficiency.
 
-At Corezeal Technologies, I engineered **end‑to‑end CI/CD pipelines** with Jenkins, Maven, Nexus, and SonarQube, automated AWS infrastructure using Terraform and Ansible, and deployed Dockerized applications to **Kubernetes (EKS)** using GitHub Actions and AWS CodePipeline. This reduced deployment errors, improved release velocity, and helped maintain **99.9% uptime** across environments. 
+At Corezeal Technologies, I engineered **end‑to‑end CI/CD pipelines** with Jenkins, Maven, Nexus, and SonarQube, automated AWS infrastructure using Terraform and Ansible, and deployed Dockerized applications to **Kubernetes (EKS)** using GitHub Actions and AWS CodePipeline. This reduced deployment errors, improved release velocity, and helped maintain **99.9% uptime** across environments.  
 
-I work across AWS, Azure, and Oracle Cloud Infrastructure, with a strong focus on **GitOps, DevSecOps, and observability** using CloudWatch, Prometheus, and Grafana to keep systems reliable, secure, and measurable in production.
+I work across AWS, Azure, and Oracle Cloud Infrastructure, with a strong focus on **GitOps, DevSecOps, and observability** using CloudWatch, Prometheus, and Grafana to keep systems reliable, secure, and measurable in production.  
 
 ---
 
@@ -49,16 +50,15 @@ I work across AWS, Azure, and Oracle Cloud Infrastructure, with a strong focus o
 ## 🌐 Connect with Me
 
 - 📧 Email: [jithendrak@usf.edu](mailto:jithendrak@usf.edu)  
-- 💼 LinkedIn: [linkedin.com/in/jithendra-kantharaju](https://www.linkedin.com/in/jithendra-kantharaju/)  
-- 🧑‍💻 GitHub: [github.com/Jithendra-Kantharaju](https://github.com/Jithendra-Kantharaju)  
+- 💼 LinkedIn: [linkedin.com/in/jithendra-kantharaju](https://www.linkedin.com/in/jithendra-kantharaju/)    
 
 ---
 
 ## 📊 GitHub Stats
 
-![Jithendra's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&count_private=true)  
+![Jithendra's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&count_private=true&hide_border=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical&hide_border=true)
 
 ---
 
