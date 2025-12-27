@@ -1,65 +1,47 @@
 # Hi there 👋, I'm Jithendra Kantharaju  
 
-🎓 Graduate Student – **MS in Computer Engineering @ University of South Florida**  
-💻 **DevOps & Cloud Engineer** | AWS • Azure • OCI • Kubernetes (EKS) • Terraform • GitOps • CI/CD Automation  
-📍 Tampa, Florida, USA  
+🎓 Graduate Student @ **University of South Florida (MS in Computer Engineering)**  
+💻 **DevOps & Cloud Engineer** | Jenkins • Kubernetes • Terraform • GitOps | Scalable CI/CD Solutions  
+📍 Based in Tampa, Florida, USA  
 
 ---
 
 ## 🚀 About Me
-
-I’m a DevOps & Cloud Engineer focused on building **scalable, automated, and cloud‑native platforms** that streamline software delivery and improve operational efficiency. [file:106][file:107]  
-
-At Corezeal Technologies, I engineered **end‑to‑end CI/CD pipelines** with Jenkins, Maven, Nexus, and SonarQube, automated AWS infrastructure using Terraform and Ansible, and deployed Dockerized applications to **Kubernetes (EKS)** using GitHub Actions and AWS CodePipeline. This reduced deployment errors, improved release velocity, and helped maintain **99.9% uptime** across environments. [file:106][file:107]  
-
-I work across AWS, Azure, and Oracle Cloud Infrastructure, with a strong focus on **GitOps, DevSecOps, and observability** using CloudWatch, Prometheus, and Grafana to keep systems reliable, secure, and measurable in production. [file:106][file:107]  
+I’m passionate about **bridging the gap between development and operations**.  
+I thrive on building **scalable, automated, and cloud-native solutions** that simplify complex problems.  
+My focus is on **CI/CD, Infrastructure as Code (IaC), and Cloud Platforms**—turning manual bottlenecks into seamless pipelines.
 
 ---
 
 ## 🛠️ Technical Skills
-
-- **Programming & Scripting:** C, C++, Python, Embedded C, Bash, MySQL  
-- **DevOps & CI/CD:** Jenkins, GitHub Actions, Maven, Nexus, SonarQube, SonarCloud, Argo CD, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy  
-- **Cloud Platforms:** AWS (EC2, S3, RDS, EKS, ECR, IAM, VPC), Microsoft Azure, Oracle Cloud Infrastructure (OCI)  
-- **Infrastructure as Code:** Terraform (HCL), Ansible, Helm Charts, YAML  
-- **Containers & Orchestration:** Docker, Docker Compose, Kubernetes (Ingress, Secrets, ConfigMaps, PV/PVC)  
-- **DevSecOps & Messaging:** GitOps workflows, SAST, container image scanning, security best practices, RabbitMQ, Memcached  
-- **Monitoring & Observability:** AWS CloudWatch, Prometheus, Grafana  
-- **Tools & OS:** Linux & CLI, Vagrant, Git & GitHub  
-
----
-
-## ⭐ Certifications
-
-- **Oracle Cloud Infrastructure 2025 Certified DevOps Professional**  
-- **Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate**  
-- **Oracle Cloud Infrastructure 2025 Certified Foundations Associate**  
-- **Microsoft Certified: Azure Fundamentals (AZ‑900)**  
+- **Programming:** C, C++, Python, Embedded C, Bash, MySQL  
+- **DevOps Tools:** GitHub, GitHub Actions, Maven, Jenkins, Nexus, SonarQube  
+- **Containerization & Orchestration:** Docker, Kubernetes (EKS), Docker Compose  
+- **Cloud Platforms:** AWS (EC2, S3, RDS, IAM, ELB, Auto Scaling, CloudWatch)  
+- **IaC & Automation:** Terraform, Ansible, YAML, HCL  
+- **Other Tools:** Linux/CLI, Vagrant  
 
 ---
 
 ## 🎓 Education
-
-- **MS in Computer Engineering** – University of South Florida, Tampa *(2025 – 2026)*  
-- **BE in Electronics & Communication Engineering** – Siddaganga Institute of Technology *(2020 – 2023)*  
-- **Diploma in Electrical, Electronics & Communications Engineering** – Siddaganga Polytechnic *(2017 – 2020)*  
+- **MS in Computer Engineering** – University of South Florida *(2025 – 2026)*  
+- **BE in Electronics & Communication** – Siddaganga Institute of Technology *(2020 – 2023)*  
+- **Diploma in Electrical & Electronics Engineering** – Siddaganga Polytechnic *(2017 – 2020)*  
 
 ---
 
 ## 🌐 Connect with Me
-
 - 📧 Email: [jithendrak@usf.edu](mailto:jithendrak@usf.edu)  
 - 💼 LinkedIn: [linkedin.com/in/jithendra-kantharaju](https://www.linkedin.com/in/jithendra-kantharaju/)  
-- 🧑‍💻 GitHub: [github.com/Jithendra-Kantharaju](https://github.com/Jithendra-Kantharaju)  
+- 🌍 Portfolio: [jithendra-kantharaju.github.io/Portfolio_JK](https://jithendra-kantharaju.github.io/Portfolio_JK/)  
 
 ---
 
 ## 📊 GitHub Stats
+![Jithendra's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&include_all_commits=true)
 
-![Jithendra's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&count_private=true)  
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical)
 
 ---
 
-✨ *Committed to designing robust DevOps pipelines and cloud architectures that enable fast, reliable, and secure software delivery.*  
+✨ *Always exploring ways to build resilient DevOps pipelines with a developer’s empathy and an operator’s precision.*
