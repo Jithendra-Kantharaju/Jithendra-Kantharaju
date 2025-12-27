@@ -8,11 +8,11 @@
 
 ## 🚀 About Me
 
-I’m a DevOps & Cloud Engineer focused on building **scalable, automated, and cloud‑native platforms** that streamline software delivery and improve operational efficiency. [file:106][file:107]  
+I’m a DevOps & Cloud Engineer focused on building **scalable, automated, and cloud‑native platforms** that streamline software delivery and improve operational efficiency.
 
-At Corezeal Technologies, I engineered **end‑to‑end CI/CD pipelines** with Jenkins, Maven, Nexus, and SonarQube, automated AWS infrastructure using Terraform and Ansible, and deployed Dockerized applications to **Kubernetes (EKS)** using GitHub Actions and AWS CodePipeline. This reduced deployment errors, improved release velocity, and helped maintain **99.9% uptime** across environments. [file:106][file:107]  
+At Corezeal Technologies, I engineered **end‑to‑end CI/CD pipelines** with Jenkins, Maven, Nexus, and SonarQube, automated AWS infrastructure using Terraform and Ansible, and deployed Dockerized applications to **Kubernetes (EKS)** using GitHub Actions and AWS CodePipeline. This reduced deployment errors, improved release velocity, and helped maintain **99.9% uptime** across environments. 
 
-I work across AWS, Azure, and Oracle Cloud Infrastructure, with a strong focus on **GitOps, DevSecOps, and observability** using CloudWatch, Prometheus, and Grafana to keep systems reliable, secure, and measurable in production. [file:106][file:107]  
+I work across AWS, Azure, and Oracle Cloud Infrastructure, with a strong focus on **GitOps, DevSecOps, and observability** using CloudWatch, Prometheus, and Grafana to keep systems reliable, secure, and measurable in production.
 
 ---
 
