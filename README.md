@@ -57,12 +57,12 @@ I work across AWS, Azure, and Oracle Cloud Infrastructure, with a strong focus o
 ## 📊 GitHub Stats
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&hide_border=true" height="165" alt="Jithendra's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical&hide_border=true" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&hide_border=true&v=2026" height="165" alt="Jithendra's Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical&hide_border=true&v=2026" height="165" alt="Top Languages" />
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jithendra-Kantharaju&theme=radical&hide_border=true" height="165" alt="Current Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jithendra-Kantharaju&theme=radical&hide_border=true&v=2026" height="165" alt="Current Streak" />
 </div>
 
 ---
 
-✨ *Committed to building resilient, automated infrastructure with technical depth and operational foresight.*
+✨ *Committed to designing robust DevOps pipelines and cloud architectures that enable fast, reliable, and secure software delivery.*
