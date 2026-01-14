@@ -56,9 +56,7 @@ I work across AWS, Azure, and Oracle Cloud Infrastructure, with a strong focus o
 
 ## 📊 GitHub Stats
 
-![Jithendra's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&hide_border=true&k=new)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=radical&hide_border=true&k=new)
-![Current Streak](https://github-readme-streak-stats.herokuapp.com/?user=Jithendra-Kantharaju&theme=radical&hide_border=true&k=new)
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&theme=radical&hide_border=true&v=final_fix)
 
 ---
 
