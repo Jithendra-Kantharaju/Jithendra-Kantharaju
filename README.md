@@ -20,7 +20,6 @@
 - ☁️ DevOps & Cloud Engineer passionate about **cloud-native infrastructure**, **CI/CD automation**, and **secure software delivery**
 - 🚀 Experienced in building **end-to-end CI/CD pipelines**, **Terraform-based AWS infrastructure**, and **Kubernetes (EKS) deployments**
 - 🔐 Interested in **GitOps**, **DevSecOps**, **observability**, and **platform reliability**
-- 📍 Based in **Tampa, Florida**
 
 ---
 
