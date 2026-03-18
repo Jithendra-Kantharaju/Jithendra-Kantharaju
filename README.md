@@ -1,37 +1,43 @@
-# Jithendra Kantharaju
+<!-- =========================
+     PREMIUM ANIMATED VERSION
+========================= -->
 
-**DevOps | Cloud | DevSecOps Engineer**  
-MS in Computer Engineering @ University of South Florida
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0f172a,30:1e3a8a,65:0ea5e9,100:22d3ee&text=Jithendra%20Kantharaju&fontColor=ffffff&fontSize=42&animation=fadeIn&fontAlignY=38&desc=DevOps%20%7C%20Cloud%20%7C%20DevSecOps%20Engineer&descAlignY=58&descSize=18" />
+</p>
 
-I am a DevOps and Cloud Engineer with hands-on experience designing CI/CD pipelines, automating cloud infrastructure, and deploying containerized applications to Kubernetes. My work spans AWS, Azure, and Oracle Cloud Infrastructure, with strong expertise in Terraform, Ansible, Jenkins, GitHub Actions, GitOps workflows, and observability tooling. I focus on building reliable, secure, and scalable delivery platforms that improve release speed and operational efficiency.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=980&lines=Hi+there+%F0%9F%91%8B+I'm+Jithendra+Kantharaju;MS+in+Computer+Engineering+%40+USF;DevOps+%7C+Cloud+%7C+DevSecOps+Engineer;AWS+%E2%80%A2+Azure+%E2%80%A2+OCI+%E2%80%A2+Kubernetes+%28EKS%29;Terraform+%E2%80%A2+GitOps+%E2%80%A2+CI%2FCD+%E2%80%A2+Observability;Building+reliable%2C+secure+cloud-native+platforms" />
+</p>
 
-## Core Strengths
+<p align="center">
+  <a href="mailto:jithendrak@usf.edu">
+    <img src="https://img.shields.io/badge/Email-jithendrak%40usf.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/jithendra-kantharaju/">
+    <img src="https://img.shields.io/badge/LinkedIn-Jithendra%20Kantharaju-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/Jithendra-Kantharaju">
+    <img src="https://img.shields.io/badge/GitHub-Jithendra--Kantharaju-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://leetcode.com/u/Jithendra_Kantharaju/">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+  <a href="https://jithendra-kantharaju.site">
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Site-111827?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
+</p>
 
-- CI/CD pipeline engineering with Jenkins, GitHub Actions, Maven, Nexus, and SonarQube
-- Infrastructure as Code using Terraform and Ansible
-- Kubernetes deployments on Amazon EKS
-- Cloud platforms: AWS, Azure, OCI
-- Observability with CloudWatch, Prometheus, and Grafana
-- DevSecOps, GitOps, and automation-first engineering
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Jithendra-Kantharaju&label=Profile%20Views&color=38bdf8&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/Jithendra-Kantharaju?style=for-the-badge&color=0ea5e9&label=Followers" />
+</p>
 
-## Selected Tools
+---
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonawslor=white
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=whitettps://img.shields.io/badge/OCI-F80000?style=flat-square&logo=oraclelor=white
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColorble](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logogoColor=white
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flatgo=docker&logoColor=white
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoGitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&&logoColor=white
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColorometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=whitetps://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logo
+## 🚀 About Me
 
-## Certifications
-
-- Oracle Cloud Infrastructure 2025 Certified DevOps Professional
-- Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate
-- Oracle Cloud Infrastructure 2025 Certified Foundations Associate
-- Microsoft Certified: Azure Fundamentals (AZ-900)
-
-## Connect
-
-- Email: [jithendrak@usf.edu](mailto:jithendrak@n.com/in/jithendra-kantharaju](https://www.linkedin.com/in/jithendra-kana-Kantharajutharaju
-- Portfolio: [jithendra-kantharaju.site](https://jithendra-kantharaju.siteStats](https://github-readme-stats.vercel.app/api?username=Jithendra-Kantharaju&show_icons=true&hide_border=true&themeanguages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jithendra-Kantharaju&layout=compact&theme=default
-``
+```yaml
+name: Jithendra Kantharaju
+role: DevOps | Cloud | DevSecOps Engineer
+education: MS in Computer Engineering @ University of South Florida
