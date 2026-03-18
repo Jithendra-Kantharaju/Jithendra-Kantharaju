@@ -1,22 +1,15 @@
 <!-- PROFILE HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Jithendra%20Kantharaju&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DevOps%20%7C%20Cloud%20%7C%20DevSecOps%20Engineer&descAlignY=58&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B7280,35:6C8FD6,70:63B3ED,100:72D6E6&height=220&section=header&text=Jithendra%20Kantharaju&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DevOps%20%7C%20Cloud%20%7C%20DevSecOps%20Engineer&descAlignY=58&descSize=18" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Hi+there!+I'm+Jithendra+Kantharaju+%F0%9F%91%8B;MS+in+Computer+Engineering+%40+USF+%F0%9F%8E%93;DevOps+%26+Cloud+Engineer+%E2%98%81%EF%B8%8F;AWS+%7C+Azure+%7C+OCI+%7C+Kubernetes+%7C+Terraform;Building+Scalable%2C+Reliable+%26+Secure+Cloud+Platforms"
+      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Hi+there!+I%27m+Jithendra+Kantharaju+%F0%9F%91%8B;MS+in+Computer+Engineering+%40+USF+%F0%9F%8E%93;DevOps+%26+Cloud+Engineer+%E2%98%81%EF%B8%8F;AWS+%7C+Azure+%7C+OCI+%7C+Kubernetes+%7C+Terraform;Building+Scalable%2C+Reliable+%26+Secure+Cloud+Platforms"
       alt="Typing SVG"
     />
   </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Jithendra-Kantharaju">
-    <img src="https://img.shields.io/github/followers/Jithendra-Kantharaju?label=Followers&style=for-the-badge&color=0e75b6&logo=github" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Jithendra-Kantharaju&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views" />
 </p>
 
 ---
@@ -144,4 +137,3 @@ focus:
   - Automate infrastructure and deployments
   - Improve system reliability and observability
   - Enable secure and fast software delivery
-``
