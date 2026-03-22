@@ -86,10 +86,10 @@
 
 ## 🏅 Certifications
 
+- ✅ **Microsoft Certified: Azure Fundamentals (AZ-900)**
 - ✅ **Oracle Cloud Infrastructure 2025 Certified DevOps Professional**
 - ✅ **Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate**
 - ✅ **Oracle Cloud Infrastructure 2025 Certified Foundations Associate**
-- ✅ **Microsoft Certified: Azure Fundamentals (AZ-900)**
 
 ---
 
