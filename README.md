@@ -191,14 +191,6 @@ and CloudTrail audit logging to encrypted S3.
 
 ---
 
-## 📅 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jithendra-Kantharaju&theme=react-dark&bg_color=050d1a&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true" />
-</div>
-
----
-
 ## 📫 Let's Connect
 
 I'm actively looking for **DevOps Engineer**, **Cloud Infrastructure Engineer**, **SRE**, **AIOps**, and **Forward Deployed Engineer** roles in the US.
