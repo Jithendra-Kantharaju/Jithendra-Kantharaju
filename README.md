@@ -3,10 +3,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0064c8&height=200&section=header&text=Jithendra%20Kantharaju&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=DevOps%20%7C%20Cloud%20%7C%20SRE%20%7C%20AIOps%20%7C%20FDE&descAlignY=58&descSize=18&descColor=a0d8ef" />
 </div>
 
-<!-- Typing animation -->
+<!-- Typing animation — width increased to 800 so no line gets clipped -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Multi-cloud+DevOps+Engineer+%7C+AWS+%7C+GCP+%7C+Azure+%7C+OCI;Building+infra+that+scales%2C+heals%2C+and+ships+automatically;GitOps+%E2%86%92+EKS+%E2%86%92+ArgoCD+%E2%86%92+Zero-downtime+deploys;AIOps+%7C+AWS+Bedrock+%7C+Incident+MTTR+60+min+%E2%86%92+5+min" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1200&color=00D4FF&center=true&vCenter=true&width=800&lines=Multi-cloud+DevOps+Engineer+%7C+AWS+%7C+GCP+%7C+Azure+%7C+OCI;Building+infra+that+scales%2C+heals%2C+and+ships+automatically;GitOps+%E2%86%92+EKS+%E2%86%92+ArgoCD+%E2%86%92+Zero-downtime+deploys;AIOps+%7C+AWS+Bedrock+%7C+Incident+MTTR+60+min+%E2%86%92+5+min" alt="Typing SVG" />
   </a>
 </div>
 
@@ -36,11 +36,17 @@
 
 ```yaml
 name:       Jithendra Kantharaju
-location:   United States 
-education:  MS Computer Engineering — University of South Florida 
+role:       DevOps Engineer | Cloud Infrastructure | SRE | AIOps | FDE
+location:   United States (Tampa, FL)
+education:  MS Computer Engineering — University of South Florida (GPA 3.76, May 2026)
+open_to:    DevOps · Cloud Infrastructure · SRE · AIOps · Forward Deployed Engineer
+status:     F-1 OPT — No initial sponsorship required
 ```
 
-I enjoy building systems that are reliable, automated, and easy for teams to work with — whether that means fixing a broken pipeline, designing cloud infrastructure, or shipping an AI-assisted tool that saves people hours of manual work.
+I spend my time building the infrastructure layer that lets engineering teams forget
+about infrastructure. Three years of production DevOps across AWS, EKS, Terraform,
+and ArgoCD — plus recent work building a live AIOps platform that cut incident MTTR
+from 60 minutes to under 5.
 
 ---
 
@@ -172,6 +178,43 @@ and CloudTrail audit logging to encrypted S3.
 
 ---
 
+### ⚙️ [GitOps CI/CD Pipeline on AWS EKS](https://github.com/Jithendra-Kantharaju/GitOps-CICD-Pipeline-AWS-EKS-Actions)
+> **Problem:** Manual deploys were error-prone with no quality gates before production.
+
+Dual-repository GitOps system separating infrastructure from application delivery.
+Terraform provisions EKS; GitHub Actions drives matrix builds, SonarCloud quality gates,
+and ArgoCD handles drift-healing deployments.
+
+**Stack:** `GitHub Actions` `Terraform` `EKS` `Helm` `SonarCloud` `ECR` `ArgoCD`
+
+**Result:** Release cadence **2 → 6 per week** — deployment errors down **40%**
+
+---
+
+### 🎬 [Multi-Tier Cloud Application on AWS](https://github.com/Jithendra-Kantharaju/Multi-Tier-Cloud-Application-AWS)
+> **Problem:** Hand-run deployments with no rollback strategy and fragile environment state.
+
+Production Netflix-replica on EKS with a Jenkins pipeline for Docker builds,
+Trivy scanning, ECR push, and rolling deployments. S3 + RDS backends fully automated with Terraform.
+
+**Stack:** `Jenkins` `Docker` `EKS` `S3` `RDS/PostgreSQL` `Nginx` `ECR` `Terraform`
+
+**Result:** **99.9% availability** across 3 environments — zero manual deployment steps
+
+---
+
+### 🎤 [Detecting Voice Clones in Voice Assistants](https://github.com/Jithendra-Kantharaju/Detecting-Voice-Clones-in-Voice-Assistants)
+> **Problem:** AI voice spoofing attacks on virtual assistants were going undetected.
+
+ML pipeline extracting MFCC audio features and classifying real vs cloned voices
+using an SVM model. Built as a defensive research tool for voice-enabled IoT platforms.
+
+**Stack:** `Python` `Scikit-learn` `SVM` `MFCC` `Audio DSP`
+
+**Result:** High-precision detection — applicable to voice-enabled IoT and biometric authentication
+
+---
+
 ## 📈 Metrics That Matter
 
 <div align="center">
@@ -180,11 +223,46 @@ and CloudTrail audit logging to encrypted S3.
 |--------|--------|-------|
 | Deployment errors | Baseline | **40% reduction** via CI/CD quality gates |
 | Incident MTTR | 60+ minutes | **Under 5 minutes** with AIOps auto-triage |
-| Cloud costs | Baseline | **25–30% reduction** via Terraform right-sizing |
+| Cloud costs | Baseline | **25-30% reduction** via Terraform right-sizing |
 | Release cadence | 2/week | **6+/week** with GitOps + ArgoCD |
 | Zero-downtime releases | Manual | **10+/day** via self-healing ArgoCD |
 | Manual ops hours | Baseline | **15 hrs/week freed** via Python/Bash automation |
 
+</div>
+
+---
+
+## 💼 Work Experience
+
+### Associate DevOps Engineer — Corezeal Technologies *(Mar 2022 – Dec 2024)*
+Bengaluru, India
+
+- Rebuilt Jenkins CI/CD with SonarQube quality gates and rollback scripts across 5 microservices — **deployment errors down 40%**, release cadence from **2 → 6/week**
+- Migrated full AWS stack (EC2, S3, RDS, VPC, IAM, EKS) to modular Terraform with S3/DynamoDB state locking — **99.9% availability** across 3 environments, configuration drift eliminated
+- Replaced manual deploys with GitHub Actions + ArgoCD GitOps on EKS — developers ship by merging a PR, achieving **10+ zero-downtime releases/day**
+- Wrote Python/Bash automation for patching, backup verification, and capacity checks — **freed 15 hours/week**, MTTD cut **50%**
+
+### Engineering Intern — Agimus Technologies *(Sep – Oct 2021)*
+Bengaluru, India
+
+- Built a Python REST API data ingestion and alerting pipeline for IoT sensor hardware — notification latency dropped to **under 30 seconds**
+
+---
+
+## 🎓 Education
+
+**MS Computer Engineering** — University of South Florida, Tampa FL *(2024 – May 2026)*
+GPA: 3.76 / 4.0 | Cloud systems, machine learning, hardware security
+
+**BE Electronics & Communication** — Siddaganga Institute of Technology *(2017 – 2021)*
+Bengaluru, India | Computer networks, operating systems, embedded systems
+
+---
+
+## 📅 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jithendra-Kantharaju&theme=react-dark&bg_color=050d1a&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true" />
 </div>
 
 ---
