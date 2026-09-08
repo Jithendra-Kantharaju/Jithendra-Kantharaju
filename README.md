@@ -34,12 +34,6 @@
 
 ## 👋 About Me
 
-```yaml
-name:       Jithendra Kantharaju
-location:   United States
-education:  MS Computer Engineering — University of South Florida
-```
-
 I enjoy building systems that are reliable, automated, and easy for teams to work
 with — whether that means fixing a broken pipeline, designing cloud infrastructure,
 or shipping an AI-assisted tool that saves people hours of manual work.
