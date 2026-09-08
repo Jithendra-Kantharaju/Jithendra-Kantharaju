@@ -232,38 +232,6 @@ using an SVM model. Built as a defensive research tool for voice-enabled IoT pla
 
 ---
 
-## 💼 Work Experience
-
-### Technical Operations Analyst — Compass Group USA *(Aug 2025 – May 2026)*
-Tampa, Florida, United States · Part-time
-
-Kept mission-critical transaction systems running at 99.9% availability for 10,000+ daily users — owning end-to-end incident response, root cause analysis, and cross-functional vendor coordination in a high-throughput production environment.
-
-### Associate DevOps Engineer — Corezeal Technologies *(Mar 2022 – Dec 2024)*
-Bengaluru, India
-
-- Rebuilt Jenkins CI/CD with SonarQube quality gates and rollback scripts across 5 microservices — **deployment errors down 40%**, release cadence from **2 → 6/week**
-- Migrated full AWS stack (EC2, S3, RDS, VPC, IAM, EKS) to modular Terraform with S3/DynamoDB state locking — **99.9% availability** across 3 environments, configuration drift eliminated
-- Replaced manual deploys with GitHub Actions + ArgoCD GitOps on EKS — developers ship by merging a PR, achieving **10+ zero-downtime releases/day**
-- Wrote Python/Bash automation for patching, backup verification, and capacity checks — **freed 15 hours/week**, MTTD cut **50%**
-
-### Engineering Intern — Agimus Technologies *(Sep – Oct 2021)*
-Bengaluru, India
-
-Started my engineering career by taking an IoT project from hardware integration to a live alerting system — designing the REST API, building the data pipeline, and shipping a working product end-to-end.
-
----
-
-## 🎓 Education
-
-**MS Computer Engineering** — University of South Florida, Tampa FL *(2024 – May 2026)*
-GPA: 3.76 / 4.0 | Cloud systems, machine learning, hardware security
-
-**BE Electronics & Communication** — Siddaganga Institute of Technology *(2017 – 2021)*
-Bengaluru, India | Computer networks, operating systems, embedded systems
-
----
-
 ## 📅 Contribution Graph
 
 <div align="center">
