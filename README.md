@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0064c8&height=200&section=header&text=Jithendra%20Kantharaju&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=DevOps%20%7C%20Cloud%20%7C%20SRE%20%7C%20AIOps%20%7C%20FDE&descAlignY=58&descSize=18&descColor=a0d8ef" />
 </div>
 
-<!-- Typing animation — width increased to 800 so no line gets clipped -->
+<!-- Typing animation -->
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1200&color=00D4FF&center=true&vCenter=true&width=800&lines=Multi-cloud+DevOps+Engineer+%7C+AWS+%7C+GCP+%7C+Azure+%7C+OCI;Building+infra+that+scales%2C+heals%2C+and+ships+automatically;GitOps+%E2%86%92+EKS+%E2%86%92+ArgoCD+%E2%86%92+Zero-downtime+deploys;AIOps+%7C+AWS+Bedrock+%7C+Incident+MTTR+60+min+%E2%86%92+5+min" alt="Typing SVG" />
@@ -36,12 +36,12 @@
 
 ```yaml
 name:       Jithendra Kantharaju
-location:   United States 
+location:   United States
 education:  MS Computer Engineering — University of South Florida
 ```
 
-I enjoy building systems that are reliable, automated, and easy for teams to work 
-with — whether that means fixing a broken pipeline, designing cloud infrastructure, 
+I enjoy building systems that are reliable, automated, and easy for teams to work
+with — whether that means fixing a broken pipeline, designing cloud infrastructure,
 or shipping an AI-assisted tool that saves people hours of manual work.
 
 ---
@@ -54,6 +54,8 @@ or shipping an AI-assisted tool that saves people hours of manual work.
 |-------|--------------|--------|------|
 | ☁️ | **AWS Solutions Architect Associate** (SAA-C03) | Amazon Web Services | 2026 |
 | 🌐 | **Associate Cloud Engineer** (GCP ACE) | Google Cloud | 2026 |
+| 🧠 | **Claude Certified Architect — Foundations** | Anthropic | 2026 |
+| 🗄️ | **Redis Associate Software Operator** | Redis | 2026 |
 | ⚙️ | **OCI DevOps Professional 2025** (1Z0-1109) | Oracle | 2025 |
 | 🤖 | **OCI AI Foundations Associate** (1Z0-1122) | Oracle | 2025 |
 | 🏗️ | **OCI Foundations Associate 2025** (1Z0-1085) | Oracle | 2025 |
@@ -130,6 +132,7 @@ or shipping an AI-assisted tool that saves people hours of manual work.
 ### 🤖 AIOps & AI
 <div>
   <img src="https://img.shields.io/badge/AWS_Bedrock-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-1C3D5A?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/ChromaDB-000000?style=for-the-badge&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
@@ -139,8 +142,9 @@ or shipping an AI-assisted tool that saves people hours of manual work.
 <div>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
 </div>
 
@@ -174,6 +178,43 @@ and CloudTrail audit logging to encrypted S3.
 
 ---
 
+### ⚙️ [GitOps CI/CD Pipeline on AWS EKS](https://github.com/Jithendra-Kantharaju/GitOps-CICD-Pipeline-AWS-EKS-Actions)
+> **Problem:** Manual deploys were error-prone with no quality gates before production.
+
+Dual-repository GitOps system separating infrastructure from application delivery.
+Terraform provisions EKS; GitHub Actions drives matrix builds, SonarCloud quality gates,
+and ArgoCD handles drift-healing deployments.
+
+**Stack:** `GitHub Actions` `Terraform` `EKS` `Helm` `SonarCloud` `ECR` `ArgoCD`
+
+**Result:** Release cadence **2 → 6 per week** — deployment errors down **40%**
+
+---
+
+### 🎬 [Multi-Tier Cloud Application on AWS](https://github.com/Jithendra-Kantharaju/Multi-Tier-Cloud-Application-AWS)
+> **Problem:** Hand-run deployments with no rollback strategy and fragile environment state.
+
+Production Netflix-replica on EKS with a Jenkins pipeline for Docker builds,
+Trivy scanning, ECR push, and rolling deployments. S3 + RDS backends fully automated with Terraform.
+
+**Stack:** `Jenkins` `Docker` `EKS` `S3` `RDS/PostgreSQL` `Nginx` `ECR` `Terraform`
+
+**Result:** **99.9% availability** across 3 environments — zero manual deployment steps
+
+---
+
+### 🎤 [Detecting Voice Clones in Voice Assistants](https://github.com/Jithendra-Kantharaju/Detecting-Voice-Clones-in-Voice-Assistants)
+> **Problem:** AI voice spoofing attacks on virtual assistants were going undetected.
+
+ML pipeline extracting MFCC audio features and classifying real vs cloned voices
+using an SVM model. Built as a defensive research tool for voice-enabled IoT platforms.
+
+**Stack:** `Python` `Scikit-learn` `SVM` `MFCC` `Audio DSP`
+
+**Result:** High-precision detection — applicable to voice-enabled IoT and biometric authentication
+
+---
+
 ## 📈 Metrics That Matter
 
 <div align="center">
@@ -187,6 +228,46 @@ and CloudTrail audit logging to encrypted S3.
 | Zero-downtime releases | Manual | **10+/day** via self-healing ArgoCD |
 | Manual ops hours | Baseline | **15 hrs/week freed** via Python/Bash automation |
 
+</div>
+
+---
+
+## 💼 Work Experience
+
+### Technical Operations Analyst — Compass Group USA *(Aug 2025 – May 2026)*
+Tampa, Florida, United States · Part-time
+
+Kept mission-critical transaction systems running at 99.9% availability for 10,000+ daily users — owning end-to-end incident response, root cause analysis, and cross-functional vendor coordination in a high-throughput production environment.
+
+### Associate DevOps Engineer — Corezeal Technologies *(Mar 2022 – Dec 2024)*
+Bengaluru, India
+
+- Rebuilt Jenkins CI/CD with SonarQube quality gates and rollback scripts across 5 microservices — **deployment errors down 40%**, release cadence from **2 → 6/week**
+- Migrated full AWS stack (EC2, S3, RDS, VPC, IAM, EKS) to modular Terraform with S3/DynamoDB state locking — **99.9% availability** across 3 environments, configuration drift eliminated
+- Replaced manual deploys with GitHub Actions + ArgoCD GitOps on EKS — developers ship by merging a PR, achieving **10+ zero-downtime releases/day**
+- Wrote Python/Bash automation for patching, backup verification, and capacity checks — **freed 15 hours/week**, MTTD cut **50%**
+
+### Engineering Intern — Agimus Technologies *(Sep – Oct 2021)*
+Bengaluru, India
+
+Started my engineering career by taking an IoT project from hardware integration to a live alerting system — designing the REST API, building the data pipeline, and shipping a working product end-to-end.
+
+---
+
+## 🎓 Education
+
+**MS Computer Engineering** — University of South Florida, Tampa FL *(2024 – May 2026)*
+GPA: 3.76 / 4.0 | Cloud systems, machine learning, hardware security
+
+**BE Electronics & Communication** — Siddaganga Institute of Technology *(2017 – 2021)*
+Bengaluru, India | Computer networks, operating systems, embedded systems
+
+---
+
+## 📅 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jithendra-Kantharaju&theme=react-dark&bg_color=050d1a&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true" />
 </div>
 
 ---
