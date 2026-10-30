@@ -71,31 +71,6 @@ Deployed eight services to AWS EKS using Terraform, GitHub Actions, ECR, Helm an
 <p align="center"><a href="https://github.com/Jithendra-Kantharaju/enterprise-cloudops-ai-platform"><img src="assets/buttons/cloudops.svg" width="235" alt="Open Enterprise CloudOps AI GitHub repository" /></a></p>
 
 
-<a href="https://github.com/Jithendra-Kantharaju/devsecops-reference-infrastructure"><img src="assets/project-devsecops.svg" width="100%" alt="DevSecOps Reference Infrastructure: image scanning, OPA policy gates, secrets management, Falco runtime detection and Kubernetes security" /></a>
-<img src="assets/interlude-devsecops.svg" width="100%" alt="DevSecOps reference: security checks, policy gates, vault secrets and runtime visibility built into CI/CD." />
-<details>
-<summary><b>DevSecOps Reference | Security controls</b></summary>
-<br />
-
-A Kubernetes and CI/CD security reference using Trivy image scanning, OPA/Conftest policy gates, HashiCorp Vault, Falco, GitHub OIDC and audit logging. This is a reference implementation; no unverified reduction in vulnerabilities or audit time is claimed.
-
-</details>
-
-<p align="center"><a href="https://github.com/Jithendra-Kantharaju/devsecops-reference-infrastructure"><img src="assets/buttons/devsecops.svg" width="235" alt="Open DevSecOps Reference Infrastructure repository" /></a></p>
-
-
-<a href="https://github.com/Jithendra-Kantharaju/GitOps-CICD-Pipeline-AWS-EKS-Actions"><img src="assets/project-gitops.svg" width="100%" alt="AWS GitOps CI/CD: Terraform AWS EKS, GitHub Actions build pipeline, quality checks, Helm and ArgoCD automated GitOps delivery" /></a>
-<img src="assets/interlude-gitops.svg" width="100%" alt="GitOps release pipeline: build, check and synchronize with GitHub Actions, Terraform, Helm and ArgoCD." />
-
-<details>
-<summary><b>GitOps CI/CD on AWS EKS | Delivery flow</b></summary>
-<br />
-
-Terraform provisions AWS EKS infrastructure, GitHub Actions automates builds and checks, Helm packages Kubernetes application deployments, and ArgoCD syncs declarative configuration. No unsupported claims about deployment frequency or error reduction are included.
-
-</details>
-
-<p align="center"><a href="https://github.com/Jithendra-Kantharaju/GitOps-CICD-Pipeline-AWS-EKS-Actions"><img src="assets/buttons/gitops.svg" width="235" alt="Open AWS GitOps CI/CD GitHub repository" /></a></p>
 
 <!-- 04 TECHNICAL TOOLKIT -->
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit: Technologies for cloud infrastructure, DevOps and applied AI" />
