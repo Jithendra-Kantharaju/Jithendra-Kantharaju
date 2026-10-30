@@ -58,14 +58,16 @@ const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="${height
 .stats-in{animation:stats-in .9s cubic-bezier(.16,1,.3,1) both}
 .stats-bar{transform-box:fill-box;transform-origin:left center;animation:stats-bar 1.2s cubic-bezier(.16,1,.3,1) both}
 .stats-pulse{animation:stats-pulse 4s ease-in-out infinite}
-@keyframes stats-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-@keyframes stats-bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.stats-signal{stroke-dasharray:7 13;animation:stats-signal 7s linear infinite}
+@keyframes stats-signal{to{stroke-dashoffset:-182}}
+@keyframes stats-in{from{opacity:1;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes stats-bar{from{transform:scaleX(.15)}to{transform:scaleX(1)}}
 @keyframes stats-pulse{0%,100%{opacity:.25}50%{opacity:1}}
-@media(prefers-reduced-motion:reduce){.stats-in,.stats-bar,.stats-pulse{animation:none!important;opacity:1!important;transform:none!important}}
+@media(prefers-reduced-motion:reduce){.stats-in,.stats-bar,.stats-pulse,.stats-signal{animation:none!important;opacity:1!important;transform:none!important}}
 </style>
 <rect width="1200" height="${height}" rx="18" fill="url(#bg)"/>
 <rect x=".5" y=".5" width="1199" height="${height-1}" rx="17.5" fill="none" stroke="#375181"/>
-<circle class="stats-pulse" cx="1136" cy="45" r="6" fill="#32E6F2"/>
+<circle class="stats-pulse" cx="1136" cy="45" r="6" fill="#32E6F2"/><path class="stats-signal" d="M1010 66 H1140" fill="none" stroke="#32E6F2" stroke-opacity=".65" stroke-width="2"/>
 <text x="48" y="53" fill="#32E6F2" font-family="monospace" font-size="15" letter-spacing="1.6">GITHUB ACCOUNT / VERIFIED FROM PUBLIC API</text>
 <text x="48" y="85" fill="#ECF4FF" font-family="Arial,sans-serif" font-size="23" font-weight="700">Activity beyond the README</text>
 ${tiles}

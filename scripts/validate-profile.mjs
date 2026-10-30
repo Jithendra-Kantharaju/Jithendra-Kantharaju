@@ -18,7 +18,9 @@ for(const p of svg){
   if(!s.includes('<svg')||!s.includes('</svg>'))failures.push(`Malformed SVG root: ${p}`);
   if(!s.includes('animation:')&&!s.includes('<animate'))failures.push(`No motion: ${p}`);
   if(s.includes('<script'))failures.push(`Executable script not permitted: ${p}`);
+  if(s.includes('data:image/') || s.includes('<image '))failures.push(`Embedded profile/photo image not permitted: ${p}`);
 }
 if(fs.existsSync(path.join(root,'site')) || fs.existsSync(path.join(root,'site','resume.html')))failures.push('Portfolio website or resume page should not be included');
+if(fs.existsSync(path.join(root,'assets','jithendra-portrait.jpg')))failures.push('Portrait file must not be included');
 if(failures.length){console.error(failures.join('\n'));process.exit(1);}
 console.log(`Validated ${paths.length} README image references and ${svg.length} animated SVG files.`);

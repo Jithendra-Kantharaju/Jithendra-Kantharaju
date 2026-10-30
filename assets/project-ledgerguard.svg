@@ -13,7 +13,7 @@
   .head{font-family: 'Segoe UI', Arial, Helvetica, sans-serif; font-weight:800}
   .fade{animation:appear 1.25s ease both}
   .pulse{animation:pulse 4s ease-in-out infinite}
-  @keyframes appear{from{opacity:0; transform:translateY(9px)}to{opacity:1; transform:translateY(0)}}
+  @keyframes appear{from{opacity:1; transform:translateY(9px)}to{opacity:1; transform:translateY(0)}}
   @keyframes pulse{0%,100%{opacity:.35}50%{opacity:.95}}
   @media (prefers-reduced-motion: reduce){.fade,.pulse{animation:none}}
 
@@ -25,7 +25,7 @@
   .kin-dash{stroke-dasharray:9 15;animation:kin-dash 9s linear infinite}
   .kin-ring{transform-box:fill-box;transform-origin:center;animation:kin-ring 4.6s ease-in-out infinite}
   .kin-rail{animation:kin-rail 2.3s ease-in-out infinite}
-  @keyframes kin-in{0%{opacity:0;transform:translateY(12px)}100%{opacity:1;transform:translateY(0)}}
+  @keyframes kin-in{0%{opacity:1;transform:translateY(12px)}100%{opacity:1;transform:translateY(0)}}
   @keyframes kin-glow{0%,100%{opacity:.35}50%{opacity:1}}
   @keyframes kin-nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
   @keyframes kin-dash{to{stroke-dashoffset:-288}}
@@ -35,6 +35,9 @@
     .kin-in,.kin-glow,.kin-nudge,.kin-dash,.kin-ring,.kin-rail{animation:none!important;opacity:1!important;transform:none!important}
     .kin-moving{display:none!important}
   }
+
+/* Custom motion for project-ledgerguard.svg */
+.invoice-scanner{animation:invoice-scan 4.5s ease-in-out infinite}@keyframes invoice-scan{0%,100%{transform:translateX(0)}50%{transform:translateX(205px)}}.approval-gate{transform-box:fill-box;transform-origin:left;animation:approval 5s ease-in-out infinite}@keyframes approval{0%,10%{transform:scaleX(.04)}75%,90%{transform:scaleX(1)}100%{transform:scaleX(.04)}}@media(prefers-reduced-motion:reduce){.project-motion{display:none}}
 </style>
 <rect width="1200" height="372" rx="18" fill="url(#bg)"/>
 <rect width="1200" height="372" rx="18" fill="url(#grid)"/>
@@ -59,4 +62,5 @@
     <text x="989" y="253" font-family="mono" class="mono" font-size="12" font-weight="600" fill="#32E6F2" text-anchor="middle">MATCH</text>
     <text x="1074" y="253" font-family="mono" class="mono" font-size="12" font-weight="600" fill="#32E6F2" text-anchor="middle">DECIDE</text>
     
-<g class="kin-moving"><circle cx="906" cy="165" r="24" fill="none" stroke="#32E6F2" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="0.00s" repeatCount="indefinite"/></circle><circle cx="989" cy="165" r="24" fill="none" stroke="#8495FF" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="0.65s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="0.65s" repeatCount="indefinite"/></circle><circle cx="1074" cy="165" r="24" fill="none" stroke="#A78BFA" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="1.30s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="1.30s" repeatCount="indefinite"/></circle><circle cx="906" cy="165" r="4" fill="#F0F8FF"><animate attributeName="cx" values="906;989;1074;1074" keyTimes="0;.35;.7;1" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.68;1" dur="5s" repeatCount="indefinite"/></circle></g></svg>
+<g class="kin-moving"><circle cx="906" cy="165" r="24" fill="none" stroke="#32E6F2" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="0.00s" repeatCount="indefinite"/></circle><circle cx="989" cy="165" r="24" fill="none" stroke="#8495FF" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="0.65s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="0.65s" repeatCount="indefinite"/></circle><circle cx="1074" cy="165" r="24" fill="none" stroke="#A78BFA" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="1.30s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="1.30s" repeatCount="indefinite"/></circle><circle cx="906" cy="165" r="4" fill="#F0F8FF"><animate attributeName="cx" values="906;989;1074;1074" keyTimes="0;.35;.7;1" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.68;1" dur="5s" repeatCount="indefinite"/></circle></g><g class="project-motion"><rect x="878" y="122" width="256" height="20" rx="5" fill="#16304A" stroke="#397597" stroke-opacity=".65"/><path d="M888 132 H1126" stroke="#8FABC8" stroke-dasharray="4 7" stroke-opacity=".6"/><rect x="887" y="125" width="32" height="14" rx="3" fill="#35E5E5" fill-opacity=".35" class="invoice-scanner"/><rect x="879" y="277" width="254" height="14" rx="7" fill="#112F43"/><rect x="879" y="277" width="214" height="14" rx="7" fill="#4FE7CF" fill-opacity=".64" class="approval-gate"/></g>
+</svg>

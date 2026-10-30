@@ -24,9 +24,9 @@ The workflow runs daily at 06:17 UTC and can also be triggered manually. No cust
 
 ## Visual files
 
-- `assets/hero.svg` includes the embedded portrait and animated banner.
-- `assets/title-*.svg` contains seven animated section headings.
-- `assets/project-*.svg` contains four animated project visualizations.
+- `assets/hero.svg` uses an animated cloud, security and AI architecture graphic, without a photo.
+- `assets/title-*.svg` contains seven individually colored and animated section headings: teal About (orbiting nodes), amber Impact (rising bars), pink Selected Work (branching routes), blue Toolkit (rotating module), green GitHub Activity (contribution tiles), violet Credentials (certification seal) and coral Connect (signal waves).
+- `assets/project-*.svg` contains distinct animations for invoice scanning, incident telemetry, security gates and GitOps synchronization.
 - `assets/interlude-*.svg` replaces the plain paragraphs between SVG images with designed kinetic-typography panels.
 - `assets/buttons/*.svg` contains local animated link buttons.
 - `assets/tech-toolkit.svg`, `assets/highlights.svg` and `assets/certifications.svg` contain animated content cards.
@@ -34,9 +34,9 @@ The workflow runs daily at 06:17 UTC and can also be triggered manually. No cust
 
 ## Edit content
 
-Edit `README.md` for links and readable descriptions. SVG copy and color are edited directly in `assets/*.svg` and `assets/interlude-*.svg`. For changing the embedded hero photo, edit `assets/hero.svg` using an SVG editor or script, or regenerate the base artwork. The original image is also at `assets/jithendra-portrait.jpg`.
+Edit `README.md` for links and readable descriptions. SVG copy and color are edited directly in `assets/*.svg` and `assets/interlude-*.svg`. The hero intentionally contains no portrait. Your GitHub avatar provides your profile photo; the banner instead illustrates your engineering work.
 
-The graphic styles are **not** controlled by `README.md` CSS, because GitHub does not support that. The optional build script used to generate this version is not necessary to publish the profile.
+The graphic styles are **not** controlled by `README.md` CSS, because GitHub does not support that. Key information stays readable at the first frame; animations are decorative enhancements. The optional build script used to generate this version is not necessary to publish the profile.
 
 ## Rebuild checks
 

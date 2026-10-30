@@ -8,12 +8,13 @@
   @keyframes arrow{0%,100%{transform:translateX(0);opacity:.7}50%{transform:translateX(7px);opacity:1}}
   @keyframes dash{to{stroke-dashoffset:-120}}
   @media(prefers-reduced-motion:reduce){.arr,.dash{animation:none;transform:none}}
-  </style>
+  .btn-check{stroke-dasharray:27;animation:bcheck 2.7s ease-in-out infinite}@keyframes bcheck{0%{stroke-dashoffset:27}35%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:27}}
+</style>
   <rect x="1" y="1" width="278" height="52" rx="12" fill="url(#lg)" stroke="#465A94"/>
   <path d="M16 45H263" stroke="#32E6F2" stroke-width="1.4" class="dash"/>
   <circle cx="27" cy="24" r="12" fill="#213658" stroke="#32E6F2" stroke-opacity=".6"/>
   <path d="M22 24 L26 28 33 20" fill="none" stroke="#32E6F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="49" y="17" class="min">REPOSITORY</text>
   <text x="49" y="36" class="title">VIEW LEDGERGUARD</text>
-  <g class="arr"><path d="M243 19 L254 27 243 35" stroke="#32E6F2" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
-  </svg>
+  <g class="arr" opacity=".25"><path d="M243 19 L254 27 243 35" stroke="#32E6F2" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
+  <g class="btn-custom"><path d="M240 27 L246 32 257 20" fill="none" stroke="#35EBD7" stroke-width="2.6" class="btn-check"/></g></svg>

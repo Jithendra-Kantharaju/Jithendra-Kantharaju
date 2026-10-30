@@ -187,8 +187,8 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
     .hm-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
     .hm-c { transform-box: fill-box; transform-origin: center; animation: hm-in .8s cubic-bezier(.34,1.56,.64,1) both; }
     .hm-fade { animation: hm-fade 1.2s ease both; }
-    @keyframes hm-in { from { opacity: 0; transform: scale(.2); } to { opacity: 1; transform: none; } }
-    @keyframes hm-fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes hm-in { from { opacity: 1; transform: scale(.82); } to { opacity: 1; transform: none; } }
+    @keyframes hm-fade { from { opacity: 1; } to { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { .hm-c, .hm-fade { animation: none; } .hm-motion { display: none; } }
   </style>
 
