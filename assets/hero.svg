@@ -1,53 +1,542 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-label="Jithendra Kantharaju | DevOps and Cloud Engineer | AI Engineer | Forward Deployed Engineer. Illustrated animated cloud security and AI architecture, no portrait.">
-<defs><linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F22"/><stop offset=".56" stop-color="#111B37"/><stop offset="1" stop-color="#171139"/></linearGradient>
-<linearGradient id="grad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#31E7F4"/><stop offset=".55" stop-color="#9B88FF"/><stop offset="1" stop-color="#31E7F4"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#9B88FF" stop-opacity=".23"/><stop offset="1" stop-color="#9B88FF" stop-opacity="0"/></radialGradient>
-<pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#31E7F4" stroke-opacity=".055" fill="none"/></pattern>
-</defs>
-<style>
-  .mono{font-family:ui-monospace,Consolas,Menlo,monospace}.ui{font-family:'Segoe UI',Arial,sans-serif}
-  .text-in{animation:intro .85s cubic-bezier(.2,.9,.2,1) both}@keyframes intro{from{opacity:1;transform:translateY(11px)}to{opacity:1;transform:translateY(0)}}
-  .moving{animation:float 6s ease-in-out infinite}@keyframes float{50%{transform:translateY(-6px)}}
-  .flow{animation:flow 11s linear infinite}@keyframes flow{to{stroke-dashoffset:-200}}
- .orbit{transform-origin:170px 199px;animation:spin 18s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
- .meter{transform-box:fill-box;transform-origin:left;animation:meter 4.5s ease-in-out infinite}@keyframes meter{50%{transform:scaleX(.62)}}
- .line-grow{animation:grow 1.5s ease both}@keyframes grow{from{stroke-dashoffset:690}to{stroke-dashoffset:0}}
-  @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important}.only-motion{display:none!important}}
-</style>
-<rect width="1200" height="480" rx="18" fill="url(#back)"/>
-<rect width="1200" height="480" rx="18" fill="url(#g)"/>
-<rect x=".8" y=".8" width="1198.4" height="478.4" rx="17.5" fill="none" stroke="#31E7F4" stroke-opacity=".32"/>
 
-<ellipse cx="995" cy="223" rx="340" ry="285" fill="url(#halo)"/>
-<g opacity=".65"><path d="M43 451 H786 M49 68 H762" stroke="#30E3F0" stroke-opacity=".18" stroke-dasharray="4 11"/></g>
-<rect x="56" y="40" width="288" height="31" rx="15" fill="#0E2944" stroke="#31E7F4" stroke-opacity=".7"/>
-<circle cx="73" cy="55" r="4" fill="#31E7F4"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
-<text x="88" y="60" font-family="monospace" font-size="12" letter-spacing="1" fill="#31E7F4">BUILD / DEPLOY / IMPROVE</text>
-<text class="ui text-in" x="54" y="159" font-size="72" font-weight="800" fill="#F1F8FF" style="animation-delay:.1s">JITHENDRA</text>
-<text class="ui text-in" x="54" y="237" font-size="72" font-weight="800" fill="#F1F8FF" style="animation-delay:.22s">KANTHARAJU</text>
-<path d="M57 255 H747" stroke="url(#grad)" stroke-width="3" stroke-linecap="round" stroke-dasharray="690" stroke-dashoffset="0" class="line-grow"/>
-<text class="mono text-in" x="60" y="296" font-size="22" font-weight="700" fill="#31E7F4" style="animation-delay:.37s">DEVOPS &amp; CLOUD ENGINEER</text>
-<text class="mono text-in" x="60" y="330" font-size="17.5" font-weight="600" fill="#BEA2FF" style="animation-delay:.5s">AI ENGINEER  /  FORWARD DEPLOYED ENGINEER</text>
-<text class="ui text-in" x="60" y="370" font-size="19" fill="#B7C8E3" style="animation-delay:.63s">Cloud infrastructure. Reliable AI. Real-world delivery.</text>
-<rect x="57" y="400" width="688" height="40" rx="12" fill="#0E1F39" stroke="#37607F" stroke-opacity=".8"/>
-<text class="mono" x="74" y="425" fill="#C0D8F4" font-size="14" letter-spacing=".7">AWS   /   KUBERNETES   /   TERRAFORM   /   LANGGRAPH</text>
-<!-- System architecture schematic occupies the former portrait region. -->
-<g transform="translate(813 66)">
- <rect width="341" height="349" rx="17" fill="#0A1933" stroke="#5188AF" stroke-opacity=".6"/>
- <text class="mono" x="20" y="29" font-size="12" letter-spacing="1.4" fill="#9BCAEE">SYSTEM DESIGN / LIVE SIGNAL</text>
- <path d="M52 114 H289 M170 114 V199 M52 199 H289" fill="none" stroke="#3C6E94" stroke-width="2" stroke-dasharray="7 11" class="flow"/>
- <circle cx="52" cy="114" r="26" fill="#102F48" stroke="#31E7F4" stroke-width="2"/>
- <circle cx="289" cy="114" r="26" fill="#1B2351" stroke="#AF9AFF" stroke-width="2"/>
- <circle cx="170" cy="199" r="30" fill="#102F48" stroke="#70C7FF" stroke-width="2"/>
- <path d="M37 113 H67 M52 99 V129 M276 114 L287 125 303 105 M156 199 L169 186 184 199 169 212Z" fill="none" stroke="#DDFBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
- <text class="mono" x="52" y="158" text-anchor="middle" fill="#8EEFF4" font-size="12">CLOUD</text>
- <text class="mono" x="289" y="158" text-anchor="middle" fill="#CEBEFF" font-size="12">SECURE</text>
- <text class="mono" x="170" y="247" text-anchor="middle" fill="#A4DAFF" font-size="12">AI AGENTS</text>
- <g class="only-motion"><circle r="5" fill="#FBFCFF"><animateMotion dur="5.2s" path="M52 114 H289" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="5.2s" repeatCount="indefinite"/></circle><circle r="4" fill="#31E7F4"><animateMotion dur="6s" path="M170 114 V199" repeatCount="indefinite"/></circle></g>
- <g class="orbit"><circle cx="170" cy="199" r="51" fill="none" stroke="#31E7F4" stroke-width="1" stroke-dasharray="4 9" opacity=".65"/><circle cx="170" cy="148" r="4" fill="#31E7F4"/></g>
- <path d="M21 283 H318" stroke="#3A557B"/>
- <text class="mono" x="22" y="307" fill="#9BB7D9" font-size="11">AUTOMATION HEALTH</text>
- <rect x="190" y="295" width="123" height="12" rx="6" fill="#18324D"/><rect x="190" y="295" width="102" height="12" rx="6" fill="#31E7F4" class="meter"/>
- <text x="22" y="332" class="mono" fill="#D4E7FE" font-size="11">OBSERVE  /  EVALUATE  /  VERIFY</text>
-</g>
-<text class="mono" x="823" y="453" fill="#A8B8D6" font-size="12">ENGINEERING SYSTEMS THAT EARN TRUST</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="480"
+     viewBox="0 0 1200 480"
+     role="img"
+     aria-label="Jithendra Kantharaju. DevOps and Cloud Engineer, AI Engineer, Forward Deployed Engineer. Animated DevOps, Cloud and AI delivery pipeline.">
+
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080F22"/>
+      <stop offset=".56" stop-color="#111B37"/>
+      <stop offset="1" stop-color="#171139"/>
+    </linearGradient>
+
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#31E7F4"/>
+      <stop offset=".55" stop-color="#9B88FF"/>
+      <stop offset="1" stop-color="#31E7F4"/>
+    </linearGradient>
+
+    <radialGradient id="halo">
+      <stop stop-color="#9B88FF" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#9B88FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="g" width="32" height="32"
+             patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32"
+            stroke="#31E7F4"
+            stroke-opacity=".055"
+            fill="none"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: ui-monospace, Consolas, Menlo, monospace;
+    }
+
+    .ui {
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    .text-in {
+      animation: intro .85s cubic-bezier(.2,.9,.2,1) both;
+    }
+
+    @keyframes intro {
+      from {
+        opacity: 1;
+        transform: translateY(11px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .line-grow {
+      animation: grow 1.5s ease both;
+    }
+
+    @keyframes grow {
+      from { stroke-dashoffset: 690; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    .signal-blink {
+      animation: signal-blink 2.6s ease-in-out infinite;
+    }
+
+    @keyframes signal-blink {
+      50% { opacity: .25; }
+    }
+
+    .pipe-flow {
+      animation: pipe-flow 4s linear infinite;
+    }
+
+    @keyframes pipe-flow {
+      to { stroke-dashoffset: -56; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation: none !important;
+      }
+    }
+  </style>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="480"
+        rx="18" fill="url(#back)"/>
+
+  <rect width="1200" height="480"
+        rx="18" fill="url(#g)"/>
+
+  <rect x=".8" y=".8"
+        width="1198.4" height="478.4"
+        rx="17.5"
+        fill="none"
+        stroke="#31E7F4"
+        stroke-opacity=".32"/>
+
+  <ellipse cx="995" cy="223"
+           rx="340" ry="285"
+           fill="url(#halo)"/>
+
+  <g opacity=".65">
+    <path d="M43 451 H786 M49 68 H762"
+          stroke="#30E3F0"
+          stroke-opacity=".18"
+          stroke-dasharray="4 11"/>
+  </g>
+
+  <!-- LEFT SIDE: ORIGINAL PROFILE CONTENT -->
+
+  <rect x="56" y="40"
+        width="288" height="31"
+        rx="15"
+        fill="#0E2944"
+        stroke="#31E7F4"
+        stroke-opacity=".7"/>
+
+  <circle cx="73" cy="55" r="4" fill="#31E7F4">
+    <animate attributeName="opacity"
+             values="1;.25;1"
+             dur="2.8s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="88" y="60"
+        class="mono"
+        font-size="12"
+        letter-spacing="1"
+        fill="#31E7F4">
+    BUILD / DEPLOY / IMPROVE
+  </text>
+
+  <text class="ui text-in"
+        x="54" y="159"
+        font-size="72"
+        font-weight="800"
+        fill="#F1F8FF"
+        style="animation-delay:.1s">JITHENDRA</text>
+
+  <text class="ui text-in"
+        x="54" y="237"
+        font-size="72"
+        font-weight="800"
+        fill="#F1F8FF"
+        style="animation-delay:.22s">KANTHARAJU</text>
+
+  <path d="M57 255 H747"
+        stroke="url(#grad)"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-dasharray="690"
+        stroke-dashoffset="0"
+        class="line-grow"/>
+
+  <text class="mono text-in"
+        x="60" y="296"
+        font-size="22"
+        font-weight="700"
+        fill="#31E7F4"
+        style="animation-delay:.37s">DEVOPS &amp; CLOUD ENGINEER</text>
+
+  <text class="mono text-in"
+        x="60" y="330"
+        font-size="17.5"
+        font-weight="600"
+        fill="#BEA2FF"
+        style="animation-delay:.5s">AI ENGINEER  /  FORWARD DEPLOYED ENGINEER</text>
+
+  <text class="ui text-in"
+        x="60" y="370"
+        font-size="19"
+        fill="#B7C8E3"
+        style="animation-delay:.63s">Cloud infrastructure. Reliable AI. Real-world delivery.</text>
+
+  <rect x="57" y="400"
+        width="688" height="40"
+        rx="12"
+        fill="#0E1F39"
+        stroke="#37607F"
+        stroke-opacity=".8"/>
+
+  <text class="mono"
+        x="74" y="425"
+        fill="#C0D8F4"
+        font-size="14"
+        letter-spacing=".7">AWS   /   KUBERNETES   /   TERRAFORM   /   LANGGRAPH</text>
+
+  <!-- RIGHT SIDE: ENGINEERING PIPELINE -->
+
+  <g transform="translate(813 66)">
+
+    <rect width="341" height="349"
+          rx="17"
+          fill="#09192E"
+          stroke="#5188AF"
+          stroke-opacity=".65"/>
+
+    <path d="M17 44H324"
+          stroke="#2A486C"
+          opacity=".85"/>
+
+    <text class="mono"
+          x="20" y="29"
+          fill="#D4E9FF"
+          font-size="12"
+          font-weight="700"
+          letter-spacing=".65">ENGINEERING PIPELINE</text>
+
+    <circle cx="313" cy="25"
+            r="4" fill="#63E6B7">
+      <animate attributeName="opacity"
+               values="1;.35;1"
+               dur="2.4s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <!-- STAGE 01: DEVOPS -->
+
+    <rect x="20" y="54"
+          width="301" height="75"
+          rx="12"
+          fill="#0E2942"
+          stroke="#31E7F4"
+          stroke-opacity=".48"/>
+
+    <rect x="20" y="68"
+          width="3" height="47"
+          rx="1.5" fill="#31E7F4"/>
+
+    <rect x="33" y="66"
+          width="57" height="51"
+          rx="10"
+          fill="#092236"
+          stroke="#246A86"/>
+
+    <!-- Animated terminal/code icon -->
+
+    <g fill="none"
+       stroke="#31E7F4"
+       stroke-width="2.4"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M52 81 L44 92 L52 101"/>
+      <path d="M71 81 L79 92 L71 101"/>
+      <path d="M66 79 L58 104"/>
+    </g>
+
+    <circle cx="81" cy="72" r="3"
+            fill="#31E7F4"
+            class="signal-blink"/>
+
+    <text class="mono"
+          x="104" y="77"
+          fill="#31E7F4"
+          font-weight="700"
+          font-size="14">01  DEVOPS</text>
+
+    <text class="mono"
+          x="306" y="77"
+          text-anchor="end"
+          fill="#89F0F8"
+          font-size="9">BUILD</text>
+
+    <text class="ui"
+          x="104" y="97"
+          fill="#E6F4FF"
+          font-size="13"
+          font-weight="600">Build  /  Test  /  Deploy</text>
+
+    <!-- Animated CI/CD progress -->
+
+    <rect x="104" y="109"
+          width="190" height="5"
+          rx="2.5"
+          fill="#20435C"/>
+
+    <rect x="104" y="109"
+          width="85" height="5"
+          rx="2.5"
+          fill="#31E7F4">
+      <animate attributeName="width"
+               values="42;185;136;42"
+               dur="5s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <circle cx="305" cy="111.5"
+            r="3" fill="#31E7F4"/>
+
+    <!-- CONNECTION 01: DEVOPS TO CLOUD -->
+
+    <path d="M61 129V150"
+          stroke="#47D9EF"
+          stroke-opacity=".7"
+          stroke-width="2"
+          stroke-dasharray="3 4"
+          class="pipe-flow"/>
+
+    <circle cx="61" cy="132"
+            r="3.4" fill="#D8FCFF">
+      <animate attributeName="cy"
+               values="132;146"
+               dur="1.8s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               dur="1.8s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <path d="M57 145L61 151L65 145"
+          stroke="#4DECF3"
+          fill="none"
+          stroke-width="1.7"
+          stroke-linecap="round"/>
+
+    <!-- STAGE 02: CLOUD -->
+
+    <rect x="20" y="150"
+          width="301" height="75"
+          rx="12"
+          fill="#191F47"
+          stroke="#AF9AFF"
+          stroke-opacity=".52"/>
+
+    <rect x="20" y="164"
+          width="3" height="47"
+          rx="1.5"
+          fill="#AF9AFF"/>
+
+    <rect x="33" y="162"
+          width="57" height="51"
+          rx="10"
+          fill="#181B3F"
+          stroke="#6658B8"/>
+
+    <!-- Cloud connectivity icon -->
+
+    <g stroke="#B6A5FF"
+       stroke-width="1.9"
+       fill="none"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M47 195H76A9 9 0 0 0 75 177A14 14 0 0 0 48 181A7 7 0 0 0 47 195Z"/>
+    </g>
+
+    <circle cx="51" cy="195"
+            r="2.5" fill="#B6A5FF"
+            class="signal-blink"/>
+
+    <circle cx="74" cy="195"
+            r="2.5" fill="#B6A5FF"/>
+
+    <path d="M51 195H74"
+          stroke="#B6A5FF"
+          stroke-width="1.2"
+          stroke-dasharray="3 3"
+          class="pipe-flow"/>
+
+    <text class="mono"
+          x="104" y="173"
+          fill="#BDAEFF"
+          font-weight="700"
+          font-size="14">02  CLOUD</text>
+
+    <text class="mono"
+          x="306" y="173"
+          text-anchor="end"
+          fill="#D4C9FF"
+          font-size="9">SCALE</text>
+
+    <text class="ui"
+          x="104" y="193"
+          fill="#E6F4FF"
+          font-size="13"
+          font-weight="600">Provision  /  Scale  /  Observe</text>
+
+    <!-- Animated cloud scaling -->
+
+    <rect x="104" y="205"
+          width="190" height="5"
+          rx="2.5"
+          fill="#35365E"/>
+
+    <rect x="104" y="205"
+          width="105" height="5"
+          rx="2.5"
+          fill="#AF9AFF">
+      <animate attributeName="width"
+               values="78;187;126;78"
+               dur="5.8s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <circle cx="305" cy="207.5"
+            r="3" fill="#AF9AFF"/>
+
+    <!-- CONNECTION 02: CLOUD TO AI -->
+
+    <path d="M61 225V246"
+          stroke="#AF9AFF"
+          stroke-opacity=".75"
+          stroke-width="2"
+          stroke-dasharray="3 4"
+          class="pipe-flow"/>
+
+    <circle cx="61" cy="228"
+            r="3.4" fill="#E9DFFF">
+      <animate attributeName="cy"
+               values="228;242"
+               dur="2s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <path d="M57 241L61 247L65 241"
+          stroke="#BDAEFF"
+          fill="none"
+          stroke-width="1.7"
+          stroke-linecap="round"/>
+
+    <!-- STAGE 03: AI + FDE -->
+
+    <rect x="20" y="246"
+          width="301" height="75"
+          rx="12"
+          fill="#0E2B31"
+          stroke="#63E6B7"
+          stroke-opacity=".5"/>
+
+    <rect x="20" y="260"
+          width="3" height="47"
+          rx="1.5"
+          fill="#63E6B7"/>
+
+    <rect x="33" y="258"
+          width="57" height="51"
+          rx="10"
+          fill="#092D2F"
+          stroke="#2F8C7D"/>
+
+    <!-- Animated AI agent icon -->
+
+    <g transform="translate(61 283)">
+
+      <circle r="17"
+              stroke="#63E6B7"
+              stroke-width="1.5"
+              stroke-dasharray="5 6"
+              fill="none">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0"
+          to="360"
+          dur="12s"
+          repeatCount="indefinite"/>
+      </circle>
+
+      <path d="M0 -10L10 0L0 10L-10 0Z"
+            stroke="#BBFFE2"
+            stroke-width="1.6"
+            fill="none"/>
+
+      <circle r="3.2" fill="#63E6B7">
+        <animate attributeName="r"
+                 values="2.2;4.2;2.2"
+                 dur="2.7s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+    </g>
+
+    <text class="mono"
+          x="104" y="269"
+          fill="#63E6B7"
+          font-weight="700"
+          font-size="14">03  AI + FDE</text>
+
+    <text class="mono"
+          x="306" y="269"
+          text-anchor="end"
+          fill="#B2FFE3"
+          font-size="9">DELIVER</text>
+
+    <text class="ui"
+          x="104" y="289"
+          fill="#E6F4FF"
+          font-size="13"
+          font-weight="600">Agents  /  Integrate  /  Verify</text>
+
+    <!-- Animated AI workflow progress -->
+
+    <rect x="104" y="301"
+          width="190" height="5"
+          rx="2.5"
+          fill="#1F4B48"/>
+
+    <rect x="104" y="301"
+          width="142" height="5"
+          rx="2.5"
+          fill="#63E6B7">
+      <animate attributeName="width"
+               values="64;186;142;64"
+               dur="6.2s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <circle cx="305" cy="303.5"
+            r="3" fill="#63E6B7"/>
+
+    <!-- PIPELINE FOOTER -->
+
+    <text class="mono"
+          x="170" y="339"
+          text-anchor="middle"
+          font-size="11"
+          letter-spacing="1.2"
+          fill="#A9C4DA">SHIP  /  SCALE  /  SOLVE</text>
+
+  </g>
+
+  <!-- HERO FOOTER -->
+
+  <text class="mono"
+        x="823" y="453"
+        fill="#A8B8D6"
+        font-size="12">ENGINEERING SYSTEMS THAT EARN TRUST</text>
+
+</svg>

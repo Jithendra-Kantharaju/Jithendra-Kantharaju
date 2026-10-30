@@ -5,11 +5,17 @@
   The local GitHub Actions workflow populates real activity after its first run.
 -->
 
+
 <div align="center">
   <a href="https://github.com/Jithendra-Kantharaju">
-    <img src="assets/hero.svg" width="100%" alt="Jithendra Kantharaju. DevOps and Cloud Engineer, AI Engineer, Forward Deployed Engineer. AWS, Kubernetes, Terraform, LangGraph." />
+    <img
+      src="assets/hero.svg"
+      width="100%"
+      alt="Jithendra Kantharaju | DevOps, Cloud, AI and Forward Deployed Engineering"
+    />
   </a>
 </div>
+
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jithendra-kantharaju/"><img src="assets/buttons/linkedin.svg" width="180" alt="Connect on LinkedIn" /></a>&nbsp;
