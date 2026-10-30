@@ -1,78 +1,121 @@
-<!-- A GitHub-only profile. All artwork is hosted inside this repository. -->
+<!--
+  JITHENDRA KANTHARAJU / GITHUB PROFILE
+  GitHub profile-only. No website, JavaScript, HTML resume, remote stats cards,
+  or external animation services. Animations live inside self-contained SVGs.
+  The local GitHub Actions workflow populates real activity after its first run.
+-->
 
-<a href="https://github.com/Jithendra-Kantharaju">
-  <img src="assets/hero.svg" width="100%" alt="Jithendra Kantharaju, DevOps and Cloud Engineer, AI Engineer, Forward Deployed Engineer. Cloud infrastructure, reliable AI and real-world delivery." />
-</a>
+<div align="center">
+  <a href="https://github.com/Jithendra-Kantharaju">
+    <img src="assets/hero.svg" width="100%" alt="Jithendra Kantharaju. DevOps and Cloud Engineer, AI Engineer, Forward Deployed Engineer. AWS, Kubernetes, Terraform, LangGraph." />
+  </a>
+</div>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/jithendra-kantharaju/"><img src="https://img.shields.io/badge/LinkedIn-Connect-2487D6?style=for-the-badge&amp;labelColor=101A34&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn" /></a>
-  <a href="https://github.com/Jithendra-Kantharaju"><img src="https://img.shields.io/badge/GitHub-Repositories-7C63DD?style=for-the-badge&amp;labelColor=101A34&amp;logo=github&amp;logoColor=white" alt="View my GitHub repositories" /></a>
-  <a href="mailto:jithendra.kantharaju@gmail.com"><img src="https://img.shields.io/badge/Email-Let's_Talk-00BDD4?style=for-the-badge&amp;labelColor=101A34&amp;logo=gmail&amp;logoColor=white" alt="Email me" /></a>
+  <a href="https://www.linkedin.com/in/jithendra-kantharaju/"><img src="assets/buttons/linkedin.svg" width="180" alt="Connect on LinkedIn" /></a>&nbsp;
+  <a href="mailto:jithendra.kantharaju@gmail.com"><img src="assets/buttons/email.svg" width="180" alt="Email Jithendra" /></a>&nbsp;
+  <a href="https://github.com/Jithendra-Kantharaju?tab=repositories"><img src="assets/buttons/github.svg" width="180" alt="View GitHub repositories" /></a>
 </p>
 
-<img src="assets/typing-focus.svg" width="100%" alt="Focus: AWS, Kubernetes, Terraform, GitOps, LangGraph, LLM agents, RAG, CI/CD, observability, security and automation" />
+<img src="assets/typing-focus.svg" width="100%" alt="Focus: AWS Kubernetes Terraform GitOps; LangGraph LLM agents RAG Python; CI/CD observability security automation." />
 
+<!-- 01 ABOUT -->
 <img src="assets/title-about.svg" width="100%" alt="01 About: Cloud engineering meets applied AI" />
-<img src="assets/about-intro.svg" width="100%" alt="Nearly three years of DevOps and cloud engineering at Corezeal. Production operations at Compass Group. AI workflow design at Face Friends Foundation. M.S. Computer Engineering at University of South Florida." />
+<img src="assets/about-intro.svg" width="100%" alt="Almost three years in DevOps and cloud infrastructure at Corezeal. Production operations at Compass. AI workflow design at Face Friends Foundation. M.S. Computer Engineering, University of South Florida." />
+<img src="assets/interlude-about.svg" width="100%" alt="Infrastructure-first, AI-ready. DevOps and cloud engineering experience combined with evaluated LLM agents, RAG and human-reviewed workflows." />
 
-I build cloud platforms and automation that engineers can actually operate. My background is in AWS, Kubernetes, Terraform, CI/CD, monitoring and production support. More recently, I've been building and evaluating LLM agents, RAG applications and human-reviewed workflows.
+<details>
+<summary><b>Professional background and education</b></summary>
+<br />
 
-- **Work:** DevOps Engineer at Corezeal Technologies (Mar 2022–Dec 2024); Technical Operations Analyst at Compass Group USA (Aug 2025–May 2026); volunteer AI Systems Engineer at Face Friends Foundation (Sep 2026–present).
-- **Education:** M.S. Computer Engineering, University of South Florida (GPA: 3.76/4.0).
-- **Interested in:** DevOps, Cloud, Site Reliability, Forward Deployed Engineering and AI Engineering opportunities in the U.S.
+I build and support cloud platforms, CI/CD pipelines and responsible AI workflows.
 
-<img src="assets/title-highlights.svg" width="100%" alt="02 Impact: Measured work, not marketing claims" />
-<img src="assets/highlights.svg" width="100%" alt="40 percent faster deployments; around 70 percent less manual infrastructure provisioning; 93.8 percent incident classification accuracy across 16 mocked scenarios; zero wrong automatic approvals on 425 synthetic invoice test cases." />
+- **Corezeal Technologies:** DevOps Engineer, March 2022 to December 2024. AWS, Kubernetes, Terraform, Ansible, Jenkins and GitLab CI.
+- **Compass Group USA:** Technical Operations Analyst, August 2025 to May 2026. Operational systems supporting 10,000+ daily users.
+- **Face Friends Foundation:** Volunteer AI Systems Engineer, September 2026 to present. Designing fundraising workflow integration across Symphony, Bitrix24 and Wix.
+- **Education:** M.S., Computer Engineering, University of South Florida, GPA 3.76/4.0.
 
-The AI evaluation figures come from **controlled project tests**, not independently measured customer production outcomes.
+</details>
 
-<img src="assets/title-work.svg" width="100%" alt="03 Selected work: infrastructure, agents, and safer automation" />
+<!-- 02 IMPACT -->
+<img src="assets/title-highlights.svg" width="100%" alt="02 Impact: Measured engineering work" />
+<img src="assets/highlights.svg" width="100%" alt="40 percent faster deployment at Corezeal; approximately 70 percent less manual setup; LangGraph incident classification 93.8 percent on 16 mocked scenarios; zero wrong approvals among 425 synthetic invoice cases." />
+<img src="assets/interlude-impact.svg" width="100%" alt="Measured improvements, clearly scoped. Workplace results are distinct from controlled synthetic AI project evaluations." />
 
-<a href="https://github.com/Jithendra-Kantharaju/ledgerguard"><img src="assets/project-ledgerguard.svg" width="100%" alt="LedgerGuard: AI-assisted invoice extraction, three-way matching, policy rules, human approval and auditability. Tested on 425 synthetic invoices with zero wrong automatic approvals." /></a>
-<p align="center">
-  <a href="https://github.com/Jithendra-Kantharaju/ledgerguard"><img src="https://img.shields.io/badge/Explore-LedgerGuard-7C63DD?style=for-the-badge&amp;labelColor=101A34&amp;logo=github&amp;logoColor=white" alt="LedgerGuard repository" /></a>
-</p>
+<!-- 03 SELECTED WORK -->
+<img src="assets/title-work.svg" width="100%" alt="03 Selected Work: Infrastructure, agents and safer automation" />
 
-**LedgerGuard:** A Python/FastAPI/LangGraph accounts payable automation project. It combines invoice extraction, policy checks, three-way matching, human approval and audit trails. The AWS demonstration used ECS Fargate, Cognito, RDS, S3 and GitHub Actions in **shadow mode**, without posting external accounting transactions. In offline evaluation, 425 synthetic invoices produced zero wrong automatic approvals.
+<a href="https://github.com/Jithendra-Kantharaju/ledgerguard"><img src="assets/project-ledgerguard.svg" width="100%" alt="LedgerGuard AI-assisted finance automation with policy checks, three-way matching, human approval and audit trails; 425 synthetic tests and zero wrong auto-approvals" /></a>
+<img src="assets/interlude-ledgerguard.svg" width="100%" alt="LedgerGuard: extract, validate, match, review. Shadow-mode AWS demonstration with no external ERP posting." />
+<p align="center"><a href="https://github.com/Jithendra-Kantharaju/ledgerguard"><img src="assets/buttons/ledgerguard.svg" width="235" alt="Open LedgerGuard GitHub repository" /></a></p>
 
-<a href="https://github.com/Jithendra-Kantharaju/enterprise-cloudops-ai-platform"><img src="assets/project-cloudops.svg" width="100%" alt="Enterprise CloudOps AI Platform: eight services deployed to AWS EKS using Terraform, GitHub Actions and ArgoCD. Incident agent evaluated at 93.8 percent on 16 mocked scenarios." /></a>
-<p align="center">
-  <a href="https://github.com/Jithendra-Kantharaju/enterprise-cloudops-ai-platform"><img src="https://img.shields.io/badge/Explore-CloudOps_AI-2487D6?style=for-the-badge&amp;labelColor=101A34&amp;logo=github&amp;logoColor=white" alt="Enterprise CloudOps AI Platform repository" /></a>
-</p>
+<details>
+<summary><b>LedgerGuard | Architecture and validation</b></summary>
+<br />
 
-**Enterprise CloudOps AI Platform:** An AWS EKS environment shipping eight services through Terraform, GitHub Actions, ECR and ArgoCD. Includes an incident-triage agent using CloudWatch/Prometheus/EKS tools and a FastAPI/ChromaDB RAG assistant. Evaluation: **93.8% (15/16)** on mocked incident scenarios and **95.5% (21/22)** on the RAG refusal tests.
+Built an AI-assisted invoice processing system using Python, FastAPI, LangGraph, OpenAI and PostgreSQL/pgvector. It combines invoice extraction, customer-specific policies, three-way matching, human approval and audit trails. An AWS demonstration used Terraform, ECS Fargate, Cognito, RDS, S3 and GitHub Actions in **shadow mode**. Offline evaluation on 425 synthetic invoices recorded **zero wrong automatic approvals**. These are test results, not a production customer deployment.
 
-<a href="https://github.com/Jithendra-Kantharaju/devsecops-reference-infrastructure"><img src="assets/project-devsecops.svg" width="100%" alt="DevSecOps Reference Infrastructure: GitHub Actions security checks, Trivy, OPA, Vault, Falco, and Kubernetes security controls." /></a>
-<p align="center">
-  <a href="https://github.com/Jithendra-Kantharaju/devsecops-reference-infrastructure"><img src="https://img.shields.io/badge/Explore-DevSecOps_Reference-7C63DD?style=for-the-badge&amp;labelColor=101A34&amp;logo=github&amp;logoColor=white" alt="DevSecOps repository" /></a>
-</p>
+</details>
 
-**DevSecOps Reference Infrastructure:** A security-focused Kubernetes and CI/CD reference featuring Trivy scanning, OPA/Conftest policy checks, Vault secrets, Falco runtime monitoring, and IAM OIDC authentication.
+<a href="https://github.com/Jithendra-Kantharaju/enterprise-cloudops-ai-platform"><img src="assets/project-cloudops.svg" width="100%" alt="Enterprise CloudOps AI: Eight AWS EKS services, GitOps deployments, LangGraph incident agent and a RAG assistant. Incident evaluation 15 of 16 mocked scenarios." /></a>
+<img src="assets/interlude-cloudops.svg" width="100%" alt="CloudOps AI: EKS, Terraform, ArgoCD; incident test 15 of 16 and RAG refusal accuracy 21 of 22." />
+<p align="center"><a href="https://github.com/Jithendra-Kantharaju/enterprise-cloudops-ai-platform"><img src="assets/buttons/cloudops.svg" width="235" alt="Open Enterprise CloudOps AI GitHub repository" /></a></p>
 
-<a href="https://github.com/Jithendra-Kantharaju/GitOps-CICD-Pipeline-AWS-EKS-Actions"><img src="assets/project-gitops.svg" width="100%" alt="GitOps CI/CD Pipeline on AWS: Terraform, EKS, GitHub Actions, Helm and ArgoCD for automated deployments." /></a>
-<p align="center">
-  <a href="https://github.com/Jithendra-Kantharaju/GitOps-CICD-Pipeline-AWS-EKS-Actions"><img src="https://img.shields.io/badge/Explore-AWS_GitOps-2487D6?style=for-the-badge&amp;labelColor=101A34&amp;logo=github&amp;logoColor=white" alt="GitOps CI/CD Pipeline repository" /></a>
-</p>
+<details>
+<summary><b>Enterprise CloudOps AI | Architecture and evaluation</b></summary>
+<br />
 
-**GitOps CI/CD on AWS EKS:** Terraform-provisioned Kubernetes infrastructure, container builds and checks in GitHub Actions, and declarative delivery through Helm and ArgoCD.
+Deployed eight services to AWS EKS using Terraform, GitHub Actions, ECR, Helm and ArgoCD. Developed a Python/LangGraph incident-diagnosis agent with CloudWatch, Prometheus and EKS tools, and a FastAPI/ChromaDB RAG assistant. Controlled tests: **93.8% (15/16)** incident scenarios and **95.5% (21/22)** RAG refusal accuracy. The incident scenarios were mocked, not independently measured production incidents.
 
-<img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit: technologies I build with" />
-<img src="assets/tech-toolkit.svg" width="100%" alt="Cloud: AWS GCP Azure. Infrastructure: Terraform CloudFormation Ansible Helm ArgoCD. DevOps: GitHub Actions Jenkins GitLab CI Docker Kubernetes. AI: Python LangGraph LangChain RAG OpenAI Anthropic FastAPI. Security and monitoring: Prometheus Grafana Vault Trivy OPA Falco. Data: PostgreSQL pgvector ChromaDB SQL." />
+</details>
 
-<img src="assets/title-commits.svg" width="100%" alt="05 GitHub activity: A year of building" />
-<img src="assets/contribution-snake.svg" width="100%" alt="Contribution grid and animated snake generated daily from real GitHub contribution data. Before the initial action completes, this image displays a setup notice." />
-<img src="assets/github-stats.svg" width="100%" alt="Public GitHub repository count, stars, forks, followers and primary repository languages, updated by a daily GitHub Actions workflow." />
+<a href="https://github.com/Jithendra-Kantharaju/devsecops-reference-infrastructure"><img src="assets/project-devsecops.svg" width="100%" alt="DevSecOps Reference Infrastructure: image scanning, OPA policy gates, secrets management, Falco runtime detection and Kubernetes security" /></a>
+<img src="assets/interlude-devsecops.svg" width="100%" alt="DevSecOps reference: security checks, policy gates, vault secrets and runtime visibility built into CI/CD." />
+<p align="center"><a href="https://github.com/Jithendra-Kantharaju/devsecops-reference-infrastructure"><img src="assets/buttons/devsecops.svg" width="235" alt="Open DevSecOps Reference Infrastructure repository" /></a></p>
 
-<sub>Statistics and activity refresh automatically from GitHub's API. Until the first workflow succeeds, the SVGs display setup notices instead of made-up numbers.</sub>
+<details>
+<summary><b>DevSecOps Reference | Security controls</b></summary>
+<br />
 
+A Kubernetes and CI/CD security reference using Trivy image scanning, OPA/Conftest policy gates, HashiCorp Vault, Falco, GitHub OIDC and audit logging. This is a reference implementation; no unverified reduction in vulnerabilities or audit time is claimed.
+
+</details>
+
+<a href="https://github.com/Jithendra-Kantharaju/GitOps-CICD-Pipeline-AWS-EKS-Actions"><img src="assets/project-gitops.svg" width="100%" alt="AWS GitOps CI/CD: Terraform AWS EKS, GitHub Actions build pipeline, quality checks, Helm and ArgoCD automated GitOps delivery" /></a>
+<img src="assets/interlude-gitops.svg" width="100%" alt="GitOps release pipeline: build, check and synchronize with GitHub Actions, Terraform, Helm and ArgoCD." />
+<p align="center"><a href="https://github.com/Jithendra-Kantharaju/GitOps-CICD-Pipeline-AWS-EKS-Actions"><img src="assets/buttons/gitops.svg" width="235" alt="Open AWS GitOps CI/CD GitHub repository" /></a></p>
+
+<details>
+<summary><b>GitOps CI/CD on AWS EKS | Delivery flow</b></summary>
+<br />
+
+Terraform provisions AWS EKS infrastructure, GitHub Actions automates builds and checks, Helm packages Kubernetes application deployments, and ArgoCD syncs declarative configuration. No unsupported claims about deployment frequency or error reduction are included.
+
+</details>
+
+<!-- 04 TECHNICAL TOOLKIT -->
+<img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit: Technologies for cloud infrastructure, DevOps and applied AI" />
+<img src="assets/tech-toolkit.svg" width="100%" alt="Skills: AWS, GCP, Azure, Terraform, Ansible, Kubernetes, ArgoCD, Jenkins, GitHub Actions, LangGraph, LangChain, OpenAI, Anthropic, FastAPI, PostgreSQL, Prometheus, Grafana, Vault, Trivy, OPA and more." />
+<img src="assets/interlude-toolkit.svg" width="100%" alt="Engineering practice: Operate, monitor and improve cloud and AI workflows using appropriate tools and security controls." />
+
+<!-- 05 GITHUB ACTIVITY -->
+<img src="assets/title-commits.svg" width="100%" alt="05 GitHub activity: a year of building" />
+<img src="assets/contribution-snake.svg" width="100%" alt="Real GitHub contribution calendar with animated snake. The initial placeholder changes after the first GitHub Actions run." />
+<img src="assets/github-stats.svg" width="100%" alt="Real public GitHub repositories, stars, forks, followers and language usage, generated using GitHub's public REST API." />
+<img src="assets/interlude-activity.svg" width="100%" alt="GitHub activity and stats refresh through a scheduled GitHub Actions workflow using real GitHub API data." />
+
+<sub>Activity counts come from GitHub. The placeholder graphics do not invent statistics; run the included workflow once to initialize them.</sub>
+
+<!-- 06 CREDENTIALS -->
 <img src="assets/title-certifications.svg" width="100%" alt="06 Credentials: Cloud and AI certifications" />
-<img src="assets/certifications.svg" width="100%" alt="AWS Solutions Architect Associate; AWS Certified AI Practitioner; Google Cloud Associate Cloud Engineer; Claude Certified Architect Foundations. All issued in 2026." />
+<img src="assets/certifications.svg" width="100%" alt="AWS Solutions Architect Associate, AWS Certified AI Practitioner, Google Cloud Associate Cloud Engineer and Claude Certified Architect Foundations." />
 
+<!-- 07 CONNECT -->
 <img src="assets/title-connect.svg" width="100%" alt="07 Connect: Let's build something useful" />
+<img src="assets/interlude-connect.svg" width="100%" alt="Open to DevOps, Cloud, SRE, Forward Deployed and AI Engineering opportunities in the United States." />
 <p align="center">
-  <a href="mailto:jithendra.kantharaju@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-00BDD4?style=for-the-badge&amp;labelColor=101A34&amp;logo=gmail&amp;logoColor=white" alt="Email Jithendra" /></a>
-  <a href="https://www.linkedin.com/in/jithendra-kantharaju/"><img src="https://img.shields.io/badge/LinkedIn-Connect-2487D6?style=for-the-badge&amp;labelColor=101A34&amp;logo=linkedin&amp;logoColor=white" alt="Jithendra on LinkedIn" /></a>
-  <a href="https://github.com/Jithendra-Kantharaju"><img src="https://img.shields.io/badge/GitHub-Follow-7C63DD?style=for-the-badge&amp;labelColor=101A34&amp;logo=github&amp;logoColor=white" alt="Jithendra on GitHub" /></a>
+  <a href="mailto:jithendra.kantharaju@gmail.com"><img src="assets/buttons/email.svg" width="180" alt="Email Jithendra Kantharaju" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/jithendra-kantharaju/"><img src="assets/buttons/linkedin.svg" width="180" alt="Connect on LinkedIn" /></a>&nbsp;
+  <a href="https://github.com/Jithendra-Kantharaju"><img src="assets/buttons/github.svg" width="180" alt="View GitHub profile" /></a>
 </p>
-
-<img src="assets/footer.svg" width="100%" alt="Jithendra Kantharaju: Let us solve hard problems. Build, automate, verify." />
+<img src="assets/footer.svg" width="100%" alt="Jithendra Kantharaju. Build, automate, verify. Infrastructure that scales and AI workflows that stay accountable." />

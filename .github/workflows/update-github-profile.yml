@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Verify README image assets
+        run: node scripts/validate-profile.mjs
+
       - name: Fetch actual contribution calendar
         env:
           GH_USERNAME: ${{ github.repository_owner }}

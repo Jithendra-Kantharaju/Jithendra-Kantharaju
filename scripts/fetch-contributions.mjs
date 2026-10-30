@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 /**
- * Writes site/data/contributions.json from a GitHub user's PUBLIC
+ * Writes data/contributions.json from a GitHub user's PUBLIC
  * contribution calendar (the same data shown on their profile page).
  *
  * - With GH_TOKEN set, uses the GraphQL API (exact counts).
  * - Without a token, reads the public calendar fragment at
  *   github.com/users/<login>/contributions (no auth needed).
  *
- * If both fail, the existing snapshot is left untouched and the script
- * exits 0 so a deploy never breaks because of a network hiccup.
+ * If both fail, the script exits with an error, leaving the last good
+ * snapshot and generated artwork untouched. No mock activity is invented.
  *
  * Env: GH_USERNAME (default Jithendra-Kantharaju), GH_TOKEN (optional),
  *      OUTPUT_PATH (default data/contributions.json)

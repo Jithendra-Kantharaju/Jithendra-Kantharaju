@@ -40,7 +40,7 @@ const updated = new Date().toISOString().slice(0,10);
 const metrics = [ ['PUBLIC REPOSITORIES',user.public_repos || 0], ['REPOSITORY STARS',stars], ['REPOSITORY FORKS',forks], ['FOLLOWERS',user.followers || 0] ];
 const tiles = metrics.map(([label,v],i)=>{
   const x=47+i*281;
-  return `<g><rect x="${x}" y="102" width="263" height="115" rx="12" fill="#111D39" stroke="#344976"/>
+  return `<g class="stats-in" style="animation-delay:${(i*.13).toFixed(2)}s"><rect x="${x}" y="102" width="263" height="115" rx="12" fill="#111D39" stroke="#344976"/>
   <text x="${x+16}" y="137" font-family="monospace" fill="#A78BFA" font-size="13" letter-spacing="1.1">${xml(label)}</text>
   <text x="${x+16}" y="193" font-family="Arial,sans-serif" fill="#32E6F2" font-size="46" font-weight="700">${v.toLocaleString('en-US')}</text></g>`;
 }).join('');
@@ -48,14 +48,24 @@ const bars = ordered.map(([language, count],i)=>{
   const y=266+i*27;
   return `<g><text x="48" y="${y+10}" fill="#C3D5EE" font-family="monospace" font-size="14">${xml(language)}</text>
   <rect x="240" y="${y-3}" width="690" height="16" rx="8" fill="#1B2D4F"/>
-  <rect x="240" y="${y-3}" width="${Math.round(690*count/max)}" height="16" rx="8" fill="${i%2 ? '#A78BFA':'#32E6F2'}"/>
+  <rect class="stats-bar" style="animation-delay:${(.6 + i*.14).toFixed(2)}s" x="240" y="${y-3}" width="${Math.round(690*count/max)}" height="16" rx="8" fill="${i%2 ? '#A78BFA':'#32E6F2'}"/>
   <text x="947" y="${y+10}" fill="#B6C8E8" font-family="monospace" font-size="13">${count} repos</text></g>`;
 }).join('');
 const height=435;
 const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="${height}" viewBox="0 0 1200 ${height}" role="img" aria-label="Real GitHub stats for ${xml(login)}; ${user.public_repos} public repositories, ${stars} stars, ${forks} forks, ${user.followers} followers, generated on ${updated}">
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F24"/><stop offset="1" stop-color="#1C1540"/></linearGradient></defs>
+<style>
+.stats-in{animation:stats-in .9s cubic-bezier(.16,1,.3,1) both}
+.stats-bar{transform-box:fill-box;transform-origin:left center;animation:stats-bar 1.2s cubic-bezier(.16,1,.3,1) both}
+.stats-pulse{animation:stats-pulse 4s ease-in-out infinite}
+@keyframes stats-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes stats-bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes stats-pulse{0%,100%{opacity:.25}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.stats-in,.stats-bar,.stats-pulse{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
 <rect width="1200" height="${height}" rx="18" fill="url(#bg)"/>
 <rect x=".5" y=".5" width="1199" height="${height-1}" rx="17.5" fill="none" stroke="#375181"/>
+<circle class="stats-pulse" cx="1136" cy="45" r="6" fill="#32E6F2"/>
 <text x="48" y="53" fill="#32E6F2" font-family="monospace" font-size="15" letter-spacing="1.6">GITHUB ACCOUNT / VERIFIED FROM PUBLIC API</text>
 <text x="48" y="85" fill="#ECF4FF" font-family="Arial,sans-serif" font-size="23" font-weight="700">Activity beyond the README</text>
 ${tiles}

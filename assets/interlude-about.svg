@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 196" width="1200" height="196" role="img" aria-label="Infrastructure-first. AI-ready. Almost 3 years in DevOps and cloud engineering; now building evaluated LLM agents, RAG tools and human-reviewed workflows.">
+    <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081428"/><stop offset="1" stop-color="#151135"/></linearGradient>
+      <linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#32E6F2"/><stop offset=".55" stop-color="#7D8FFF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+      <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#5B79AD" opacity=".16"/></pattern>
+    </defs><style>
+  .reveal{animation:rv 1s cubic-bezier(.16,1,.3,1) both}
+  .d1{animation-delay:.12s}.d2{animation-delay:.35s}.d3{animation-delay:.58s}.d4{animation-delay:.8s}
+  .dash{stroke-dasharray:8 15;animation:slide 8s linear infinite}
+  .pulse{animation:glow 3.4s ease-in-out infinite}
+  .cursor{animation:cursor 1.15s steps(2,end) infinite}
+  @keyframes rv{from{opacity:0;transform:translateY(11px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes slide{to{stroke-dashoffset:-230}}
+  @keyframes glow{0%,100%{opacity:.25}50%{opacity:1}}
+  @keyframes cursor{0%,45%{opacity:1}46%,100%{opacity:0}}
+  @media(prefers-reduced-motion:reduce){.reveal,.dash,.pulse,.cursor{animation:none!important;opacity:1!important;transform:none!important}.motion{display:none!important}}
+</style>
+    <rect x="0" y="0" width="1200" height="196" rx="17" fill="url(#bg)"/>
+    <rect x="0" y="0" width="1200" height="196" rx="17" fill="url(#dots)"/>
+    <rect x=".6" y=".6" width="1198.8" height="194.8" rx="16.5" fill="none" stroke="#4E678F" stroke-opacity=".4"/>
+    <rect x="0" y="0" width="5" height="196" rx="2" fill="url(#a)"/>
+    <g class="reveal d1"><text x="40" y="36" font-family="ui-monospace,Consolas,monospace" font-size="13" font-weight="650" fill="#40E6F1">// ENGINEER / SYSTEMS THINKER</text></g>
+    <g class="reveal d2"><text x="40" y="78" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="760" fill="#F0F6FF">Infrastructure-first. AI-ready.</text></g>
+    <g class="reveal d3"><text x="41" y="119" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="400" fill="#BCCCE6">Almost 3 years in DevOps and cloud engineering; now building</text><text x="41" y="148" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="400" fill="#BCCCE6">evaluated LLM agents, RAG tools and human-reviewed workflows.</text></g>
+    <path d="M40 173H836" stroke="url(#a)" stroke-opacity=".45" stroke-width="1.6"/>
+    <g class="motion"><circle cy="173" cx="43" r="3.5" fill="#32E6F2"><animate attributeName="cx" from="40" to="835" dur="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6.5s" repeatCount="indefinite"/></circle></g>
+    <rect x="869" y="23" rx="13" width="298" height="150" fill="#0E203B" stroke="#344E78" stroke-opacity=".75"/>
+    <text x="890" y="51" font-size="12" font-family="ui-monospace,Consolas,monospace" fill="#A78BFA" letter-spacing="1.4">ENGINEERING / SIGNAL</text>
+    <path d="M905 93 H1131" stroke="url(#a)" stroke-width="2.5" stroke-opacity=".75" class="dash"/>
+    <g class="motion"><circle cx="906" cy="93" r="4.5" fill="#E5F6FF"><animate attributeName="cx" values="905;1017;1131;1131" keyTimes="0;.33;.68;1" dur="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.14;.68;1" dur="5.5s" repeatCount="indefinite"/></circle></g>
+    <circle cx="905" cy="93" r="12" fill="#172949" stroke="#32E6F2" stroke-width="2"/><circle class="pulse" cx="905" cy="93" r="4" fill="#32E6F2" style="animation-delay:0.0s"/><text x="905" y="131" font-family="ui-monospace,Consolas,monospace" font-size="11.5" fill="#B6CBEC" text-anchor="middle">CLOUD</text><circle cx="1018" cy="93" r="12" fill="#172949" stroke="#8291FC" stroke-width="2"/><circle class="pulse" cx="1018" cy="93" r="4" fill="#8291FC" style="animation-delay:0.7s"/><text x="1018" y="131" font-family="ui-monospace,Consolas,monospace" font-size="11.5" fill="#B6CBEC" text-anchor="middle">AUTOMATE</text><circle cx="1131" cy="93" r="12" fill="#172949" stroke="#A78BFA" stroke-width="2"/><circle class="pulse" cx="1131" cy="93" r="4" fill="#A78BFA" style="animation-delay:1.4s"/><text x="1131" y="131" font-family="ui-monospace,Consolas,monospace" font-size="11.5" fill="#B6CBEC" text-anchor="middle">AI</text></svg>
