@@ -20,9 +20,9 @@
 <img src="assets/typing-focus.svg" width="100%" alt="Focus: AWS Kubernetes Terraform GitOps; LangGraph LLM agents RAG Python; CI/CD observability security automation." />
 
 <!-- 01 ABOUT -->
-<img src="assets/title-about.svg" width="100%" alt="01 About: Cloud engineering meets applied AI" />
-<img src="assets/about-intro.svg" width="100%" alt="Almost three years in DevOps and cloud infrastructure at Corezeal. Production operations at Compass. AI workflow design at Face Friends Foundation. M.S. Computer Engineering, University of South Florida." />
-<img src="assets/interlude-about.svg" width="100%" alt="Infrastructure-first, AI-ready. DevOps and cloud engineering experience combined with evaluated LLM agents, RAG and human-reviewed workflows." />
+<div>
+<img src="assets/title-about.svg" width="100%" alt="01 About: Cloud engineering meets applied AI" /><img src="assets/about-intro.svg" width="100%" alt="Almost three years in DevOps and cloud infrastructure at Corezeal. Production operations at Compass. AI workflow design at Face Friends Foundation. M.S. Computer Engineering, University of South Florida." /><img src="assets/interlude-about.svg" width="100%" alt="Infrastructure-first, AI-ready. DevOps and cloud engineering experience combined with evaluated LLM agents, RAG and human-reviewed workflows." />
+</div>
 
 <details>
 <summary><b>Professional background and education</b></summary>
