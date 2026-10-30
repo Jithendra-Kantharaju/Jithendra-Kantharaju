@@ -1,27 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="125" viewBox="0 0 1200 125" role="img" aria-label="05 GITHUB ACTIVITY. A year of hands-on building.">
-<defs><linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F22"/><stop offset=".56" stop-color="#111B37"/><stop offset="1" stop-color="#1A3426"/></linearGradient>
-<linearGradient id="grad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#AEED7D"/><stop offset=".55" stop-color="#46D4B0"/><stop offset="1" stop-color="#AEED7D"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#46D4B0" stop-opacity=".23"/><stop offset="1" stop-color="#46D4B0" stop-opacity="0"/></radialGradient>
-<pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#AEED7D" stroke-opacity=".055" fill="none"/></pattern>
-</defs>
-<style>
-  .mono{font-family:ui-monospace,Consolas,Menlo,monospace}.ui{font-family:'Segoe UI',Arial,sans-serif}
-  .text-in{animation:intro .85s cubic-bezier(.2,.9,.2,1) both}@keyframes intro{from{opacity:1;transform:translateY(11px)}to{opacity:1;transform:translateY(0)}}
-  .moving{animation:float 6s ease-in-out infinite}@keyframes float{50%{transform:translateY(-6px)}}
-  .cellmove{animation:cell 2.8s ease-in-out infinite}@keyframes cell{0%,100%{opacity:.25}40%{opacity:1}}.line-in{animation:line-in 1.4s ease both}@keyframes line-in{from{stroke-dashoffset:488}to{stroke-dashoffset:0}}
-  @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important}.only-motion{display:none!important}}
-</style>
-<rect width="1200" height="125" rx="18" fill="url(#back)"/>
-<rect width="1200" height="125" rx="18" fill="url(#g)"/>
-<rect x=".8" y=".8" width="1198.4" height="123.4" rx="17.5" fill="none" stroke="#AEED7D" stroke-opacity=".32"/>
 
-<ellipse cx="1030" cy="66" rx="275" ry="124" fill="url(#halo)"/>
-<rect x="0" y="0" width="7" height="125" rx="3" fill="url(#grad)"/>
-<path d="M152 110 H1154" fill="none" stroke="#AEED7D" stroke-opacity=".3" stroke-width="1"/>
-<path d="M152 110 H640" fill="none" stroke="url(#grad)" stroke-width="3" stroke-dasharray="488" class="line-in"/>
-<rect x="30" y="25" width="78" height="78" rx="22" fill="#0A1D35" stroke="#AEED7D" stroke-opacity=".85" stroke-width="1.5"/>
-<text x="69" y="74" text-anchor="middle" class="mono" font-size="31" font-weight="700" fill="#AEED7D">05</text>
-<text class="ui text-in" style="animation-delay:.12s" x="150" y="67" font-size="42" font-weight="800" fill="#F3F8FF">GITHUB ACTIVITY</text>
-<text class="ui text-in" style="animation-delay:.28s" x="152" y="96" font-size="17" fill="#B5C7E0">A year of hands-on building.</text>
-<g><rect x="915" y="24" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:0.00s" opacity=".8"/><rect x="938" y="24" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.10s" opacity=".8"/><rect x="961" y="24" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.20s" opacity=".8"/><rect x="984" y="24" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:0.30s" opacity=".8"/><rect x="1007" y="24" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.40s" opacity=".8"/><rect x="1030" y="24" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.50s" opacity=".8"/><rect x="1053" y="24" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:0.60s" opacity=".8"/><rect x="1076" y="24" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.70s" opacity=".8"/><rect x="1099" y="24" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.80s" opacity=".8"/><rect x="1122" y="24" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:0.90s" opacity=".8"/><rect x="915" y="47" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.28s" opacity=".8"/><rect x="938" y="47" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.38s" opacity=".8"/><rect x="961" y="47" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:0.48s" opacity=".8"/><rect x="984" y="47" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.58s" opacity=".8"/><rect x="1007" y="47" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.68s" opacity=".8"/><rect x="1030" y="47" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:0.78s" opacity=".8"/><rect x="1053" y="47" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.88s" opacity=".8"/><rect x="1076" y="47" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.98s" opacity=".8"/><rect x="1099" y="47" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:1.08s" opacity=".8"/><rect x="1122" y="47" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.18s" opacity=".8"/><rect x="915" y="70" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.56s" opacity=".8"/><rect x="938" y="70" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:0.66s" opacity=".8"/><rect x="961" y="70" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.76s" opacity=".8"/><rect x="984" y="70" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.86s" opacity=".8"/><rect x="1007" y="70" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:0.96s" opacity=".8"/><rect x="1030" y="70" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.06s" opacity=".8"/><rect x="1053" y="70" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.16s" opacity=".8"/><rect x="1076" y="70" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:1.26s" opacity=".8"/><rect x="1099" y="70" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.36s" opacity=".8"/><rect x="1122" y="70" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.46s" opacity=".8"/><rect x="915" y="93" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:0.84s" opacity=".8"/><rect x="938" y="93" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:0.94s" opacity=".8"/><rect x="961" y="93" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.04s" opacity=".8"/><rect x="984" y="93" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:1.14s" opacity=".8"/><rect x="1007" y="93" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.24s" opacity=".8"/><rect x="1030" y="93" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.34s" opacity=".8"/><rect x="1053" y="93" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:1.44s" opacity=".8"/><rect x="1076" y="93" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.54s" opacity=".8"/><rect x="1099" y="93" width="15" height="15" rx="3" fill="#AEED7D" class="cellmove" style="animation-delay:1.64s" opacity=".8"/><rect x="1122" y="93" width="15" height="15" rx="3" fill="#46D4B0" class="cellmove" style="animation-delay:1.74s" opacity=".8"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="125" viewBox="0 0 1200 125" role="img" aria-label="05 GITHUB ACTIVITY. A year of hands-on building.">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080F22"/>
+      <stop offset=".56" stop-color="#111B37"/>
+      <stop offset="1" stop-color="#1A3426"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#AEED7D"/>
+      <stop offset=".55" stop-color="#46D4B0"/>
+      <stop offset="1" stop-color="#AEED7D"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#46D4B0" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#46D4B0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#AEED7D" stroke-opacity=".055" fill="none"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono{font-family:ui-monospace,Consolas,Menlo,monospace}
+    .ui{font-family:'Segoe UI',Arial,sans-serif}
+    .text-in{animation:intro .85s ease-out both}
+    @keyframes intro{
+      from{transform:translateY(11px)}
+      to{transform:translateY(0)}
+    }
+    .line-in{
+      stroke-dasharray:488;
+      animation:line-in 1.4s ease both
+    }
+    @keyframes line-in{
+      from{stroke-dashoffset:488}
+      to{stroke-dashoffset:0}
+    }
+    @media(prefers-reduced-motion:reduce){
+      *{animation:none!important}
+    }
+  </style>
+
+  <rect width="1200" height="125" rx="18" fill="url(#back)"/>
+  <rect width="1200" height="125" rx="18" fill="url(#g)"/>
+  <rect x=".8" y=".8" width="1198.4" height="123.4" rx="17.5" fill="none" stroke="#AEED7D" stroke-opacity=".32"/>
+
+  <ellipse cx="1030" cy="66" rx="275" ry="124" fill="url(#halo)"/>
+  <rect width="7" height="125" rx="3" fill="url(#grad)"/>
+
+  <path d="M152 110H1154" fill="none" stroke="#AEED7D" stroke-opacity=".3"/>
+  <path d="M152 110H640" fill="none" stroke="url(#grad)" stroke-width="3" class="line-in"/>
+
+  <rect x="30" y="25" width="78" height="78" rx="22" fill="#0A1D35" stroke="#AEED7D" stroke-opacity=".85" stroke-width="1.5"/>
+  <text x="69" y="74" text-anchor="middle" class="mono" font-size="31" font-weight="700" fill="#AEED7D">05</text>
+
+  <text x="150" y="67" class="ui text-in" font-size="42" font-weight="800" fill="#F3F8FF">GITHUB ACTIVITY</text>
+  <text x="152" y="96" class="ui text-in" font-size="17" fill="#B5C7E0" style="animation-delay:.2s">A year of hands-on building.</text>
 </svg>

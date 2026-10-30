@@ -1,27 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="125" viewBox="0 0 1200 125" role="img" aria-label="06 CREDENTIALS. Cloud and AI certifications.">
-<defs><linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F22"/><stop offset=".56" stop-color="#111B37"/><stop offset="1" stop-color="#2A1B45"/></linearGradient>
-<linearGradient id="grad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#C59BFF"/><stop offset=".55" stop-color="#8CA4FF"/><stop offset="1" stop-color="#C59BFF"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#8CA4FF" stop-opacity=".23"/><stop offset="1" stop-color="#8CA4FF" stop-opacity="0"/></radialGradient>
-<pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#C59BFF" stroke-opacity=".055" fill="none"/></pattern>
-</defs>
-<style>
-  .mono{font-family:ui-monospace,Consolas,Menlo,monospace}.ui{font-family:'Segoe UI',Arial,sans-serif}
-  .text-in{animation:intro .85s cubic-bezier(.2,.9,.2,1) both}@keyframes intro{from{opacity:1;transform:translateY(11px)}to{opacity:1;transform:translateY(0)}}
-  .moving{animation:float 6s ease-in-out infinite}@keyframes float{50%{transform:translateY(-6px)}}
-  .seal-ring{animation:seal 22s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes seal{to{transform:rotate(360deg)}}.checkmove{stroke-dasharray:48;animation:check 3.4s ease-in-out infinite}@keyframes check{0%{stroke-dashoffset:48}40%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:48}}.line-in{animation:line-in 1.4s ease both}@keyframes line-in{from{stroke-dashoffset:488}to{stroke-dashoffset:0}}
-  @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important}.only-motion{display:none!important}}
-</style>
-<rect width="1200" height="125" rx="18" fill="url(#back)"/>
-<rect width="1200" height="125" rx="18" fill="url(#g)"/>
-<rect x=".8" y=".8" width="1198.4" height="123.4" rx="17.5" fill="none" stroke="#C59BFF" stroke-opacity=".32"/>
 
-<ellipse cx="1030" cy="66" rx="275" ry="124" fill="url(#halo)"/>
-<rect x="0" y="0" width="7" height="125" rx="3" fill="url(#grad)"/>
-<path d="M152 110 H1154" fill="none" stroke="#C59BFF" stroke-opacity=".3" stroke-width="1"/>
-<path d="M152 110 H640" fill="none" stroke="url(#grad)" stroke-width="3" stroke-dasharray="488" class="line-in"/>
-<rect x="30" y="25" width="78" height="78" rx="22" fill="#0A1D35" stroke="#C59BFF" stroke-opacity=".85" stroke-width="1.5"/>
-<text x="69" y="74" text-anchor="middle" class="mono" font-size="31" font-weight="700" fill="#C59BFF">06</text>
-<text class="ui text-in" style="animation-delay:.12s" x="150" y="67" font-size="42" font-weight="800" fill="#F3F8FF">CREDENTIALS</text>
-<text class="ui text-in" style="animation-delay:.28s" x="152" y="96" font-size="17" fill="#B5C7E0">Cloud and AI certifications.</text>
-<g transform="translate(1045 63)"><circle r="42" stroke="#C59BFF" stroke-width="2" fill="none" stroke-dasharray="7 6" class="seal-ring"/><circle r="29" stroke="#8CA4FF" stroke-width="1" fill="none"/><path d="M-17 0 L-4 12 19 -17" fill="none" stroke="#C59BFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="checkmove"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="125" viewBox="0 0 1200 125" role="img" aria-label="06 CREDENTIALS. Cloud and AI certifications.">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080F22"/>
+      <stop offset=".56" stop-color="#111B37"/>
+      <stop offset="1" stop-color="#2A1B45"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#C59BFF"/>
+      <stop offset=".55" stop-color="#8CA4FF"/>
+      <stop offset="1" stop-color="#C59BFF"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#8CA4FF" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#8CA4FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#C59BFF" stroke-opacity=".055" fill="none"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono{font-family:ui-monospace,Consolas,Menlo,monospace}
+    .ui{font-family:'Segoe UI',Arial,sans-serif}
+    .text-in{animation:intro .85s ease-out both}
+    @keyframes intro{
+      from{transform:translateY(11px)}
+      to{transform:translateY(0)}
+    }
+    .line-in{
+      stroke-dasharray:488;
+      animation:line-in 1.4s ease both
+    }
+    @keyframes line-in{
+      from{stroke-dashoffset:488}
+      to{stroke-dashoffset:0}
+    }
+    @media(prefers-reduced-motion:reduce){
+      *{animation:none!important}
+    }
+  </style>
+
+  <rect width="1200" height="125" rx="18" fill="url(#back)"/>
+  <rect width="1200" height="125" rx="18" fill="url(#g)"/>
+  <rect x=".8" y=".8" width="1198.4" height="123.4" rx="17.5" fill="none" stroke="#C59BFF" stroke-opacity=".32"/>
+
+  <ellipse cx="1030" cy="66" rx="275" ry="124" fill="url(#halo)"/>
+  <rect width="7" height="125" rx="3" fill="url(#grad)"/>
+
+  <path d="M152 110H1154" fill="none" stroke="#C59BFF" stroke-opacity=".3"/>
+  <path d="M152 110H640" fill="none" stroke="url(#grad)" stroke-width="3" class="line-in"/>
+
+  <rect x="30" y="25" width="78" height="78" rx="22" fill="#0A1D35" stroke="#C59BFF" stroke-opacity=".85" stroke-width="1.5"/>
+  <text x="69" y="74" text-anchor="middle" class="mono" font-size="31" font-weight="700" fill="#C59BFF">06</text>
+
+  <text x="150" y="67" class="ui text-in" font-size="42" font-weight="800" fill="#F3F8FF">CREDENTIALS</text>
+  <text x="152" y="96" class="ui text-in" font-size="17" fill="#B5C7E0" style="animation-delay:.2s">Cloud and AI certifications.</text>
 </svg>

@@ -1,66 +1,588 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="372" viewBox="0 0 1200 372" role="img" aria-label="ENTERPRISE CLOUDOPS AI. Eight services on AWS EKS with a LangGraph incident agent and RAG assistant for grounded knowledge retrieval. INCIDENT EVAL: 93.8% (15/16). Technologies: AWS EKS, Terraform, ArgoCD, LangGraph, ChromaDB">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F24"/><stop offset=".68" stop-color="#111633"/><stop offset="1" stop-color="#170F38"/></linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#32E6F2"/><stop offset=".55" stop-color="#6198FB"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
-  <radialGradient id="aura"><stop stop-color="#6146C3" stop-opacity=".35"/><stop offset="1" stop-color="#6146C3" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#6B86C9" stroke-opacity=".085"/></pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="7" result="s"/><feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  
-</defs>
-<style>
-  .mono{font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace}
-  .sans{font-family: 'Segoe UI', Arial, Helvetica, sans-serif}
-  .head{font-family: 'Segoe UI', Arial, Helvetica, sans-serif; font-weight:800}
-  .fade{animation:appear 1.25s ease both}
-  .pulse{animation:pulse 4s ease-in-out infinite}
-  @keyframes appear{from{opacity:1; transform:translateY(9px)}to{opacity:1; transform:translateY(0)}}
-  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:.95}}
-  @media (prefers-reduced-motion: reduce){.fade,.pulse{animation:none}}
 
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="372"
+     viewBox="0 0 1200 372"
+     role="img"
+     aria-label="Enterprise CloudOps AI. Eight services on AWS EKS. LangGraph incident diagnosis using CloudWatch, Prometheus and EKS telemetry, plus a FastAPI ChromaDB RAG assistant. 93.8 percent accuracy in 16 mocked incident scenarios.">
 
-  /* GitHub-compatible, native SVG motion. No scripts, remote fonts, or JS. */
-  .kin-in{animation:kin-in 980ms cubic-bezier(.16,1,.3,1) both}
-  .kin-glow{animation:kin-glow 5.2s ease-in-out infinite}
-  .kin-nudge{animation:kin-nudge 5s ease-in-out infinite}
-  .kin-dash{stroke-dasharray:9 15;animation:kin-dash 9s linear infinite}
-  .kin-ring{transform-box:fill-box;transform-origin:center;animation:kin-ring 4.6s ease-in-out infinite}
-  .kin-rail{animation:kin-rail 2.3s ease-in-out infinite}
-  @keyframes kin-in{0%{opacity:1;transform:translateY(12px)}100%{opacity:1;transform:translateY(0)}}
-  @keyframes kin-glow{0%,100%{opacity:.35}50%{opacity:1}}
-  @keyframes kin-nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
-  @keyframes kin-dash{to{stroke-dashoffset:-288}}
-  @keyframes kin-ring{0%,100%{opacity:.45;transform:scale(.96)}50%{opacity:1;transform:scale(1.10)}}
-  @keyframes kin-rail{0%,100%{opacity:.55}50%{opacity:1}}
-  @media (prefers-reduced-motion:reduce){
-    .kin-in,.kin-glow,.kin-nudge,.kin-dash,.kin-ring,.kin-rail{animation:none!important;opacity:1!important;transform:none!important}
-    .kin-moving{display:none!important}
-  }
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080F24"/>
+      <stop offset=".68" stop-color="#111633"/>
+      <stop offset="1" stop-color="#170F38"/>
+    </linearGradient>
 
-/* Custom motion for project-cloudops.svg */
-.telemetry{stroke-dasharray:12 9;animation:telemetry 7s linear infinite}@keyframes telemetry{to{stroke-dashoffset:-190}}.incident-radar{transform-box:fill-box;transform-origin:center;animation:radar 3.7s ease-in-out infinite}@keyframes radar{0%,100%{opacity:.16;transform:scale(.74)}50%{opacity:.9;transform:scale(1.18)}}@media(prefers-reduced-motion:reduce){.project-motion{display:none}}
-</style>
-<rect width="1200" height="372" rx="18" fill="url(#bg)"/>
-<rect width="1200" height="372" rx="18" fill="url(#grid)"/>
-<rect x=".8" y=".8" width="1198.4" height="370.4" rx="17.5" fill="none" stroke="#65A4FF" stroke-opacity=".20"/>
-<ellipse cx="1010" cy="80" rx="240" ry="190" fill="url(#aura)" class="kin-glow"/>
-    <rect x="39" y="35" width="7" height="278" rx="3" fill="url(#accent)"/>
-    <text x="71" y="69" font-family="mono" class="mono kin-in" font-size="14" font-weight="600" fill="#32E6F2" style="animation-delay:0.16s">02 / AGENTIC AIOPS</text>
-    <text x="70" y="119" font-family="head" class="head kin-in" font-size="34" font-weight="800" fill="#ECF4FF" style="animation-delay:0.27s">ENTERPRISE CLOUDOPS AI</text>
-    <text x="70" y="168" font-family="sans" class="sans kin-in" font-size="18" font-weight="400" fill="#9DB0D0" style="animation-delay:0.38s">Eight services on AWS EKS with a LangGraph incident agent</text>
-    <text x="70" y="196" font-family="sans" class="sans kin-in" font-size="18" font-weight="400" fill="#9DB0D0" style="animation-delay:0.49s">and RAG assistant for grounded knowledge retrieval.</text>
-    <text x="71" y="235" font-family="mono" class="mono kin-in" font-size="12" font-weight="650" fill="#A78BFA" style="animation-delay:0.60s">INCIDENT EVAL</text>
-    <text x="71" y="276" font-family="head" class="head kin-in" font-size="27" font-weight="750" fill="#32E6F2" style="animation-delay:0.71s">93.8% (15/16)</text>
-    <path d="M70 298 H814" stroke="#324264"/>
-    <g><rect x="70" y="310" width="78" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="109.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">AWS EKS</text></g><g><rect x="157" y="310" width="94" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="204.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">Terraform</text></g><g><rect x="260" y="310" width="70" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="295.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">ArgoCD</text></g><g><rect x="339" y="310" width="94" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="386.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">LangGraph</text></g><g><rect x="442" y="310" width="86" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="485.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">ChromaDB</text></g><rect x="855" y="70" width="303" height="245" rx="15" fill="#101C39" stroke="#3B517B" stroke-opacity=".55"/>
-    <text x="876" y="99" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#9DB0D0">SYSTEM / FLOW</text>
-    <path d="M898 165 H1116" stroke="url(#accent)" stroke-width="2" stroke-dasharray="7 6" class="kin-dash"/>
-    <circle cx="906" cy="165" r="18" fill="#142F4D" stroke="#32E6F2"/>
-    <circle cx="989" cy="165" r="18" fill="#1E2149" stroke="#7E7BFC"/>
-    <circle cx="1074" cy="165" r="18" fill="#2C2047" stroke="#A78BFA"/>
-    <path d="M910 218 h164" stroke="#304A70" stroke-dasharray="3 8"/>
-    <text x="906" y="253" font-family="mono" class="mono" font-size="12" font-weight="600" fill="#32E6F2" text-anchor="middle">OBSERVE</text>
-    <text x="989" y="253" font-family="mono" class="mono" font-size="12" font-weight="600" fill="#32E6F2" text-anchor="middle">REASON</text>
-    <text x="1074" y="253" font-family="mono" class="mono" font-size="12" font-weight="600" fill="#32E6F2" text-anchor="middle">RESPOND</text>
-    
-<g class="kin-moving"><circle cx="906" cy="165" r="24" fill="none" stroke="#32E6F2" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="0.00s" repeatCount="indefinite"/></circle><circle cx="989" cy="165" r="24" fill="none" stroke="#8495FF" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="0.65s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="0.65s" repeatCount="indefinite"/></circle><circle cx="1074" cy="165" r="24" fill="none" stroke="#A78BFA" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="1.30s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="1.30s" repeatCount="indefinite"/></circle><circle cx="906" cy="165" r="4" fill="#F0F8FF"><animate attributeName="cx" values="906;989;1074;1074" keyTimes="0;.35;.7;1" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.68;1" dur="5s" repeatCount="indefinite"/></circle></g><g class="project-motion"><path d="M877 133 h22 l10 -14 12 28 11 -17 18 3 h20 l9 -15 13 31 15 -21 16 5 h24 l13 -12 13 12 h40" fill="none" stroke="#4ED8F6" stroke-width="2" stroke-linejoin="round" class="telemetry"/><circle cx="989" cy="165" r="41" fill="none" stroke="#A78BFA" stroke-opacity=".6" stroke-width="1.5" class="incident-radar"/><text x="878" y="288" font-size="11" font-family="monospace" fill="#73D8EE">CLOUDWATCH  /  PROMETHEUS  /  EKS</text></g>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#32E6F2"/>
+      <stop offset=".55" stop-color="#6198FB"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <radialGradient id="aura">
+      <stop stop-color="#6146C3" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#6146C3" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40"
+            fill="none"
+            stroke="#6B86C9"
+            stroke-opacity=".085"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono {
+      font-family:ui-monospace,Consolas,Menlo,monospace;
+    }
+
+    .sans {
+      font-family:'Segoe UI',Arial,sans-serif;
+    }
+
+    .head {
+      font-family:'Segoe UI',Arial,sans-serif;
+      font-weight:800;
+    }
+
+    .enter {
+      animation:enter .9s ease-out both;
+    }
+
+    @keyframes enter {
+      from { transform:translateY(8px); }
+      to { transform:translateY(0); }
+    }
+
+    .glow {
+      animation:glow 5s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+      0%,100% { opacity:.35; }
+      50% { opacity:.95; }
+    }
+
+    .telemetry-line {
+      stroke-dasharray:4 7;
+      animation:flow 4s linear infinite;
+    }
+
+    @keyframes flow {
+      to { stroke-dashoffset:-66; }
+    }
+
+    .monitor-pulse {
+      animation:monitor 2.6s ease-in-out infinite;
+    }
+
+    @keyframes monitor {
+      0%,100% { opacity:.3; }
+      50% { opacity:1; }
+    }
+
+    .agent-pulse {
+      animation:agent 3s ease-in-out infinite;
+    }
+
+    @keyframes agent {
+      0%,100% { opacity:.45; }
+      50% { opacity:1; }
+    }
+
+    .document-pulse {
+      animation:document 3.6s ease-in-out infinite;
+    }
+
+    @keyframes document {
+      0%,100% { opacity:.4; }
+      50% { opacity:1; }
+    }
+
+    .alert-pulse {
+      animation:alert 3.2s ease-in-out infinite;
+    }
+
+    @keyframes alert {
+      0%,100% { opacity:.35; }
+      50% { opacity:1; }
+    }
+
+    @media(prefers-reduced-motion:reduce) {
+      .enter,.glow,.telemetry-line,
+      .monitor-pulse,.agent-pulse,
+      .document-pulse,.alert-pulse {
+        animation:none!important;
+      }
+
+      .motion-only {
+        display:none!important;
+      }
+    }
+  </style>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="372"
+        rx="18" fill="url(#bg)"/>
+
+  <rect width="1200" height="372"
+        rx="18" fill="url(#grid)"/>
+
+  <rect x=".8" y=".8"
+        width="1198.4" height="370.4"
+        rx="17.5"
+        fill="none"
+        stroke="#65A4FF"
+        stroke-opacity=".2"/>
+
+  <ellipse cx="1010" cy="80"
+           rx="240" ry="190"
+           fill="url(#aura)"
+           class="glow"/>
+
+  <!-- LEFT SIDE: PROJECT INFORMATION -->
+
+  <rect x="39" y="35"
+        width="7" height="278"
+        rx="3"
+        fill="url(#accent)"/>
+
+  <text x="71" y="69"
+        class="mono enter"
+        font-size="14"
+        font-weight="600"
+        fill="#32E6F2">
+    02 / AGENTIC AIOPS
+  </text>
+
+  <text x="70" y="119"
+        class="head enter"
+        font-size="34"
+        fill="#ECF4FF">
+    ENTERPRISE CLOUDOPS AI
+  </text>
+
+  <text x="70" y="168"
+        class="sans enter"
+        font-size="18"
+        fill="#9DB0D0">
+    Eight services on AWS EKS with a LangGraph incident agent
+  </text>
+
+  <text x="70" y="196"
+        class="sans enter"
+        font-size="18"
+        fill="#9DB0D0">
+    and RAG assistant for grounded knowledge retrieval.
+  </text>
+
+  <text x="71" y="235"
+        class="mono"
+        font-size="12"
+        font-weight="600"
+        fill="#A78BFA">
+    INCIDENT EVAL
+  </text>
+
+  <text x="71" y="276"
+        class="head"
+        font-size="27"
+        fill="#32E6F2">
+    93.8% (15/16)
+  </text>
+
+  <path d="M70 298H814"
+        stroke="#324264"/>
+
+  <!-- TECHNOLOGY BADGES -->
+
+  <g class="mono"
+     font-size="12"
+     text-anchor="middle"
+     fill="#C6D9F1">
+
+    <rect x="70" y="310" width="78" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="109" y="331">AWS EKS</text>
+
+    <rect x="157" y="310" width="94" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="204" y="331">Terraform</text>
+
+    <rect x="260" y="310" width="70" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="295" y="331">ArgoCD</text>
+
+    <rect x="339" y="310" width="94" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="386" y="331">LangGraph</text>
+
+    <rect x="442" y="310" width="86" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="485" y="331">ChromaDB</text>
+  </g>
+
+  <!-- RIGHT SIDE: CLOUDOPS ARCHITECTURE -->
+
+  <rect x="855" y="70"
+        width="303" height="245"
+        rx="15"
+        fill="#0C1933"
+        stroke="#48618A"
+        stroke-opacity=".7"/>
+
+  <text x="876" y="96"
+        class="mono"
+        font-size="11.5"
+        font-weight="700"
+        fill="#A7CFF0">
+    AGENT / KNOWLEDGE PATHS
+  </text>
+
+  <circle cx="1133" cy="92"
+          r="3"
+          fill="#64E6C1"
+          class="monitor-pulse"/>
+
+  <path d="M875 103H1138"
+        stroke="#304764"/>
+
+  <!-- TWO PARALLEL ARCHITECTURE LANES -->
+
+  <!-- Incident flow source -->
+
+  <rect x="874" y="115"
+        width="127" height="43"
+        rx="9"
+        fill="#102B42"
+        stroke="#32E6F2"
+        stroke-opacity=".65"/>
+
+  <text x="887" y="132"
+        class="mono"
+        font-size="10.5"
+        font-weight="700"
+        fill="#32E6F2">
+    AWS TELEMETRY
+  </text>
+
+  <text x="887" y="148"
+        class="sans"
+        font-size="10.5"
+        fill="#B9D4E9">
+    CW / Prom / EKS
+  </text>
+
+  <!-- Small monitoring indicators -->
+
+  <g class="monitor-pulse">
+    <circle cx="986" cy="123"
+            r="2.5" fill="#32E6F2"/>
+    <circle cx="979" cy="123"
+            r="2" fill="#6198FB"/>
+  </g>
+
+  <!-- RAG documentation source -->
+
+  <rect x="1011" y="115"
+        width="127" height="43"
+        rx="9"
+        fill="#211E45"
+        stroke="#A78BFA"
+        stroke-opacity=".7"/>
+
+  <text x="1023" y="132"
+        class="mono"
+        font-size="10.5"
+        font-weight="700"
+        fill="#C2AFFF">
+    DOCS / RUNBOOKS
+  </text>
+
+  <text x="1023" y="148"
+        class="sans"
+        font-size="10.5"
+        fill="#D0C6EA">
+    Knowledge sources
+  </text>
+
+  <circle cx="1127" cy="123"
+          r="2.5"
+          fill="#C2AFFF"
+          class="document-pulse"/>
+
+  <!-- CONNECTIONS FROM SOURCES TO AI -->
+
+  <path d="M937.5 158V181"
+        fill="none"
+        stroke="#32E6F2"
+        stroke-width="2"
+        class="telemetry-line"/>
+
+  <path d="M1074.5 158V181"
+        fill="none"
+        stroke="#A78BFA"
+        stroke-width="2"
+        class="telemetry-line"/>
+
+  <path d="M933.5 176L937.5 181L941.5 176"
+        fill="none"
+        stroke="#32E6F2"
+        stroke-width="1.5"/>
+
+  <path d="M1070.5 176L1074.5 181L1078.5 176"
+        fill="none"
+        stroke="#A78BFA"
+        stroke-width="1.5"/>
+
+  <!-- Moving telemetry packet -->
+
+  <g class="motion-only">
+    <circle cx="937.5" cy="160"
+            r="3"
+            fill="#E7FFFF">
+      <animate attributeName="cy"
+               values="160;178"
+               dur="2.3s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               keyTimes="0;.2;.8;1"
+               dur="2.3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1074.5" cy="160"
+            r="3"
+            fill="#EDE2FF">
+      <animate attributeName="cy"
+               values="160;178"
+               dur="2.9s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               keyTimes="0;.2;.8;1"
+               dur="2.9s"
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- AI SERVICE 01: LANGGRAPH -->
+
+  <rect x="874" y="181"
+        width="127" height="44"
+        rx="9"
+        fill="#113247"
+        stroke="#32E6F2"
+        stroke-opacity=".8"/>
+
+  <text x="887" y="198"
+        class="mono"
+        font-size="10.5"
+        font-weight="700"
+        fill="#48E9F4">
+    LANGGRAPH AGENT
+  </text>
+
+  <text x="887" y="214"
+        class="sans"
+        font-size="10.5"
+        fill="#B9D4E9">
+    Incident diagnosis
+  </text>
+
+  <!-- Agent processing signal -->
+
+  <g class="agent-pulse">
+    <circle cx="989" cy="202"
+            r="5"
+            fill="none"
+            stroke="#32E6F2"
+            stroke-width="1.3"/>
+
+    <circle cx="989" cy="202"
+            r="2"
+            fill="#32E6F2"/>
+  </g>
+
+  <!-- AI SERVICE 02: RAG -->
+
+  <rect x="1011" y="181"
+        width="127" height="44"
+        rx="9"
+        fill="#272049"
+        stroke="#A78BFA"
+        stroke-opacity=".8"/>
+
+  <text x="1023" y="198"
+        class="mono"
+        font-size="11"
+        font-weight="700"
+        fill="#C2AFFF">
+    FASTAPI + RAG
+  </text>
+
+  <text x="1023" y="214"
+        class="sans"
+        font-size="10.5"
+        fill="#D0C6EA">
+    ChromaDB retrieval
+  </text>
+
+  <!-- RAG retrieval icon -->
+
+  <g class="document-pulse"
+     transform="translate(1127 201)">
+
+    <circle r="5"
+            fill="none"
+            stroke="#C2AFFF"
+            stroke-width="1.2"/>
+
+    <path d="M-2 0L0 2L3 -2"
+          fill="none"
+          stroke="#C2AFFF"
+          stroke-width="1.3"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- CONNECTIONS TO OUTPUTS -->
+
+  <path d="M937.5 225V248"
+        fill="none"
+        stroke="#32E6F2"
+        stroke-width="2"
+        class="telemetry-line"/>
+
+  <path d="M1074.5 225V248"
+        fill="none"
+        stroke="#A78BFA"
+        stroke-width="2"
+        class="telemetry-line"/>
+
+  <path d="M933.5 243L937.5 248L941.5 243"
+        fill="none"
+        stroke="#32E6F2"
+        stroke-width="1.5"/>
+
+  <path d="M1070.5 243L1074.5 248L1078.5 243"
+        fill="none"
+        stroke="#A78BFA"
+        stroke-width="1.5"/>
+
+  <!-- Animated output packets -->
+
+  <g class="motion-only">
+    <circle cx="937.5" cy="227"
+            r="3"
+            fill="#E7FFFF">
+      <animate attributeName="cy"
+               values="227;246"
+               dur="2.3s"
+               begin=".6s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               keyTimes="0;.2;.8;1"
+               dur="2.3s"
+               begin=".6s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1074.5" cy="227"
+            r="3"
+            fill="#EDE2FF">
+      <animate attributeName="cy"
+               values="227;246"
+               dur="2.9s"
+               begin=".7s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               keyTimes="0;.2;.8;1"
+               dur="2.9s"
+               begin=".7s"
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- OUTPUT 01: SLACK ALERTS -->
+
+  <rect x="874" y="248"
+        width="127" height="40"
+        rx="9"
+        fill="#10352F"
+        stroke="#5AE5C0"
+        stroke-opacity=".7"/>
+
+  <text x="887" y="265"
+        class="mono"
+        font-size="10.5"
+        font-weight="700"
+        fill="#66E9C5">
+    SLACK ALERTS
+  </text>
+
+  <text x="887" y="280"
+        class="sans"
+        font-size="10"
+        fill="#B1E2D2">
+    Triage summary
+  </text>
+
+  <circle cx="990" cy="260"
+          r="3"
+          fill="#64E6C1"
+          class="alert-pulse"/>
+
+  <!-- OUTPUT 02: GROUNDED RAG ANSWERS -->
+
+  <rect x="1011" y="248"
+        width="127" height="40"
+        rx="9"
+        fill="#2A2346"
+        stroke="#B8A2FF"
+        stroke-opacity=".7"/>
+
+  <text x="1023" y="265"
+        class="mono"
+        font-size="10"
+        font-weight="700"
+        fill="#C9B9FF">
+    GROUNDED ANSWERS
+  </text>
+
+  <text x="1023" y="280"
+        class="sans"
+        font-size="10"
+        fill="#D5CBE9">
+    Source-backed
+  </text>
+
+  <path d="M1120 259L1123 262L1128 256"
+        fill="none"
+        stroke="#C9B9FF"
+        stroke-width="1.7"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="document-pulse"/>
+
+  <!-- PLATFORM FOOTER -->
+
+  <text x="1007" y="304"
+        class="mono"
+        text-anchor="middle"
+        font-size="9.5"
+        font-weight="600"
+        fill="#94ACCC">
+    EKS / TERRAFORM / ARGOCD / 8 SERVICES
+  </text>
+
 </svg>

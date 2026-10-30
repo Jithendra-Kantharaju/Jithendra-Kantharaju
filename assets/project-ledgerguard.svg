@@ -1,66 +1,521 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="372" viewBox="0 0 1200 372" role="img" aria-label="LEDGERGUARD. AI-assisted invoice processing with policy checks, three-way matching, human approval and auditable decisions. 425 SYNTHETIC CASES: 0 WRONG AUTO-APPROVALS. Technologies: Python, LangGraph, FastAPI, PostgreSQL, AWS ECS">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F24"/><stop offset=".68" stop-color="#111633"/><stop offset="1" stop-color="#170F38"/></linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#32E6F2"/><stop offset=".55" stop-color="#6198FB"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
-  <radialGradient id="aura"><stop stop-color="#6146C3" stop-opacity=".35"/><stop offset="1" stop-color="#6146C3" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#6B86C9" stroke-opacity=".085"/></pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="7" result="s"/><feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  
-</defs>
-<style>
-  .mono{font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace}
-  .sans{font-family: 'Segoe UI', Arial, Helvetica, sans-serif}
-  .head{font-family: 'Segoe UI', Arial, Helvetica, sans-serif; font-weight:800}
-  .fade{animation:appear 1.25s ease both}
-  .pulse{animation:pulse 4s ease-in-out infinite}
-  @keyframes appear{from{opacity:1; transform:translateY(9px)}to{opacity:1; transform:translateY(0)}}
-  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:.95}}
-  @media (prefers-reduced-motion: reduce){.fade,.pulse{animation:none}}
 
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="372"
+     viewBox="0 0 1200 372"
+     role="img"
+     aria-label="LedgerGuard. AI-assisted invoice processing with policy checks, three-way matching, human review and audit trails. Zero wrong automatic approvals in 425 synthetic tests.">
 
-  /* GitHub-compatible, native SVG motion. No scripts, remote fonts, or JS. */
-  .kin-in{animation:kin-in 980ms cubic-bezier(.16,1,.3,1) both}
-  .kin-glow{animation:kin-glow 5.2s ease-in-out infinite}
-  .kin-nudge{animation:kin-nudge 5s ease-in-out infinite}
-  .kin-dash{stroke-dasharray:9 15;animation:kin-dash 9s linear infinite}
-  .kin-ring{transform-box:fill-box;transform-origin:center;animation:kin-ring 4.6s ease-in-out infinite}
-  .kin-rail{animation:kin-rail 2.3s ease-in-out infinite}
-  @keyframes kin-in{0%{opacity:1;transform:translateY(12px)}100%{opacity:1;transform:translateY(0)}}
-  @keyframes kin-glow{0%,100%{opacity:.35}50%{opacity:1}}
-  @keyframes kin-nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
-  @keyframes kin-dash{to{stroke-dashoffset:-288}}
-  @keyframes kin-ring{0%,100%{opacity:.45;transform:scale(.96)}50%{opacity:1;transform:scale(1.10)}}
-  @keyframes kin-rail{0%,100%{opacity:.55}50%{opacity:1}}
-  @media (prefers-reduced-motion:reduce){
-    .kin-in,.kin-glow,.kin-nudge,.kin-dash,.kin-ring,.kin-rail{animation:none!important;opacity:1!important;transform:none!important}
-    .kin-moving{display:none!important}
-  }
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080F24"/>
+      <stop offset=".68" stop-color="#111633"/>
+      <stop offset="1" stop-color="#170F38"/>
+    </linearGradient>
 
-/* Custom motion for project-ledgerguard.svg */
-.invoice-scanner{animation:invoice-scan 4.5s ease-in-out infinite}@keyframes invoice-scan{0%,100%{transform:translateX(0)}50%{transform:translateX(205px)}}.approval-gate{transform-box:fill-box;transform-origin:left;animation:approval 5s ease-in-out infinite}@keyframes approval{0%,10%{transform:scaleX(.04)}75%,90%{transform:scaleX(1)}100%{transform:scaleX(.04)}}@media(prefers-reduced-motion:reduce){.project-motion{display:none}}
-</style>
-<rect width="1200" height="372" rx="18" fill="url(#bg)"/>
-<rect width="1200" height="372" rx="18" fill="url(#grid)"/>
-<rect x=".8" y=".8" width="1198.4" height="370.4" rx="17.5" fill="none" stroke="#65A4FF" stroke-opacity=".20"/>
-<ellipse cx="1010" cy="80" rx="240" ry="190" fill="url(#aura)" class="kin-glow"/>
-    <rect x="39" y="35" width="7" height="278" rx="3" fill="url(#accent)"/>
-    <text x="71" y="69" font-family="mono" class="mono kin-in" font-size="14" font-weight="600" fill="#32E6F2" style="animation-delay:0.16s">01 / AI FINANCE AUTOMATION</text>
-    <text x="70" y="119" font-family="head" class="head kin-in" font-size="34" font-weight="800" fill="#ECF4FF" style="animation-delay:0.27s">LEDGERGUARD</text>
-    <text x="70" y="168" font-family="sans" class="sans kin-in" font-size="18" font-weight="400" fill="#9DB0D0" style="animation-delay:0.38s">AI-assisted invoice processing with policy checks, three-way</text>
-    <text x="70" y="196" font-family="sans" class="sans kin-in" font-size="18" font-weight="400" fill="#9DB0D0" style="animation-delay:0.49s">matching, human approval and auditable decisions.</text>
-    <text x="71" y="235" font-family="mono" class="mono kin-in" font-size="12" font-weight="650" fill="#A78BFA" style="animation-delay:0.60s">425 SYNTHETIC CASES</text>
-    <text x="71" y="276" font-family="head" class="head kin-in" font-size="27" font-weight="750" fill="#32E6F2" style="animation-delay:0.71s">0 WRONG AUTO-APPROVALS</text>
-    <path d="M70 298 H814" stroke="#324264"/>
-    <g><rect x="70" y="310" width="70" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="105.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">Python</text></g><g><rect x="149" y="310" width="94" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="196.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">LangGraph</text></g><g><rect x="252" y="310" width="78" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="291.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">FastAPI</text></g><g><rect x="339" y="310" width="102" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="390.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">PostgreSQL</text></g><g><rect x="450" y="310" width="78" height="32" rx="16" fill="#121F3C" stroke="#6E80D5" stroke-opacity=".42"/><text x="489.0" y="331" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#C6D9F1" text-anchor="middle">AWS ECS</text></g><rect x="855" y="70" width="303" height="245" rx="15" fill="#101C39" stroke="#3B517B" stroke-opacity=".55"/>
-    <text x="876" y="99" font-family="mono" class="mono" font-size="12" font-weight="500" fill="#9DB0D0">SYSTEM / FLOW</text>
-    <path d="M898 165 H1116" stroke="url(#accent)" stroke-width="2" stroke-dasharray="7 6" class="kin-dash"/>
-    <circle cx="906" cy="165" r="18" fill="#142F4D" stroke="#32E6F2"/>
-    <circle cx="989" cy="165" r="18" fill="#1E2149" stroke="#7E7BFC"/>
-    <circle cx="1074" cy="165" r="18" fill="#2C2047" stroke="#A78BFA"/>
-    <path d="M910 218 h164" stroke="#304A70" stroke-dasharray="3 8"/>
-    <text x="906" y="253" font-family="mono" class="mono" font-size="12" font-weight="600" fill="#32E6F2" text-anchor="middle">REVIEW</text>
-    <text x="989" y="253" font-family="mono" class="mono" font-size="12" font-weight="600" fill="#32E6F2" text-anchor="middle">MATCH</text>
-    <text x="1074" y="253" font-family="mono" class="mono" font-size="12" font-weight="600" fill="#32E6F2" text-anchor="middle">DECIDE</text>
-    
-<g class="kin-moving"><circle cx="906" cy="165" r="24" fill="none" stroke="#32E6F2" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="0.00s" repeatCount="indefinite"/></circle><circle cx="989" cy="165" r="24" fill="none" stroke="#8495FF" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="0.65s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="0.65s" repeatCount="indefinite"/></circle><circle cx="1074" cy="165" r="24" fill="none" stroke="#A78BFA" stroke-opacity=".23" stroke-width="1.6"><animate attributeName="r" values="18;27;18" dur="4.5s" begin="1.30s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.65;.12" dur="4.5s" begin="1.30s" repeatCount="indefinite"/></circle><circle cx="906" cy="165" r="4" fill="#F0F8FF"><animate attributeName="cx" values="906;989;1074;1074" keyTimes="0;.35;.7;1" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.68;1" dur="5s" repeatCount="indefinite"/></circle></g><g class="project-motion"><rect x="878" y="122" width="256" height="20" rx="5" fill="#16304A" stroke="#397597" stroke-opacity=".65"/><path d="M888 132 H1126" stroke="#8FABC8" stroke-dasharray="4 7" stroke-opacity=".6"/><rect x="887" y="125" width="32" height="14" rx="3" fill="#35E5E5" fill-opacity=".35" class="invoice-scanner"/><rect x="879" y="277" width="254" height="14" rx="7" fill="#112F43"/><rect x="879" y="277" width="214" height="14" rx="7" fill="#4FE7CF" fill-opacity=".64" class="approval-gate"/></g>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#32E6F2"/>
+      <stop offset=".55" stop-color="#6198FB"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <radialGradient id="aura">
+      <stop stop-color="#6146C3" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#6146C3" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40"
+            fill="none"
+            stroke="#6B86C9"
+            stroke-opacity=".085"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono {
+      font-family:ui-monospace,Consolas,Menlo,monospace;
+    }
+
+    .sans {
+      font-family:'Segoe UI',Arial,sans-serif;
+    }
+
+    .head {
+      font-family:'Segoe UI',Arial,sans-serif;
+      font-weight:800;
+    }
+
+    .enter {
+      animation:enter .9s ease-out both;
+    }
+
+    @keyframes enter {
+      from { transform:translateY(8px); }
+      to { transform:translateY(0); }
+    }
+
+    .glow {
+      animation:glow 5s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+      0%,100% { opacity:.4; }
+      50% { opacity:.95; }
+    }
+
+    .pipeline {
+      stroke-dasharray:4 7;
+      animation:travel 7s linear infinite;
+    }
+
+    @keyframes travel {
+      to { stroke-dashoffset:-110; }
+    }
+
+    .stage-pulse {
+      animation:stage-pulse 7.2s ease-in-out infinite;
+    }
+
+    @keyframes stage-pulse {
+      0%,100% { opacity:.35; }
+      18%,28% { opacity:1; }
+      45% { opacity:.45; }
+    }
+
+    .ai-pulse {
+      animation:ai-pulse 2.8s ease-in-out infinite;
+    }
+
+    @keyframes ai-pulse {
+      0%,100% { opacity:.5; }
+      50% { opacity:1; }
+    }
+
+    .verified {
+      animation:verified 4s ease-in-out infinite;
+    }
+
+    @keyframes verified {
+      0%,100% { opacity:.55; }
+      50% { opacity:1; }
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      .enter,.glow,.pipeline,
+      .stage-pulse,.ai-pulse,.verified {
+        animation:none!important;
+      }
+      .motion-only {
+        display:none!important;
+      }
+    }
+  </style>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="372"
+        rx="18" fill="url(#bg)"/>
+
+  <rect width="1200" height="372"
+        rx="18" fill="url(#grid)"/>
+
+  <rect x=".8" y=".8"
+        width="1198.4" height="370.4"
+        rx="17.5"
+        fill="none"
+        stroke="#65A4FF"
+        stroke-opacity=".2"/>
+
+  <ellipse cx="1010" cy="80"
+           rx="240" ry="190"
+           fill="url(#aura)"
+           class="glow"/>
+
+  <!-- LEFT SIDE: PROJECT INFORMATION -->
+
+  <rect x="39" y="35"
+        width="7" height="278"
+        rx="3" fill="url(#accent)"/>
+
+  <text x="71" y="69"
+        class="mono enter"
+        font-size="14"
+        font-weight="600"
+        fill="#32E6F2">
+    01 / AI FINANCE AUTOMATION
+  </text>
+
+  <text x="70" y="119"
+        class="head enter"
+        font-size="34"
+        fill="#ECF4FF">
+    LEDGERGUARD
+  </text>
+
+  <text x="70" y="168"
+        class="sans enter"
+        font-size="18"
+        fill="#9DB0D0">
+    AI-assisted invoice processing with policy checks, three-way
+  </text>
+
+  <text x="70" y="196"
+        class="sans enter"
+        font-size="18"
+        fill="#9DB0D0">
+    matching, human approval and auditable decisions.
+  </text>
+
+  <text x="71" y="235"
+        class="mono"
+        font-size="12"
+        font-weight="600"
+        fill="#A78BFA">
+    425 SYNTHETIC CASES
+  </text>
+
+  <text x="71" y="276"
+        class="head"
+        font-size="27"
+        fill="#32E6F2">
+    0 WRONG AUTO-APPROVALS
+  </text>
+
+  <path d="M70 298H814"
+        stroke="#324264"/>
+
+  <!-- TECHNOLOGY BADGES -->
+
+  <g class="mono"
+     font-size="12"
+     text-anchor="middle"
+     fill="#C6D9F1">
+
+    <rect x="70" y="310" width="70" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="105" y="331">Python</text>
+
+    <rect x="149" y="310" width="94" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="196" y="331">LangGraph</text>
+
+    <rect x="252" y="310" width="78" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="291" y="331">FastAPI</text>
+
+    <rect x="339" y="310" width="102" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="390" y="331">PostgreSQL</text>
+
+    <rect x="450" y="310" width="78" height="32"
+          rx="16" fill="#121F3C"
+          stroke="#6E80D5" stroke-opacity=".42"/>
+    <text x="489" y="331">AWS ECS</text>
+  </g>
+
+  <!-- RIGHT SIDE: LEDGERGUARD ARCHITECTURE -->
+
+  <rect x="855" y="70"
+        width="303" height="245"
+        rx="15"
+        fill="#0C1A33"
+        stroke="#48618A"
+        stroke-opacity=".7"/>
+
+  <text x="876" y="96"
+        class="mono"
+        font-size="12"
+        font-weight="700"
+        fill="#9FD8F5">
+    INVOICE / DECISION FLOW
+  </text>
+
+  <circle cx="1133" cy="92" r="3"
+          fill="#32E6F2"
+          class="ai-pulse"/>
+
+  <path d="M875 102H1138"
+        stroke="#2F4566"/>
+
+  <!-- Vertical workflow rail -->
+
+  <path d="M886 129V261"
+        fill="none"
+        stroke="#395579"
+        stroke-width="2"
+        stroke-dasharray="4 7"
+        class="pipeline"/>
+
+  <!-- Step 01: Invoice intake -->
+
+  <rect x="908" y="110"
+        width="230" height="38"
+        rx="9"
+        fill="#10283F"
+        stroke="#32E6F2"
+        stroke-opacity=".5"/>
+
+  <rect x="908" y="116"
+        width="3" height="26"
+        rx="1.5"
+        fill="#32E6F2"/>
+
+  <circle cx="886" cy="129"
+          r="7"
+          fill="#10314C"
+          stroke="#32E6F2"/>
+
+  <circle cx="886" cy="129" r="3"
+          fill="#32E6F2"
+          class="stage-pulse"/>
+
+  <text x="921" y="126"
+        class="mono"
+        font-size="11.5"
+        font-weight="700"
+        fill="#32E6F2">
+    01  INVOICE INTAKE
+  </text>
+
+  <text x="921" y="141"
+        class="sans"
+        font-size="10.5"
+        fill="#B5C7E0">
+    Secure upload / S3
+  </text>
+
+  <!-- Scanning document icon -->
+
+  <rect x="1113" y="117"
+        width="15" height="23"
+        rx="2"
+        fill="none"
+        stroke="#67DDEE"
+        stroke-width="1.2"/>
+
+  <path d="M1117 123H1124 M1117 128H1124 M1117 133H1122"
+        stroke="#67DDEE"
+        stroke-width="1.1"/>
+
+  <g class="motion-only">
+    <path d="M1115 120H1126"
+          stroke="#FFFFFF"
+          stroke-width="1.7">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 17;0 0"
+        dur="3.6s"
+        repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Step 02: AI extraction -->
+
+  <rect x="908" y="154"
+        width="230" height="38"
+        rx="9"
+        fill="#161F43"
+        stroke="#9D8DFF"
+        stroke-opacity=".55"/>
+
+  <rect x="908" y="160"
+        width="3" height="26"
+        rx="1.5"
+        fill="#9D8DFF"/>
+
+  <circle cx="886" cy="173"
+          r="7"
+          fill="#252251"
+          stroke="#A78BFA"/>
+
+  <circle cx="886" cy="173" r="3"
+          fill="#A78BFA"
+          class="stage-pulse"
+          style="animation-delay:1.8s"/>
+
+  <text x="921" y="170"
+        class="mono"
+        font-size="11.5"
+        font-weight="700"
+        fill="#B5A4FF">
+    02  AI EXTRACTION
+  </text>
+
+  <text x="921" y="185"
+        class="sans"
+        font-size="10.5"
+        fill="#B5C7E0">
+    OpenAI / field validation
+  </text>
+
+  <!-- AI inference sparkle -->
+
+  <g transform="translate(1120 173)"
+     stroke="#BDAAFF"
+     stroke-width="1.6"
+     fill="none"
+     stroke-linecap="round"
+     class="ai-pulse">
+
+    <path d="M0 -10V10 M-10 0H10"/>
+    <path d="M-5 -5L5 5 M5 -5L-5 5"
+          stroke-width=".8"/>
+    <circle r="2.5" fill="#A78BFA" stroke="none"/>
+  </g>
+
+  <!-- Step 03: Three-way matching -->
+
+  <rect x="908" y="198"
+        width="230" height="38"
+        rx="9"
+        fill="#10263C"
+        stroke="#6198FB"
+        stroke-opacity=".6"/>
+
+  <rect x="908" y="204"
+        width="3" height="26"
+        rx="1.5"
+        fill="#6198FB"/>
+
+  <circle cx="886" cy="217"
+          r="7"
+          fill="#142C4B"
+          stroke="#6198FB"/>
+
+  <circle cx="886" cy="217" r="3"
+          fill="#6198FB"
+          class="stage-pulse"
+          style="animation-delay:3.6s"/>
+
+  <text x="921" y="214"
+        class="mono"
+        font-size="11.5"
+        font-weight="700"
+        fill="#83B7FF">
+    03  THREE-WAY MATCH
+  </text>
+
+  <text x="921" y="229"
+        class="sans"
+        font-size="10.5"
+        fill="#B5C7E0">
+    Invoice / PO / receipt
+  </text>
+
+  <!-- Three inputs converging -->
+
+  <g fill="none"
+     stroke="#83B7FF"
+     stroke-width="1.4"
+     stroke-linecap="round">
+
+    <path d="M1109 210H1116L1125 217
+             M1109 217H1125
+             M1109 224H1116L1125 217"/>
+  </g>
+
+  <circle cx="1125" cy="217" r="2.5"
+          fill="#83B7FF"
+          class="ai-pulse"/>
+
+  <!-- Step 04: Human review -->
+
+  <rect x="908" y="242"
+        width="230" height="38"
+        rx="9"
+        fill="#10312F"
+        stroke="#64E6C1"
+        stroke-opacity=".65"/>
+
+  <rect x="908" y="248"
+        width="3" height="26"
+        rx="1.5"
+        fill="#64E6C1"/>
+
+  <circle cx="886" cy="261"
+          r="7"
+          fill="#103D38"
+          stroke="#64E6C1"/>
+
+  <circle cx="886" cy="261" r="3"
+          fill="#64E6C1"
+          class="stage-pulse"
+          style="animation-delay:5.4s"/>
+
+  <text x="921" y="258"
+        class="mono"
+        font-size="11.5"
+        font-weight="700"
+        fill="#64E6C1">
+    04  HUMAN REVIEW
+  </text>
+
+  <text x="921" y="273"
+        class="sans"
+        font-size="10.5"
+        fill="#B5C7E0">
+    Policy-gated approval
+  </text>
+
+  <!-- Verification check -->
+
+  <circle cx="1119" cy="261"
+          r="10"
+          fill="#123F39"
+          stroke="#64E6C1"
+          class="verified"/>
+
+  <path d="M1114 261L1118 265L1125 257"
+        fill="none"
+        stroke="#64E6C1"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Animated transaction moving through four steps -->
+
+  <g class="motion-only">
+    <circle cx="886" cy="129"
+            r="3.5"
+            fill="#FFFFFF">
+      <animate attributeName="cy"
+               values="129;173;217;261;261"
+               keyTimes="0;.27;.54;.81;1"
+               dur="7.2s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="0;1;1;1;0"
+               keyTimes="0;.1;.54;.85;1"
+               dur="7.2s"
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Audit / shadow-mode footer -->
+
+  <rect x="876" y="288"
+        width="262" height="18"
+        rx="6"
+        fill="#11263D"
+        stroke="#385C76"
+        stroke-opacity=".7"/>
+
+  <circle cx="889" cy="297" r="3"
+          fill="#64E6C1"
+          class="verified"/>
+
+  <text x="900" y="300"
+        class="mono"
+        font-size="9.5"
+        font-weight="600"
+        fill="#A9D9E5">
+    AUDIT TRAIL / SHADOW MODE
+  </text>
+
 </svg>

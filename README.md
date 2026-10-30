@@ -17,11 +17,37 @@
 </div>
 
 
+
+<!-- SOCIAL / CONTACT BUTTONS -->
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/jithendra-kantharaju/"><img src="assets/buttons/linkedin.svg" width="180" alt="Connect on LinkedIn" /></a>&nbsp;
-  <a href="mailto:jithendra.kantharaju@gmail.com"><img src="assets/buttons/email.svg" width="180" alt="Email Jithendra" /></a>&nbsp;
-  <a href="https://github.com/Jithendra-Kantharaju?tab=repositories"><img src="assets/buttons/github.svg" width="180" alt="View GitHub repositories" /></a>
+
+  <a href="https://www.linkedin.com/in/jithendra-kantharaju/">
+    <img
+      src="assets/buttons/linkedin.svg"
+      width="180"
+      alt="Connect on LinkedIn"
+    />
+  </a>&nbsp;
+
+  <a href="mailto:jithendra.kantharaju@gmail.com">
+    <img
+      src="assets/buttons/email.svg"
+      width="180"
+      alt="Send an Email"
+    />
+  </a>&nbsp;
+
+  <a href="https://jithendra-kantharaju.site/">
+    <img
+      src="assets/buttons/portfolio.svg"
+      width="180"
+      alt="Visit Portfolio Website"
+    />
+  </a>
+
 </p>
+
 
 <img src="assets/typing-focus.svg" width="100%" alt="Focus: AWS Kubernetes Terraform GitOps; LangGraph LLM agents RAG Python; CI/CD observability security automation." />
 
@@ -97,9 +123,35 @@ Deployed eight services to AWS EKS using Terraform, GitHub Actions, ECR, Helm an
 <!-- 07 CONNECT -->
 <img src="assets/title-connect.svg" width="100%" alt="07 Connect: Let's build something useful" />
 <img src="assets/interlude-connect.svg" width="100%" alt="Open to DevOps, Cloud, SRE, Forward Deployed and AI Engineering opportunities in the United States." />
+
+<!-- SOCIAL / CONTACT BUTTONS -->
+
 <p align="center">
-  <a href="mailto:jithendra.kantharaju@gmail.com"><img src="assets/buttons/email.svg" width="180" alt="Email Jithendra Kantharaju" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/jithendra-kantharaju/"><img src="assets/buttons/linkedin.svg" width="180" alt="Connect on LinkedIn" /></a>&nbsp;
-  <a href="https://github.com/Jithendra-Kantharaju"><img src="assets/buttons/github.svg" width="180" alt="View GitHub profile" /></a>
+
+  <a href="https://www.linkedin.com/in/jithendra-kantharaju/">
+    <img
+      src="assets/buttons/linkedin.svg"
+      width="180"
+      alt="Connect on LinkedIn"
+    />
+  </a>&nbsp;
+
+  <a href="mailto:jithendra.kantharaju@gmail.com">
+    <img
+      src="assets/buttons/email.svg"
+      width="180"
+      alt="Send an Email"
+    />
+  </a>&nbsp;
+
+  <a href="https://jithendra-kantharaju.site/">
+    <img
+      src="assets/buttons/portfolio.svg"
+      width="180"
+      alt="Visit Portfolio Website"
+    />
+  </a>
+
 </p>
+
 <img src="assets/footer.svg" width="100%" alt="Jithendra Kantharaju. Build, automate, verify. Infrastructure that scales and AI workflows that stay accountable." />

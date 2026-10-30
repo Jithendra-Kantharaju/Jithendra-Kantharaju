@@ -1,20 +1,163 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="280" height="54" viewBox="0 0 280 54" role="img" aria-label="LINKEDIN">
-  <defs><linearGradient id="lg"><stop stop-color="#102848"/><stop offset="1" stop-color="#1B1741"/></linearGradient></defs>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="280" height="54"
+     viewBox="0 0 280 54"
+     role="img"
+     aria-label="Connect with Jithendra on LinkedIn">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="100%" y2="0">
+      <stop stop-color="#102848"/>
+      <stop offset="1" stop-color="#1B1741"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0" y1="0" x2="100%" y2="0">
+      <stop stop-color="#31E7F4"/>
+      <stop offset=".5" stop-color="#78A9FF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
   <style>
-  .title{font:700 17px ui-monospace,Consolas,monospace;fill:#EDF5FF}
-  .min{font:600 10px ui-monospace,Consolas,monospace;fill:#B9A2FF}
-  .arr{animation:arrow 2.2s ease-in-out infinite}
-  .dash{stroke-dasharray:9 10;animation:dash 5s linear infinite}
-  @keyframes arrow{0%,100%{transform:translateX(0);opacity:.7}50%{transform:translateX(7px);opacity:1}}
-  @keyframes dash{to{stroke-dashoffset:-120}}
-  @media(prefers-reduced-motion:reduce){.arr,.dash{animation:none;transform:none}}
-  .btn-net{animation:bnet 3s ease-in-out infinite}@keyframes bnet{50%{opacity:.25;transform:scale(1.2)}}
-</style>
-  <rect x="1" y="1" width="278" height="52" rx="12" fill="url(#lg)" stroke="#465A94"/>
-  <path d="M16 45H263" stroke="#B9A2FF" stroke-width="1.4" class="dash"/>
-  <circle cx="27" cy="24" r="12" fill="#213658" stroke="#B9A2FF" stroke-opacity=".6"/>
-  <path d="M22 24 L26 28 33 20" fill="none" stroke="#B9A2FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="49" y="17" class="min">CONNECT /</text>
-  <text x="49" y="36" class="title">LINKEDIN</text>
-  <g class="arr" opacity=".25"><path d="M243 19 L254 27 243 35" stroke="#B9A2FF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
-  <g class="btn-custom"><circle cx="250" cy="27" r="10" stroke="#8BBFFF" fill="none" stroke-width="1.4" class="btn-net"/></g></svg>
+    .mono {
+      font-family:ui-monospace,Consolas,Menlo,monospace;
+    }
+
+    .title {
+      font-size:17px;
+      font-weight:800;
+      fill:#F2F8FF;
+    }
+
+    .label {
+      font-size:9px;
+      font-weight:600;
+      letter-spacing:.8px;
+      fill:#A8BAE8;
+    }
+
+    .border {
+      animation:border-glow 4s ease-in-out infinite;
+    }
+
+    @keyframes border-glow {
+      0%,100% { stroke-opacity:.45; }
+      50% { stroke-opacity:1; }
+    }
+
+    .underline {
+      stroke-dasharray:45 22;
+      animation:move-line 5s linear infinite;
+    }
+
+    @keyframes move-line {
+      to { stroke-dashoffset:-268; }
+    }
+
+    .logo-glow {
+      animation:logo-glow 3.4s ease-in-out infinite;
+    }
+
+    @keyframes logo-glow {
+      0%,100% { opacity:.45; }
+      50% { opacity:1; }
+    }
+
+    .status {
+      animation:status-pulse 2.8s ease-in-out infinite;
+    }
+
+    @keyframes status-pulse {
+      0%,100% { opacity:.4; }
+      50% { opacity:1; }
+    }
+
+    @media(prefers-reduced-motion:reduce) {
+      .border,.underline,.logo-glow,.status {
+        animation:none!important;
+      }
+    }
+  </style>
+
+  <!-- Button background -->
+
+  <rect x="1" y="1"
+        width="278" height="52"
+        rx="12"
+        fill="url(#bg)"
+        stroke="#6279BA"
+        class="border"/>
+
+  <!-- LinkedIn icon background -->
+
+  <rect x="14" y="11"
+        width="34" height="32"
+        rx="8"
+        fill="#0A66C2"/>
+
+  <rect x="14" y="11"
+        width="34" height="32"
+        rx="8"
+        fill="none"
+        stroke="#6ACBFF"
+        stroke-opacity=".6"
+        class="logo-glow"/>
+
+  <!-- Professional LinkedIn 'in' icon -->
+
+  <circle cx="23" cy="19.5"
+          r="2.5"
+          fill="#FFFFFF"/>
+
+  <rect x="20.5" y="24"
+        width="5" height="12"
+        rx="1"
+        fill="#FFFFFF"/>
+
+  <path d="M30 36V24
+           M30 29
+           C30 24 39 22 40 29
+           V36"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="4"
+        stroke-linejoin="round"/>
+
+  <!-- Button text -->
+
+  <text x="62" y="19"
+        class="mono label">
+    CONNECT /
+  </text>
+
+  <text x="62" y="37"
+        class="mono title">
+    LINKEDIN
+  </text>
+
+  <!-- Clean status indicator, no arrow -->
+
+  <circle cx="256" cy="26"
+          r="6"
+          fill="#123B58"
+          stroke="#31E7F4"
+          stroke-opacity=".5"/>
+
+  <circle cx="256" cy="26"
+          r="2.8"
+          fill="#31E7F4"
+          class="status"/>
+
+  <!-- Animated bottom accent -->
+
+  <path d="M15 47H265"
+        stroke="#496184"
+        stroke-width="1"
+        stroke-opacity=".6"/>
+
+  <path d="M15 47H265"
+        stroke="url(#line)"
+        stroke-width="1.6"
+        class="underline"/>
+
+</svg>
