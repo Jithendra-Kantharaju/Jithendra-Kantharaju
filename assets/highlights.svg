@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="306" viewBox="0 0 1200 306" role="img" aria-label="Selected verified metrics: 40 percent faster deployments, 70 percent less manual provisioning, 93.8 percent incident classification on mocked scenarios, zero unsafe auto approvals on 425 synthetic invoice cases.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F24"/><stop offset=".68" stop-color="#111633"/><stop offset="1" stop-color="#170F38"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#32E6F2"/><stop offset=".55" stop-color="#6198FB"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#6146C3" stop-opacity=".35"/><stop offset="1" stop-color="#6146C3" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#6B86C9" stroke-opacity=".085"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="s"/><feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  
+</defs>
+<style>
+  .mono{font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace}
+  .sans{font-family: 'Segoe UI', Arial, Helvetica, sans-serif}
+  .head{font-family: 'Segoe UI', Arial, Helvetica, sans-serif; font-weight:800}
+  .fade{animation:appear 1.25s ease both}
+  .pulse{animation:pulse 4s ease-in-out infinite}
+  @keyframes appear{from{opacity:0; transform:translateY(9px)}to{opacity:1; transform:translateY(0)}}
+  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:.95}}
+  @media (prefers-reduced-motion: reduce){.fade,.pulse{animation:none}}
+</style>
+<rect width="1200" height="306" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="306" rx="18" fill="url(#grid)"/>
+<rect x=".8" y=".8" width="1198.4" height="304.4" rx="17.5" fill="none" stroke="#65A4FF" stroke-opacity=".20"/>
+<ellipse cx="1080" cy="20" rx="260" ry="160" fill="url(#aura)"/><rect x="43" y="43" width="274" height="218" rx="15" fill="#101C39" stroke="#3B517B" stroke-opacity=".55"/><rect x="58" y="57" width="49" height="4" rx="2" fill="url(#accent)"/><text x="64" y="130" font-family="head" class="head" font-size="56" font-weight="750" fill="#32E6F2" >40%</text><text x="63" y="179" font-family="mono" class="mono" font-size="14" font-weight="650" fill="#ECF4FF" >FASTER DEPLOYMENTS</text><text x="63" y="214" font-family="sans" class="sans" font-size="14" font-weight="400" fill="#9DB0D0" >Jenkins + GitLab CI</text><rect x="335" y="43" width="274" height="218" rx="15" fill="#101C39" stroke="#3B517B" stroke-opacity=".55"/><rect x="350" y="57" width="49" height="4" rx="2" fill="url(#accent)"/><text x="356" y="130" font-family="head" class="head" font-size="56" font-weight="750" fill="#A78BFA" >~70%</text><text x="355" y="179" font-family="mono" class="mono" font-size="14" font-weight="650" fill="#ECF4FF" >LESS MANUAL SETUP</text><text x="355" y="214" font-family="sans" class="sans" font-size="14" font-weight="400" fill="#9DB0D0" >Terraform + Ansible</text><rect x="627" y="43" width="274" height="218" rx="15" fill="#101C39" stroke="#3B517B" stroke-opacity=".55"/><rect x="642" y="57" width="49" height="4" rx="2" fill="url(#accent)"/><text x="648" y="130" font-family="head" class="head" font-size="56" font-weight="750" fill="#32E6F2" >93.8%</text><text x="647" y="179" font-family="mono" class="mono" font-size="14" font-weight="650" fill="#ECF4FF" >INCIDENT CLASSIFICATION</text><text x="647" y="214" font-family="sans" class="sans" font-size="14" font-weight="400" fill="#9DB0D0" >15 of 16 mock scenarios</text><rect x="919" y="43" width="274" height="218" rx="15" fill="#101C39" stroke="#3B517B" stroke-opacity=".55"/><rect x="934" y="57" width="49" height="4" rx="2" fill="url(#accent)"/><text x="940" y="130" font-family="head" class="head" font-size="56" font-weight="750" fill="#A78BFA" >0</text><text x="939" y="179" font-family="mono" class="mono" font-size="14" font-weight="650" fill="#ECF4FF" >UNSAFE AUTO-APPROVALS</text><text x="939" y="214" font-family="sans" class="sans" font-size="14" font-weight="400" fill="#9DB0D0" >425 synthetic invoice tests</text>
+</svg>

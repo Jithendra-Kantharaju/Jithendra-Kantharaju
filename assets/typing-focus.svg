@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 84" width="1200" height="84" role="img" aria-label="Animated focus areas: AWS Kubernetes Terraform GitOps, LangGraph LLM agents and RAG, CI/CD observability and security">
+<defs><linearGradient id="g"><stop stop-color="#32E6F2"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+<style>
+.t {font-family:ui-monospace,Consolas,monospace;font-size:22px;font-weight:600;text-anchor:middle;fill:#32E6F2;opacity:0;animation:cycle 12s linear infinite}
+.t2{animation-delay:4s;fill:#B9A2FF}.t3{animation-delay:8s;fill:#32E6F2}
+@keyframes cycle {0%,2%{opacity:0}8%,27%{opacity:1}33.3%,100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.t{animation:none}.t1{opacity:1}}
+</style>
+<rect width="1200" height="84" rx="12" fill="#0C1730" stroke="#334A75"/>
+<text x="600" y="52" class="t t1">AWS  ·  KUBERNETES  ·  TERRAFORM  ·  GITOPS</text>
+<text x="600" y="52" class="t t2">LANGGRAPH  ·  LLM AGENTS  ·  RAG  ·  PYTHON</text>
+<text x="600" y="52" class="t t3">CI/CD  ·  OBSERVABILITY  ·  SECURITY  ·  AUTOMATION</text>
+</svg>

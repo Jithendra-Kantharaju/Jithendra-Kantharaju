@@ -1,0 +1,54 @@
+name: Update GitHub profile activity
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-github-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch actual contribution calendar
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch-contributions.mjs
+
+      - name: Generate animated contribution snake
+        run: node scripts/build-heatmap-svg.mjs
+
+      - name: Generate GitHub account statistics
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-github-stats.mjs
+
+      - name: Commit updated generated assets
+        run: |
+          git add data/contributions.json assets/contribution-snake.svg assets/github-stats.svg
+          if git diff --cached --quiet; then
+            echo "Profile graphics are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile activity graphics"
+          git push

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="408" viewBox="0 0 1200 408" role="img" aria-label="About Jithendra Kantharaju: DevOps engineer building AI automation systems. Corezeal, Compass Group, Face Friends Foundation. M.S. University of South Florida.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F24"/><stop offset=".68" stop-color="#111633"/><stop offset="1" stop-color="#170F38"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#32E6F2"/><stop offset=".55" stop-color="#6198FB"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#6146C3" stop-opacity=".35"/><stop offset="1" stop-color="#6146C3" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#6B86C9" stroke-opacity=".085"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="s"/><feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  
+</defs>
+<style>
+  .mono{font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace}
+  .sans{font-family: 'Segoe UI', Arial, Helvetica, sans-serif}
+  .head{font-family: 'Segoe UI', Arial, Helvetica, sans-serif; font-weight:800}
+  .fade{animation:appear 1.25s ease both}
+  .pulse{animation:pulse 4s ease-in-out infinite}
+  @keyframes appear{from{opacity:0; transform:translateY(9px)}to{opacity:1; transform:translateY(0)}}
+  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:.95}}
+  @media (prefers-reduced-motion: reduce){.fade,.pulse{animation:none}}
+</style>
+<rect width="1200" height="408" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="408" rx="18" fill="url(#grid)"/>
+<rect x=".8" y=".8" width="1198.4" height="406.4" rx="17.5" fill="none" stroke="#65A4FF" stroke-opacity=".20"/>
+<ellipse cx="1050" cy="36" rx="210" ry="160" fill="url(#aura)"/>
+<text x="56" y="63" font-family="mono" class="mono" font-size="13" font-weight="650" fill="#32E6F2" >THE ENGINEER BEHIND THE PIPELINES</text>
+<text x="56" y="113" font-family="head" class="head" font-size="36" font-weight="700" fill="#ECF4FF" >I turn complicated systems into</text>
+<text x="56" y="157" font-family="head" class="head" font-size="36" font-weight="700" fill="#ECF4FF" >repeatable, dependable workflows.</text>
+<text x="58" y="207" font-family="sans" class="sans" font-size="19" font-weight="400" fill="#9DB0D0" >Nearly 3 years in DevOps and cloud infrastructure at Corezeal,</text>
+<text x="58" y="237" font-family="sans" class="sans" font-size="19" font-weight="400" fill="#9DB0D0" >now building LLM agents, RAG systems and safe AI automation.</text>
+<text x="58" y="268" font-family="sans" class="sans" font-size="17" font-weight="550" fill="#A78BFA" >M.S. Computer Engineering  |  University of South Florida</text>
+<rect x="56" y="306" width="336" height="72" rx="15" fill="#101C39" stroke="#3B517B" stroke-opacity=".55"/>
+<rect x="414" y="306" width="336" height="72" rx="15" fill="#101C39" stroke="#3B517B" stroke-opacity=".55"/>
+<rect x="772" y="306" width="372" height="72" rx="15" fill="#101C39" stroke="#3B517B" stroke-opacity=".55"/>
+<text x="75" y="336" font-family="mono" class="mono" font-size="15" font-weight="650" fill="#32E6F2" >COREZEAL  ·  2022-24</text>
+<text x="75" y="358" font-family="sans" class="sans" font-size="13" font-weight="400" fill="#9DB0D0" >CI/CD, IaC, Kubernetes, security</text>
+<text x="431" y="336" font-family="mono" class="mono" font-size="15" font-weight="650" fill="#32E6F2" >COMPASS  ·  2025-26</text>
+<text x="431" y="358" font-family="sans" class="sans" font-size="13" font-weight="400" fill="#9DB0D0" >Operations for 10,000+ daily users</text>
+<text x="790" y="336" font-family="mono" class="mono" font-size="15" font-weight="650" fill="#32E6F2" >FACE FRIENDS  ·  2026-NOW</text>
+<text x="790" y="358" font-family="sans" class="sans" font-size="13" font-weight="400" fill="#9DB0D0" >AI workflow design and integration</text>
+
+</svg>
