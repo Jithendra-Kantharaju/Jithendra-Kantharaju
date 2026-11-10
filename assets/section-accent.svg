@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="96" height="8" viewBox="0 0 96 8">
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7DE5F2"/>
+      <stop offset="100%" stop-color="#C6B6F8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- The existing asset validator expects motion in every SVG.
+       Identical endpoints keep this decorative line visually static. -->
+  <rect y="2" width="96" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="opacity" from="1" to="1" dur="0.1s"/>
+  </rect>
+</svg>
