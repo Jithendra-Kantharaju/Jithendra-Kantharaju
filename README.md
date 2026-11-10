@@ -1,11 +1,8 @@
 <!--
-Hallmark · v2.0.0
-- Shape · editorial ledger, from draw 7f3a2c · genre modern-minimal · job: connect and hire
-- Theme · warm graphite, coral signal, General Sans, soft surfaces
-- Chrome · edge-aligned actions, clear hierarchy, compact cards, signature-first
-- Signature · cloud systems + AI workflows in one brief, trustworthy profile
-- Material · real: work history, project links, GitHub activity, certifications, site, email · pictures: local SVG assets · absent: invented metrics and fake logos
-- Sweep · run after build
+Portfolio profile · editorial systems design
+- Positioning · DevOps, Cloud, AI, and Forward Deployed Engineering
+- Material · verified project outcomes, local SVG assets, GitHub activity
+- Principle · make the work legible before making it decorative
 -->
 
 <div align="center">
@@ -13,6 +10,11 @@ Hallmark · v2.0.0
     <img src="assets/hero.svg" width="100%" alt="Jithendra Kantharaju — DevOps, Cloud, AI and Forward Deployed Engineering" />
   </a>
 </div>
+
+<p align="center">
+  <strong>Cloud platforms that ship reliably. AI workflows that stay accountable.</strong><br />
+  DevOps · Cloud · Applied AI · Forward Deployed Engineering
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jithendra-kantharaju/">
@@ -29,50 +31,49 @@ Hallmark · v2.0.0
 </p>
 
 <p align="center">
-  <img alt="AWS Kubernetes Terraform GitOps | LangGraph LLM agents RAG Python | CI/CD observability security automation" src="https://img.shields.io/badge/AWS-Kubernetes-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img alt="AWS Kubernetes Terraform GitOps" src="https://img.shields.io/badge/AWS-Kubernetes-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
   <img alt="Terraform" src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-AI-4B5DFF?style=for-the-badge" />
   <img alt="CI/CD" src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
-## About
+## What I build
 
-I build cloud platforms and AI workflows that operate in the real world: infrastructure that scales, deployments that are observable, and automation that stays accountable.
+I turn ambiguous operational problems into observable systems: infrastructure that can be deployed with confidence, automation that can be reviewed by people, and AI workflows that fail safely.
 
-- DevOps Engineer and cloud systems builder with production experience across AWS, Kubernetes, Terraform, GitOps, and CI/CD.
-- Applied AI practitioner focused on LangGraph, RAG, policy-aware workflows, and human-reviewed automation.
-- Engineer with a strong systems mindset: design for reliability, security, and operational discipline.
+| Focus | What that looks like |
+| --- | --- |
+| **DevOps & Cloud** | AWS, Kubernetes, Terraform, GitOps, CI/CD, observability, and security automation |
+| **Applied AI** | LangGraph, RAG, policy-aware agents, structured extraction, and human-in-the-loop workflows |
+| **Forward Deployed Engineering** | Translate customer context into a working proof of concept, then document the path to production |
 
-### Experience and education
-
-- **Corezeal Technologies** — DevOps Engineer, March 2022 to December 2024
-  - AWS, Kubernetes, Terraform, Ansible, Jenkins, GitLab CI
-- **Compass Group USA** — Technical Operations Analyst, August 2025 to May 2026
-  - Production infrastructure supporting 10,000+ daily users
-- **Face Friends Foundation** — AI Systems Engineer, September 2026 to present
-  - Fundraising workflow integration across Symphony, Bitrix24, and Wix
-- **Education** — M.S., Computer Engineering, University of South Florida, GPA 3.76/4.0
-
----
-
-## Impact
+## Evidence of impact
 
 <div align="center">
   <img src="assets/highlights.svg" width="100%" alt="Measured engineering impact: 40 percent faster deployment, about 70 percent less manual setup, 93.8 percent incident classification accuracy on 16 mocked scenarios, zero wrong approvals among 425 synthetic invoice cases." />
 </div>
 
----
+<table>
+  <tr>
+    <td align="center"><strong>40%</strong><br />faster deployment</td>
+    <td align="center"><strong>~70%</strong><br />less manual setup</td>
+    <td align="center"><strong>93.8%</strong><br />incident classification</td>
+    <td align="center"><strong>0</strong><br />wrong approvals / 425 cases</td>
+  </tr>
+</table>
 
 ## Selected work
 
-### LedgerGuard
+### LedgerGuard · policy-aware finance automation
 
 <a href="https://github.com/Jithendra-Kantharaju/ledgerguard">
   <img src="assets/project-ledgerguard.svg" width="100%" alt="LedgerGuard AI-assisted finance automation with policy checks, three-way matching, human approval, and audit trails." />
 </a>
 
-Built an AI-assisted invoice processing system using Python, FastAPI, LangGraph, OpenAI, and PostgreSQL/pgvector. It combines invoice extraction, customer-specific policies, three-way matching, human approval, and audit trails. In a shadow-mode AWS proof of concept, it validated over 425 synthetic invoice cases with zero wrong auto-approvals.
+AI-assisted invoice processing built with Python, FastAPI, LangGraph, OpenAI, and PostgreSQL/pgvector. The workflow combines invoice extraction, customer-specific policy checks, three-way matching, human approval, and audit trails.
+
+**Supported result:** In a shadow-mode AWS proof of concept, LedgerGuard validated **425 synthetic invoice cases with zero wrong auto-approvals**.
 
 <p align="center">
   <a href="https://github.com/Jithendra-Kantharaju/ledgerguard">
@@ -80,21 +81,31 @@ Built an AI-assisted invoice processing system using Python, FastAPI, LangGraph,
   </a>
 </p>
 
-### Enterprise CloudOps AI
+### Enterprise CloudOps AI Platform · operational intelligence
 
 <a href="https://github.com/Jithendra-Kantharaju/enterprise-cloudops-ai-platform">
   <img src="assets/project-cloudops.svg" width="100%" alt="Enterprise CloudOps AI with eight AWS EKS services, GitOps deployments, LangGraph incident agent and RAG assistant." />
 </a>
 
-Deployed eight services to AWS EKS using Terraform, GitHub Actions, ECR, Helm, and ArgoCD. I also built a Python/LangGraph incident diagnosis agent and a FastAPI/ChromaDB RAG assistant for operational support. Controlled tests showed 93.8% successful incident classification over 16 mocked scenarios and 95.5% refusal accuracy over 22 RAG cases.
+Eight services deployed to AWS EKS with Terraform, GitHub Actions, ECR, Helm, and ArgoCD. The platform also includes a Python/LangGraph incident diagnosis agent and a FastAPI/ChromaDB RAG assistant for operational support.
+
+**Supported results:** Controlled tests achieved **93.8% successful incident classification across 16 mocked scenarios** and **95.5% refusal accuracy across 22 RAG cases**.
 
 <p align="center">
   <a href="https://github.com/Jithendra-Kantharaju/enterprise-cloudops-ai-platform">
-    <img src="assets/buttons/cloudops.svg" width="235" alt="Open Enterprise CloudOps AI GitHub repository" />
+    <img src="assets/buttons/cloudops.svg" width="235" alt="Open Enterprise CloudOps AI Platform GitHub repository" />
   </a>
 </p>
 
----
+## Experience
+
+- **Face Friends Foundation** — AI Systems Engineer, September 2026 to present<br />
+  Fundraising workflow integration across Symphony, Bitrix24, and Wix
+- **Compass Group USA** — Technical Operations Analyst, August 2025 to May 2026<br />
+  Production infrastructure supporting 10,000+ daily users
+- **Corezeal Technologies** — DevOps Engineer, March 2022 to December 2024<br />
+  AWS, Kubernetes, Terraform, Ansible, Jenkins, and GitLab CI
+- **Education** — M.S., Computer Engineering, University of South Florida · GPA 3.76/4.0
 
 ## Toolkit
 
@@ -129,8 +140,6 @@ Deployed eight services to AWS EKS using Terraform, GitHub Actions, ECR, Helm, a
 <div align="center">
   <img src="assets/certifications.svg" width="100%" alt="Cloud and AI professional credentials" />
 </div>
-
----
 
 ## Let’s build something useful
 
