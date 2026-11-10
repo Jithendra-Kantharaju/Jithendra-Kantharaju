@@ -4,7 +4,7 @@
 
 DevOps and cloud engineering, with applied AI: infrastructure, delivery automation, and evaluated workflows built for dependable operation.
 
-[Get in touch](#contact) · [Explore my work](#selected-engineering) · [Portfolio](https://jithendra-kantharaju.site/) · [LinkedIn](https://www.linkedin.com/in/jithendra-kantharaju/)
+[Explore my work](#selected-engineering) · [Portfolio](https://jithendra-kantharaju.site/) · [LinkedIn](https://www.linkedin.com/in/jithendra-kantharaju/)
 
 ## About
 
@@ -14,7 +14,7 @@ My background spans DevOps, cloud infrastructure, and technical operations in In
 
 My applied AI projects extend that foundation into document processing, retrieval, and incident diagnosis. I focus on decisions that matter in forward deployed engineering: durable workflows, tenant boundaries, authorized human review, and evaluation before execution.
 
-I currently volunteer as an **AI Systems Engineer at Face Friends Foundation**, where I work on fundraising automation across Symphony, Bitrix24, and Wix.
+I currently working as an **AI Systems Engineer at Face Friends Foundation**, where I work on fundraising automation across Symphony, Bitrix24, and Wix.
 
 At Corezeal Technologies, I reduced deployment time by **40%** and cut manual infrastructure setup by **about 70%** across four environments.
 

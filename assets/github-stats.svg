@@ -1,46 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="435" viewBox="0 0 1200 435" role="img" aria-label="Real GitHub stats for Jithendra-Kantharaju; 21 public repositories, 0 stars, 0 forks, 0 followers, generated on 2026-11-09">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F24"/><stop offset="1" stop-color="#1C1540"/></linearGradient></defs>
-<style>
-.stats-in{animation:stats-in .9s cubic-bezier(.16,1,.3,1) both}
-.stats-bar{transform-box:fill-box;transform-origin:left center;animation:stats-bar 1.2s cubic-bezier(.16,1,.3,1) both}
-.stats-pulse{animation:stats-pulse 4s ease-in-out infinite}
-.stats-signal{stroke-dasharray:7 13;animation:stats-signal 7s linear infinite}
-@keyframes stats-signal{to{stroke-dashoffset:-182}}
-@keyframes stats-in{from{opacity:1;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-@keyframes stats-bar{from{transform:scaleX(.15)}to{transform:scaleX(1)}}
-@keyframes stats-pulse{0%,100%{opacity:.25}50%{opacity:1}}
-@media(prefers-reduced-motion:reduce){.stats-in,.stats-bar,.stats-pulse,.stats-signal{animation:none!important;opacity:1!important;transform:none!important}}
-</style>
-<rect width="1200" height="435" rx="18" fill="url(#bg)"/>
-<rect x=".5" y=".5" width="1199" height="434" rx="17.5" fill="none" stroke="#375181"/>
-<circle class="stats-pulse" cx="1136" cy="45" r="6" fill="#32E6F2"/><path class="stats-signal" d="M1010 66 H1140" fill="none" stroke="#32E6F2" stroke-opacity=".65" stroke-width="2"/>
-<text x="48" y="53" fill="#32E6F2" font-family="monospace" font-size="15" letter-spacing="1.6">GITHUB ACCOUNT / VERIFIED FROM PUBLIC API</text>
-<text x="48" y="85" fill="#ECF4FF" font-family="Arial,sans-serif" font-size="23" font-weight="700">Activity beyond the README</text>
-<g class="stats-in" style="animation-delay:0.00s"><rect x="47" y="102" width="263" height="115" rx="12" fill="#111D39" stroke="#344976"/>
-  <text x="63" y="137" font-family="monospace" fill="#A78BFA" font-size="13" letter-spacing="1.1">PUBLIC REPOSITORIES</text>
-  <text x="63" y="193" font-family="Arial,sans-serif" fill="#32E6F2" font-size="46" font-weight="700">21</text></g><g class="stats-in" style="animation-delay:0.13s"><rect x="328" y="102" width="263" height="115" rx="12" fill="#111D39" stroke="#344976"/>
-  <text x="344" y="137" font-family="monospace" fill="#A78BFA" font-size="13" letter-spacing="1.1">REPOSITORY STARS</text>
-  <text x="344" y="193" font-family="Arial,sans-serif" fill="#32E6F2" font-size="46" font-weight="700">0</text></g><g class="stats-in" style="animation-delay:0.26s"><rect x="609" y="102" width="263" height="115" rx="12" fill="#111D39" stroke="#344976"/>
-  <text x="625" y="137" font-family="monospace" fill="#A78BFA" font-size="13" letter-spacing="1.1">REPOSITORY FORKS</text>
-  <text x="625" y="193" font-family="Arial,sans-serif" fill="#32E6F2" font-size="46" font-weight="700">0</text></g><g class="stats-in" style="animation-delay:0.39s"><rect x="890" y="102" width="263" height="115" rx="12" fill="#111D39" stroke="#344976"/>
-  <text x="906" y="137" font-family="monospace" fill="#A78BFA" font-size="13" letter-spacing="1.1">FOLLOWERS</text>
-  <text x="906" y="193" font-family="Arial,sans-serif" fill="#32E6F2" font-size="46" font-weight="700">0</text></g>
-<text x="47" y="248" fill="#A78BFA" font-family="monospace" font-size="12">TOP PRIMARY LANGUAGES · NON-FORK, NON-ARCHIVED PUBLIC REPOS</text>
-<g><text x="48" y="276" fill="#C3D5EE" font-family="monospace" font-size="14">Python</text>
-  <rect x="240" y="263" width="690" height="16" rx="8" fill="#1B2D4F"/>
-  <rect class="stats-bar" style="animation-delay:0.60s" x="240" y="263" width="690" height="16" rx="8" fill="#32E6F2"/>
-  <text x="947" y="276" fill="#B6C8E8" font-family="monospace" font-size="13">10 repos</text></g><g><text x="48" y="303" fill="#C3D5EE" font-family="monospace" font-size="14">TypeScript</text>
-  <rect x="240" y="290" width="690" height="16" rx="8" fill="#1B2D4F"/>
-  <rect class="stats-bar" style="animation-delay:0.74s" x="240" y="290" width="138" height="16" rx="8" fill="#A78BFA"/>
-  <text x="947" y="303" fill="#B6C8E8" font-family="monospace" font-size="13">2 repos</text></g><g><text x="48" y="330" fill="#C3D5EE" font-family="monospace" font-size="14">JavaScript</text>
-  <rect x="240" y="317" width="690" height="16" rx="8" fill="#1B2D4F"/>
-  <rect class="stats-bar" style="animation-delay:0.88s" x="240" y="317" width="138" height="16" rx="8" fill="#32E6F2"/>
-  <text x="947" y="330" fill="#B6C8E8" font-family="monospace" font-size="13">2 repos</text></g><g><text x="48" y="357" fill="#C3D5EE" font-family="monospace" font-size="14">Java</text>
-  <rect x="240" y="344" width="690" height="16" rx="8" fill="#1B2D4F"/>
-  <rect class="stats-bar" style="animation-delay:1.02s" x="240" y="344" width="69" height="16" rx="8" fill="#A78BFA"/>
-  <text x="947" y="357" fill="#B6C8E8" font-family="monospace" font-size="13">1 repos</text></g><g><text x="48" y="384" fill="#C3D5EE" font-family="monospace" font-size="14">HCL</text>
-  <rect x="240" y="371" width="690" height="16" rx="8" fill="#1B2D4F"/>
-  <rect class="stats-bar" style="animation-delay:1.16s" x="240" y="371" width="69" height="16" rx="8" fill="#32E6F2"/>
-  <text x="947" y="384" fill="#B6C8E8" font-family="monospace" font-size="13">1 repos</text></g>
-<text x="47" y="413" fill="#9DB0D0" font-family="monospace" font-size="12">Source: api.github.com/users/Jithendra-Kantharaju · updated 2026-11-09 · languages by repository count</text>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900" height="346" viewBox="0 0 900 346"
+     role="img" aria-labelledby="title desc">
+  <title id="title">GitHub activity at a glance</title>
+  <desc id="desc">
+    Public repository count, active days over the last 90 days,
+    contributions over the last 12 months, and top repository languages.
+  </desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080F24"/>
+      <stop offset="100%" stop-color="#1C1540"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .heading { fill: #ECF4FF; font: 700 24px system-ui, sans-serif; }
+    .label { fill: #C6B6F8; font: 600 17px system-ui, sans-serif; }
+    .caption { fill: #B6C8E8; font: 14px system-ui, sans-serif; }
+    .number { fill: #32E6F2; font: 700 36px system-ui, sans-serif; }
+    .language { fill: #D7E2F3; font: 15px system-ui, sans-serif; }
+    .card { fill: #111D39; stroke: #344976; }
+    .track { fill: #1B2D4F; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .signal { animation: pulse 1.6s ease-out both; }
+    }
+
+    @keyframes pulse {
+      from { opacity: 0.35; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="899" height="345" rx="17.5"
+        fill="url(#bg)" stroke="#375181"/>
+  <text x="28" y="44" class="heading">GitHub activity at a glance</text>
+  <circle cx="864" cy="35" r="4" fill="#32E6F2" class="signal"/>
+
+  <g transform="translate(28 62)">
+    <rect class="card" width="272" height="110" rx="12"/>
+    <text x="16" y="27" class="label">Public repositories</text>
+    <text x="16" y="87" class="number">21</text>
+  </g>
+
+  <g transform="translate(314 62)">
+    <rect class="card" width="272" height="110" rx="12"/>
+    <text x="16" y="27" class="label">Active days</text>
+    <text x="16" y="48" class="caption">Last 90 days</text>
+    <!-- Replace … with the number of days with at least one contribution. -->
+    <text x="16" y="91" class="number">…</text>
+  </g>
+
+  <g transform="translate(600 62)">
+    <rect class="card" width="272" height="110" rx="12"/>
+    <text x="16" y="27" class="label">Contributions</text>
+    <text x="16" y="48" class="caption">Last 12 months</text>
+    <!-- Replace … with the sum of daily contributions for the period. -->
+    <text x="16" y="91" class="number">…</text>
+  </g>
+
+  <text x="28" y="201" class="label">Top languages by repository count</text>
+  <text x="872" y="201" text-anchor="end" class="caption">
+    Primary language · Public, non-fork, non-archived repos
+  </text>
+
+  <g class="track">
+    <rect x="154" y="218" width="676" height="10" rx="5"/>
+    <rect x="154" y="242" width="676" height="10" rx="5"/>
+    <rect x="154" y="266" width="676" height="10" rx="5"/>
+    <rect x="154" y="290" width="676" height="10" rx="5"/>
+    <rect x="154" y="314" width="676" height="10" rx="5"/>
+  </g>
+
+  <g>
+    <rect x="154" y="218" width="676" height="10" rx="5" fill="#32E6F2"/>
+    <rect x="154" y="242" width="135.2" height="10" rx="5" fill="#A78BFA"/>
+    <rect x="154" y="266" width="135.2" height="10" rx="5" fill="#32E6F2"/>
+    <rect x="154" y="290" width="67.6" height="10" rx="5" fill="#A78BFA"/>
+    <rect x="154" y="314" width="67.6" height="10" rx="5" fill="#32E6F2"/>
+  </g>
+
+  <g class="language">
+    <text x="28" y="228">Python</text>
+    <text x="28" y="252">TypeScript</text>
+    <text x="28" y="276">JavaScript</text>
+    <text x="28" y="300">Java</text>
+    <text x="28" y="324">HCL</text>
+  </g>
+
+  <g class="caption" text-anchor="end">
+    <text x="872" y="228">10</text>
+    <text x="872" y="252">2</text>
+    <text x="872" y="276">2</text>
+    <text x="872" y="300">1</text>
+    <text x="872" y="324">1</text>
+  </g>
 </svg>
