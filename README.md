@@ -84,7 +84,6 @@ An eight-service platform on AWS EKS with infrastructure as code, GitOps deliver
 - **AWS:** Solutions Architect – Associate, AI Practitioner, Cloud Practitioner
 - **Google Cloud:** Associate Cloud Engineer
 - **Microsoft Azure:** Azure Fundamentals
-- **Oracle Cloud:** OCI DevOps Professional, OCI Foundations Associate, OCI AI Foundations
 - **Redis:** Redis Certified Developer
 
 ## Contact
