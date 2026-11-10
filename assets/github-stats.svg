@@ -1,99 +1,87 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="900" height="346" viewBox="0 0 900 346"
-     role="img" aria-labelledby="title desc">
+  width="900" height="366" viewBox="0 0 900 366"
+  role="img" aria-labelledby="title description">
   <title id="title">GitHub activity at a glance</title>
-  <desc id="desc">
-    Public repository count, active days over the last 90 days,
-    contributions over the last 12 months, and top repository languages.
-  </desc>
+  <desc id="description">Jithendra-Kantharaju has 21 public repositories
+    and 40 contributions in the last 12 months.</desc>
 
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080F24"/>
-      <stop offset="100%" stop-color="#1C1540"/>
+    <linearGradient id="bg" x2="100%" y2="100%">
+      <stop stop-color="#080F24"/>
+      <stop offset="1" stop-color="#1C1540"/>
     </linearGradient>
   </defs>
 
   <style>
-    .heading { fill: #ECF4FF; font: 700 24px system-ui, sans-serif; }
-    .label { fill: #C6B6F8; font: 600 17px system-ui, sans-serif; }
-    .caption { fill: #B6C8E8; font: 14px system-ui, sans-serif; }
-    .number { fill: #32E6F2; font: 700 36px system-ui, sans-serif; }
-    .language { fill: #D7E2F3; font: 15px system-ui, sans-serif; }
-    .card { fill: #111D39; stroke: #344976; }
-    .track { fill: #1B2D4F; }
-
+    text { font-family: system-ui, sans-serif; }
+    .heading { fill: #ECF4FF; font-size: 24px; font-weight: 700; }
+    .label { fill: #C6B6F8; font-size: 17px; font-weight: 600; }
+    .caption { fill: #B6C8E8; font-size: 15px; }
+    .number { fill: #32E6F2; font-size: 36px; font-weight: 700; }
     @media (prefers-reduced-motion: no-preference) {
-      .signal { animation: pulse 1.6s ease-out both; }
+      .signal { animation: appear 1.4s ease-out both; }
     }
-
-    @keyframes pulse {
-      from { opacity: 0.35; }
+    @keyframes appear {
+      from { opacity: .35; }
       to { opacity: 1; }
     }
   </style>
 
-  <rect x="0.5" y="0.5" width="899" height="345" rx="17.5"
+  <rect x=".5" y=".5" width="899" height="365" rx="17.5"
         fill="url(#bg)" stroke="#375181"/>
-  <text x="28" y="44" class="heading">GitHub activity at a glance</text>
+  <text x="28" y="43" class="heading">GitHub activity at a glance</text>
   <circle cx="864" cy="35" r="4" fill="#32E6F2" class="signal"/>
 
+  
   <g transform="translate(28 62)">
-    <rect class="card" width="272" height="110" rx="12"/>
-    <text x="16" y="27" class="label">Public repositories</text>
-    <text x="16" y="87" class="number">21</text>
+    <rect width="415" height="110" rx="12" fill="#111D39" stroke="#344976"/>
+    <text x="16" y="28" class="label">Public repositories</text>
+    <text x="16" y="49" class="caption">GitHub account</text>
+    <text x="16" y="92" class="number">21</text>
+  </g>
+  <g transform="translate(457 62)">
+    <rect width="415" height="110" rx="12" fill="#111D39" stroke="#344976"/>
+    <text x="16" y="28" class="label">Contributions</text>
+    <text x="16" y="49" class="caption">Last 12 months</text>
+    <text x="16" y="92" class="number">40</text>
   </g>
 
-  <g transform="translate(314 62)">
-    <rect class="card" width="272" height="110" rx="12"/>
-    <text x="16" y="27" class="label">Active days</text>
-    <text x="16" y="48" class="caption">Last 90 days</text>
-    <!-- Replace … with the number of days with at least one contribution. -->
-    <text x="16" y="91" class="number">…</text>
+  <text x="28" y="199" class="label">Top primary languages by public repository count</text>
+  
+  <g transform="translate(0 223)">
+    <text x="28" y="0" class="caption">Python</text>
+    <rect x="176" y="-10" width="644" height="10" rx="5" fill="#1B2D4F"/>
+    <rect x="176" y="-10" width="644"
+          height="10" rx="5" fill="#32E6F2"/>
+    <text x="872" y="0" text-anchor="end" class="caption">10</text>
   </g>
-
-  <g transform="translate(600 62)">
-    <rect class="card" width="272" height="110" rx="12"/>
-    <text x="16" y="27" class="label">Contributions</text>
-    <text x="16" y="48" class="caption">Last 12 months</text>
-    <!-- Replace … with the sum of daily contributions for the period. -->
-    <text x="16" y="91" class="number">…</text>
+  <g transform="translate(0 247)">
+    <text x="28" y="0" class="caption">JavaScript</text>
+    <rect x="176" y="-10" width="644" height="10" rx="5" fill="#1B2D4F"/>
+    <rect x="176" y="-10" width="129"
+          height="10" rx="5" fill="#A78BFA"/>
+    <text x="872" y="0" text-anchor="end" class="caption">2</text>
   </g>
-
-  <text x="28" y="201" class="label">Top languages by repository count</text>
-  <text x="872" y="201" text-anchor="end" class="caption">
-    Primary language · Public, non-fork, non-archived repos
-  </text>
-
-  <g class="track">
-    <rect x="154" y="218" width="676" height="10" rx="5"/>
-    <rect x="154" y="242" width="676" height="10" rx="5"/>
-    <rect x="154" y="266" width="676" height="10" rx="5"/>
-    <rect x="154" y="290" width="676" height="10" rx="5"/>
-    <rect x="154" y="314" width="676" height="10" rx="5"/>
+  <g transform="translate(0 271)">
+    <text x="28" y="0" class="caption">TypeScript</text>
+    <rect x="176" y="-10" width="644" height="10" rx="5" fill="#1B2D4F"/>
+    <rect x="176" y="-10" width="129"
+          height="10" rx="5" fill="#32E6F2"/>
+    <text x="872" y="0" text-anchor="end" class="caption">2</text>
   </g>
-
-  <g>
-    <rect x="154" y="218" width="676" height="10" rx="5" fill="#32E6F2"/>
-    <rect x="154" y="242" width="135.2" height="10" rx="5" fill="#A78BFA"/>
-    <rect x="154" y="266" width="135.2" height="10" rx="5" fill="#32E6F2"/>
-    <rect x="154" y="290" width="67.6" height="10" rx="5" fill="#A78BFA"/>
-    <rect x="154" y="314" width="67.6" height="10" rx="5" fill="#32E6F2"/>
+  <g transform="translate(0 295)">
+    <text x="28" y="0" class="caption">Dockerfile</text>
+    <rect x="176" y="-10" width="644" height="10" rx="5" fill="#1B2D4F"/>
+    <rect x="176" y="-10" width="64"
+          height="10" rx="5" fill="#A78BFA"/>
+    <text x="872" y="0" text-anchor="end" class="caption">1</text>
   </g>
-
-  <g class="language">
-    <text x="28" y="228">Python</text>
-    <text x="28" y="252">TypeScript</text>
-    <text x="28" y="276">JavaScript</text>
-    <text x="28" y="300">Java</text>
-    <text x="28" y="324">HCL</text>
+  <g transform="translate(0 319)">
+    <text x="28" y="0" class="caption">HCL</text>
+    <rect x="176" y="-10" width="644" height="10" rx="5" fill="#1B2D4F"/>
+    <rect x="176" y="-10" width="64"
+          height="10" rx="5" fill="#32E6F2"/>
+    <text x="872" y="0" text-anchor="end" class="caption">1</text>
   </g>
-
-  <g class="caption" text-anchor="end">
-    <text x="872" y="228">10</text>
-    <text x="872" y="252">2</text>
-    <text x="872" y="276">2</text>
-    <text x="872" y="300">1</text>
-    <text x="872" y="324">1</text>
-  </g>
+  <text x="28" y="350" class="caption">Contribution data: 2026-11-09</text>
 </svg>

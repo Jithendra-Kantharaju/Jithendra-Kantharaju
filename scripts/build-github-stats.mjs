@@ -1,80 +1,130 @@
 #!/usr/bin/env node
-/**
- * Draw a self-hosted, GitHub-compatible SVG using GitHub's public REST API.
- * Counts are real; the image is updated by a scheduled GitHub Actions workflow.
- * Primary languages are counted by public repository, not by lines of code.
- */
 import fs from 'node:fs';
 import path from 'node:path';
 
 const login = process.env.GH_USERNAME || 'Jithendra-Kantharaju';
 const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
 const output = process.env.STATS_OUTPUT_PATH || 'assets/github-stats.svg';
+const api = `https://api.github.com/users/${encodeURIComponent(login)}`;
 
-const headers = { 'Accept':'application/vnd.github+json', 'User-Agent':'github-profile-stats' };
-if (token) headers['Authorization'] = `Bearer ${token}`;
+const calendar = JSON.parse(fs.readFileSync('data/contributions.json', 'utf8'));
+if (!Number.isInteger(calendar.total) || calendar.total < 0) {
+  throw new Error('Expected a valid contribution total in data/contributions.json');
+}
+
+const headers = {
+  Accept: 'application/vnd.github+json',
+  'User-Agent': 'github-profile-stats',
+};
+if (token) headers.Authorization = `Bearer ${token}`;
 
 async function getJSON(url) {
-  const res = await fetch(url, { headers });
-  if (!res.ok) throw new Error(`GitHub REST ${res.status}: ${url}`);
-  return res.json();
+  const response = await fetch(url, { headers });
+  if (!response.ok) throw new Error(`GitHub API ${response.status}: ${url}`);
+  return response.json();
 }
-function xml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-const user = await getJSON(`https://api.github.com/users/${encodeURIComponent(login)}`);
-if (!user || user.login?.toLowerCase() !== login.toLowerCase()) throw new Error('Unexpected GitHub API user response');
-const repos = [];
-for (let page = 1; page <= 12; page++) {
-  const part = await getJSON(`https://api.github.com/users/${encodeURIComponent(login)}/repos?per_page=100&page=${page}&type=owner`);
-  if (!Array.isArray(part)) throw new Error('Unexpected repository response');
-  repos.push(...part);
-  if (part.length < 100) break;
+
+function xml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;');
 }
-const actual = repos.filter(r => !r.fork && !r.archived);
-const stars = repos.reduce((n,r)=>n + (r.stargazers_count || 0),0);
-const forks = repos.reduce((n,r)=>n + (r.forks_count || 0),0);
-const lang = new Map();
-for (const repo of actual) if (repo.language) lang.set(repo.language,(lang.get(repo.language)||0)+1);
-const ordered = [...lang.entries()].sort((a,b)=>b[1]-a[1]).slice(0,5);
-const max = Math.max(...ordered.map(([_,count])=>count),1);
-const updated = new Date().toISOString().slice(0,10);
-const metrics = [ ['PUBLIC REPOSITORIES',user.public_repos || 0], ['REPOSITORY STARS',stars], ['REPOSITORY FORKS',forks], ['FOLLOWERS',user.followers || 0] ];
-const tiles = metrics.map(([label,v],i)=>{
-  const x=47+i*281;
-  return `<g class="stats-in" style="animation-delay:${(i*.13).toFixed(2)}s"><rect x="${x}" y="102" width="263" height="115" rx="12" fill="#111D39" stroke="#344976"/>
-  <text x="${x+16}" y="137" font-family="monospace" fill="#A78BFA" font-size="13" letter-spacing="1.1">${xml(label)}</text>
-  <text x="${x+16}" y="193" font-family="Arial,sans-serif" fill="#32E6F2" font-size="46" font-weight="700">${v.toLocaleString('en-US')}</text></g>`;
-}).join('');
-const bars = ordered.map(([language, count],i)=>{
-  const y=266+i*27;
-  return `<g><text x="48" y="${y+10}" fill="#C3D5EE" font-family="monospace" font-size="14">${xml(language)}</text>
-  <rect x="240" y="${y-3}" width="690" height="16" rx="8" fill="#1B2D4F"/>
-  <rect class="stats-bar" style="animation-delay:${(.6 + i*.14).toFixed(2)}s" x="240" y="${y-3}" width="${Math.round(690*count/max)}" height="16" rx="8" fill="${i%2 ? '#A78BFA':'#32E6F2'}"/>
-  <text x="947" y="${y+10}" fill="#B6C8E8" font-family="monospace" font-size="13">${count} repos</text></g>`;
-}).join('');
-const height=435;
-const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="${height}" viewBox="0 0 1200 ${height}" role="img" aria-label="Real GitHub stats for ${xml(login)}; ${user.public_repos} public repositories, ${stars} stars, ${forks} forks, ${user.followers} followers, generated on ${updated}">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F24"/><stop offset="1" stop-color="#1C1540"/></linearGradient></defs>
-<style>
-.stats-in{animation:stats-in .9s cubic-bezier(.16,1,.3,1) both}
-.stats-bar{transform-box:fill-box;transform-origin:left center;animation:stats-bar 1.2s cubic-bezier(.16,1,.3,1) both}
-.stats-pulse{animation:stats-pulse 4s ease-in-out infinite}
-.stats-signal{stroke-dasharray:7 13;animation:stats-signal 7s linear infinite}
-@keyframes stats-signal{to{stroke-dashoffset:-182}}
-@keyframes stats-in{from{opacity:1;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-@keyframes stats-bar{from{transform:scaleX(.15)}to{transform:scaleX(1)}}
-@keyframes stats-pulse{0%,100%{opacity:.25}50%{opacity:1}}
-@media(prefers-reduced-motion:reduce){.stats-in,.stats-bar,.stats-pulse,.stats-signal{animation:none!important;opacity:1!important;transform:none!important}}
-</style>
-<rect width="1200" height="${height}" rx="18" fill="url(#bg)"/>
-<rect x=".5" y=".5" width="1199" height="${height-1}" rx="17.5" fill="none" stroke="#375181"/>
-<circle class="stats-pulse" cx="1136" cy="45" r="6" fill="#32E6F2"/><path class="stats-signal" d="M1010 66 H1140" fill="none" stroke="#32E6F2" stroke-opacity=".65" stroke-width="2"/>
-<text x="48" y="53" fill="#32E6F2" font-family="monospace" font-size="15" letter-spacing="1.6">GITHUB ACCOUNT / VERIFIED FROM PUBLIC API</text>
-<text x="48" y="85" fill="#ECF4FF" font-family="Arial,sans-serif" font-size="23" font-weight="700">Activity beyond the README</text>
-${tiles}
-<text x="47" y="248" fill="#A78BFA" font-family="monospace" font-size="12">TOP PRIMARY LANGUAGES · NON-FORK, NON-ARCHIVED PUBLIC REPOS</text>
-${bars}
-<text x="47" y="413" fill="#9DB0D0" font-family="monospace" font-size="12">Source: api.github.com/users/${xml(login)} · updated ${updated} · languages by repository count</text>
-</svg>`;
-fs.mkdirSync(path.dirname(output),{recursive:true});
-fs.writeFileSync(output,svg,'utf8');
-console.log(`Wrote ${output} for ${login}: ${repos.length} returned public repositories.`);
+
+const user = await getJSON(api);
+if (user.login?.toLowerCase() !== login.toLowerCase() ||
+    !Number.isInteger(user.public_repos)) {
+  throw new Error('Unexpected GitHub user response');
+}
+
+const languages = new Map();
+for (let page = 1; ; page += 1) {
+  const repos = await getJSON(`${api}/repos?per_page=100&page=${page}&type=owner`);
+  if (!Array.isArray(repos)) throw new Error('Unexpected GitHub repository response');
+
+  for (const repo of repos) {
+    if (!repo.private && !repo.fork && !repo.archived && repo.language) {
+      languages.set(repo.language, (languages.get(repo.language) || 0) + 1);
+    }
+  }
+
+  if (repos.length < 100) break;
+}
+
+const topLanguages = [...languages.entries()]
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .slice(0, 5);
+const maxCount = topLanguages[0]?.[1] ?? 1;
+
+const metrics = [
+  ['Public repositories', 'GitHub account', user.public_repos],
+  ['Contributions', 'Last 12 months', calendar.total],
+];
+
+const cards = metrics.map(([label, caption, value], index) => `
+  <g transform="translate(${28 + index * 429} 62)">
+    <rect width="415" height="110" rx="12" fill="#111D39" stroke="#344976"/>
+    <text x="16" y="28" class="label">${xml(label)}</text>
+    <text x="16" y="49" class="caption">${xml(caption)}</text>
+    <text x="16" y="92" class="number">${value.toLocaleString('en-US')}</text>
+  </g>`).join('');
+
+const bars = topLanguages.map(([language, count], index) => `
+  <g transform="translate(0 ${223 + index * 24})">
+    <text x="28" y="0" class="caption">${xml(language)}</text>
+    <rect x="176" y="-10" width="644" height="10" rx="5" fill="#1B2D4F"/>
+    <rect x="176" y="-10" width="${Math.round(644 * count / maxCount)}"
+          height="10" rx="5" fill="${index % 2 ? '#A78BFA' : '#32E6F2'}"/>
+    <text x="872" y="0" text-anchor="end" class="caption">${count}</text>
+  </g>`).join('');
+
+const height = 270 + Math.max(0, topLanguages.length - 1) * 24;
+const fetchedDate = String(calendar.fetchedAt ?? '').slice(0, 10);
+const calendarCaption = fetchedDate ? `Contribution data: ${fetchedDate}` : 'Contribution calendar';
+
+const svg = `<svg xmlns="http://www.w3.org/2000/svg"
+  width="900" height="${height}" viewBox="0 0 900 ${height}"
+  role="img" aria-labelledby="title description">
+  <title id="title">GitHub activity at a glance</title>
+  <desc id="description">${xml(login)} has ${user.public_repos} public repositories
+    and ${calendar.total} contributions in the last 12 months.</desc>
+
+  <defs>
+    <linearGradient id="bg" x2="100%" y2="100%">
+      <stop stop-color="#080F24"/>
+      <stop offset="1" stop-color="#1C1540"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    text { font-family: system-ui, sans-serif; }
+    .heading { fill: #ECF4FF; font-size: 24px; font-weight: 700; }
+    .label { fill: #C6B6F8; font-size: 17px; font-weight: 600; }
+    .caption { fill: #B6C8E8; font-size: 15px; }
+    .number { fill: #32E6F2; font-size: 36px; font-weight: 700; }
+    @media (prefers-reduced-motion: no-preference) {
+      .signal { animation: appear 1.4s ease-out both; }
+    }
+    @keyframes appear {
+      from { opacity: .35; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  <rect x=".5" y=".5" width="899" height="${height - 1}" rx="17.5"
+        fill="url(#bg)" stroke="#375181"/>
+  <text x="28" y="43" class="heading">GitHub activity at a glance</text>
+  <circle cx="864" cy="35" r="4" fill="#32E6F2" class="signal"/>
+
+  ${cards}
+
+  <text x="28" y="199" class="label">Top primary languages by public repository count</text>
+  ${bars || '<text x="28" y="224" class="caption">No language data available.</text>'}
+  <text x="28" y="${height - 16}" class="caption">${xml(calendarCaption)}</text>
+</svg>
+`;
+
+fs.mkdirSync(path.dirname(output), { recursive: true });
+fs.writeFileSync(output, svg, 'utf8');
+console.log(`Wrote ${output}: ${user.public_repos} public repos, ${calendar.total} contributions.`);
